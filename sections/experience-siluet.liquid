@@ -56,13 +56,15 @@
   </div> {% endcomment %}
   <div class="hero-block">
     <picture>
+      <source media="(min-width:1024px)" srcset="{{ section.settings.desk_hero | img_url:'master'}}">
       <img loading="lazy" alt="Hero Image Banner" src="{{ section.settings.image | img_url:'master' }}">
     </picture>
-    <div class="top-portion">
+    <div class="top-portion desktop-hide">
       <div class="heading-html-block">
         <div class="trusted-container">
           <div class="trusted">
             <div class="trusted-pic">
+              
               <img loading="lazy" alt="moms" src="{{ section.settings.trusted_pic | img_url:'medium' }}">
             </div>
             <div class="trusted-txt">
@@ -85,7 +87,7 @@
         </div>
       </div>
     </div>
-    <div class="bottom-portion">
+    <div class="bottom-portion desktop-hide">
       <div class="black-fade">
         <div class="cta-guarantee">
           <a class="btn main-cta" title="{{ section.settings.big_cta_label }}" href="{{ section.settings.big_cta_url }}">
@@ -111,9 +113,54 @@
         </div>
       </div>
     </div>
+    <div class="mobile-hide hero-banner-left">
+      <div class="heading-html-block">
+        <div class="trusted-container">
+          <div class="trusted">
+            <div class="trusted-pic">
+              <img loading="lazy" alt="moms" src="{{ section.settings.trusted_pic | img_url:'medium' }}">
+            </div>
+            <div class="trusted-txt">
+              {{ section.settings.trusted_txt }}
+            </div>
+          </div>
+        </div>
+        <div class="heading-html">
+          {{ section.settings.heading_html }}
+        </div>
+      </div>
+      <div class="cta-guarantee">
+          <a class="btn main-cta" title="{{ section.settings.big_cta_label }}" href="{{ section.settings.big_cta_url }}">
+            {{ section.settings.big_cta_label }}
+          </a>
+          <div class="guarantee-txt">
+            {{ section.settings.guarantee_text }}
+          </div>
+        </div>
+        <div class="bullet-points">
+          {% for b in section.blocks %}
+            {% if b.type == 'bullet' %}
+            <div class="bullet-point">
+              <div class="check">
+                {%- render 'hero-check' -%}
+              </div>
+              <div class="bullet-text">
+                {{ b.settings.text }}
+              </div>
+            </div>
+            {% endif %}
+          {% endfor %}
+        </div>
+    </div>
   </div>
 
   <style>
+    #pilates-{{ section.id }} .mobile-hide{
+      display:none;
+    }
+    #pilates-{{ section.id }} .white-fade-desk{
+      display:none;
+    }
     #pilates-{{ section.id }} .hero-block{
       display:flex;
       flex-direction:column;
@@ -127,9 +174,6 @@
       img{
         object-fit:cover;
       }
-    }
-    #pilates-{{ section.id }} .white-fade{
-      
     }
     #pilates-{{ section.id }} .top-portion{
       position:absolute;
@@ -220,6 +264,7 @@
       gap:4px 20px;
       flex-wrap:wrap;
       justify-content:center;
+      
     }
     #pilates-{{ section.id }} .bullet-point{
       display:flex;
@@ -260,7 +305,303 @@
       padding: {{section.settings.padding_top}}px 40px 0;
       background: #fff;
     }
+    @media(min-width:1024px){
+      #pilates-{{ section.id }} .trusted-container{
+        background:none;
+      }
+      #pilates-{{ section.id }} .heading-html{
+        background:none;
+      }
+      #pilates-{{ section.id }} .mobile-hide{
+        display:block;
+      }
+      #pilates-{{ section.id }} .white-fade-desk{
+        display:block;
+        position:absolute;
+        background:linear-gradient(90deg,rgba(255, 255, 255, 1) 0%, rgba(0, 0, 0, 0) 100%);
+        width: 50px;
+        height: 100%;
+        top: 0;
+        right: -50px;
+      }
+      #pilates-{{ section.id }} .hero-banner-left{
+        padding-left:{{ section.settings.desktop_padding }}px;
+        padding-right:{{ section.settings.desktop_padding }}px;
+        position:relative;
+        max-width:50%;
+      }
+      #pilates-{{ section.id }} .hero-block{
+        flex-direction:row;
+        position:relative;
+        overflow-y:hidden;
+        height:{{ section.settings.desktop_height }}vh;
+        align-items:center;
+        background:url({{ section.settings.desk_hero | img_url:'master'}});
+        background-repeat:no-repeat;
+        background-size:{{section.settings.desktop_background_size}};
+        background-position-x:{{ section.settings.desktop_background_pos }};
+      }
+      #pilates-{{ section.id }} .desktop-hide{
+        display:none;
+      }
+      #pilates-{{ section.id }} picture{
+        object-fit:cover;
+        position:absolute;
+        top:0;
+        display:none;
+        img{
+          object-fit:cover;
+        }
+      }
+      #pilates-{{ section.id }} .heading-html-block{
+        position:relative;
+        width:auto;
+      }
+      #pilates-{{ section.id }} .heading-html{
+        text-align:left;
+        p{
+          font-size:45px;
+          line-height:1.3
+        }
+      }
+      #pilates-{{ section.id }} .cta-guarantee{
+        padding-top:20px;
+        justify-content:unset;
+        align-items:unset;
+      }
+      #pilates-{{ section.id }} .main-cta{
+        width:55%;
+        font-size:27px;
+      }
+      #pilates-{{ section.id }} .guarantee-txt{
+        color:#000;
+        font-style:italic;
+        font-size: 16px;
+        text-align: left;
+        margin-top:10px;
+      }
+      #pilates-{{ section.id }} .bullet-points{
+        justify-content:unset;
+        margin-top:50px;
+        flex-direction:column;
+      }
+      #pilates-{{ section.id }} .bullet-text{
+        color:#000;
+        font-size:22px;
+      }
+      #pilates-{{ section.id }} .ph__tick{
+        filter:invert(1);
+      }
+    
+      #pilates-{{ section.id }} .check{
+        width:25px;
+      }
+      #pilates-{{ section.id }} .trusted-container{
+        padding:0;
+      }
+      #pilates-{{ section.id }} .trusted{
+        margin:0;
+        .trusted-pic{
+          width:80px;
+        }
+        .trusted-txt{
+          font-size:20px;
+        }
+      }
+    }
+    @media(min-width:1440px){
+      #pilates-{{ section.id }} .heading-html{
+        text-align:left;
+        p{
+          font-size:48px;
+          line-height:1.3
+        }
+      }
+    }
+    @media(min-width:1600px){
+      #pilates-{{ section.id }} .heading-html{
+        p{
+          font-size:62px;
+        }
+      }
+    }
   </style>
+
+</section>
+
+{% schema %}
+{
+  "name": "Pilates Hero Split",
+  "settings": [
+    {
+      "id":"desktop_padding",
+      "type":"range",
+      "unit":"px",
+      "label":"Desktop Padding",
+      "info":"padding for the left side",
+      "min":5,
+      "max":100,
+      "step":5,
+      "default":60
+    },
+    {
+      "id":"desktop_background_pos",
+      "type":"radio",
+      "options": [
+        {
+          "value":"left",
+          "label":"Left"
+        },
+        {
+          "value": "right",
+          "label": "Right"
+        }
+      ],
+      "info": "desktop only",
+      "label": "Background Position",
+      "default":"right",
+    },
+    {
+      "id":"desktop_background_size",
+      "info":"desktop only - overrides position",
+      "label":"Background Size",
+      "type": "radio",
+      "options": [
+        {
+          "value":"contain",
+          "label": "Contain"
+        },
+        {
+          "value":"cover",
+          "label":"Cover"
+        }
+      ],
+      "default":"contain"
+    },
+    {
+      "id":"desktop_height",
+      "type":"range",
+      "min":50,
+      "max":100,
+      "default":75,
+      "unit": "vh",
+      "info": "adjust height of hero (desktop only)",
+      "label": "Desktop Height"
+    },
+    {
+      "id":"padding_top",
+      "type":"range",
+      "unit": "px",
+      "label": "Padding Top",
+      "min": 5,
+      "max":100,
+      "step":5,
+      "default":10,
+      "info":"mobile only"
+    },
+    {
+      "id":"padding_bottom",
+      "type":"range",
+      "unit":"px",
+      "label": "Padding Bottom",
+      "min":5,
+      "max":100,
+      "step":5,
+      "default":20,
+      "info": "mobile only"
+    },
+    {
+      "id":"trusted_pic",
+      "type": "image_picker",
+      "label": "Top Image",
+      "info": "Small Image above the Heading"
+    },
+    {
+      "id":"trusted_txt",
+      "type": "text",
+      "label":"Top Text",
+      "info":"Text on top of the heading",
+      "default":"Trusted Daily By 1000+ Moms"
+    },
+    { "id": "heading_html", 
+      "type": "richtext", 
+      "label": "Heading", 
+      "default": "<p>The Pilates Studio <em>Experience</em><br>In The <em>Comfort</em> Of Your <strong>Home</strong></p>" 
+    },
+    { 
+      "id": "heading_italic_color", 
+      "type": "color", 
+      "label": "Italic Text Color", 
+      "default": "#CDA07A" 
+    },
+    { 
+      "id": "heading_bold_color",  
+      "type": "color", 
+      "label": "Bold Text Color",   
+      "default": "#111111" 
+    },
+
+    { 
+      "id": "subheading", 
+      "type": "richtext", 
+      "label": "Subheading", 
+      "default": "<p></p>" 
+    },
+
+    { 
+      "id": "image", 
+      "type": "image_picker", 
+      "label": "Hero Image" 
+    },
+    {
+      "id":"desk_hero",
+      "type":"image_picker",
+      "label":"Hero Image (Desk)"
+    },
+    { "id": "cta_chip_left_label", 
+      "type": "text", "label": "Left Chip", 
+      "default": "Only $97/Month" 
+    },
+    { 
+      "id": "cta_chip_left_url", 
+      "type": "url", "label": 
+      "Left Chip Link" 
+    },
+
+    { 
+      "id": "cta_chip_right_label", 
+      "type": "text", 
+      "label": "Right Chip", 
+      "default": "Workout How You Want" 
+    },
+    { "id": "cta_chip_right_url", "type": "url", "label": "Right Chip Link" },
+
+    { "id": "big_cta_label", "type": "text", "label": "CTA Button", "default": "Try Elevé" },
+    { "id": "big_cta_url", "type": "url", "label": "CTA Link" },
+
+    { "id": "guarantee_text", "type": "textarea", "label": "Guarantee Text", "default": "60-Day Money Back Guarantee | HSA/FSA" }
+  ],
+  "blocks": [
+    {
+      "type": "bullet",
+      "name": "Check Bullet",
+      "settings": [
+        { "id": "text", "type": "textarea", "label": "Bullet Text", "default": "Studio-Grade Equipment" }
+      ]
+    }
+  ],
+  "presets": [
+    {
+      "name": "Pilates Hero Split",
+      "blocks": [
+        { "type": "bullet", "settings": { "text": "Studio-Grade Equipment" } },
+        { "type": "bullet", "settings": { "text": "Save Thousands On Classes" } },
+        { "type": "bullet", "settings": { "text": "Setup In 60 Seconds" } }
+      ]
+    }
+  ]
+}
+{% endschema %}
 {% comment %} <style>
   @media (max-width: 749px) {
     .ph__inner {
@@ -365,117 +706,3 @@ h2.ph__heading{ margin:15px 0 0; }
     }
 }
 </style> {% endcomment %}
-</section>
-
-{% schema %}
-{
-  "name": "Pilates Hero Split",
-  "settings": [
-    {
-      "id":"padding_top",
-      "type":"range",
-      "unit": "px",
-      "label": "Padding Top",
-      "min": 5,
-      "max":100,
-      "step":5,
-      "default":10
-    },
-    {
-      "id":"padding_bottom",
-      "type":"range",
-      "unit":"px",
-      "label": "Padding Bottom",
-      "min":5,
-      "max":100,
-      "step":5,
-      "default":20
-    },
-    {
-      "id":"trusted_pic",
-      "type": "image_picker",
-      "label": "Top Image",
-      "info": "Small Image above the Heading"
-    },
-    {
-      "id":"trusted_txt",
-      "type": "text",
-      "label":"Top Text",
-      "info":"Text on top of the heading",
-      "default":"Trusted Daily By 1000+ Moms"
-    },
-    { "id": "heading_html", 
-      "type": "richtext", 
-      "label": "Heading", 
-      "default": "<p>The Pilates Studio <em>Experience</em><br>In The <em>Comfort</em> Of Your <strong>Home</strong></p>" 
-    },
-    { 
-      "id": "heading_italic_color", 
-      "type": "color", 
-      "label": "Italic Text Color", 
-      "default": "#CDA07A" 
-    },
-    { 
-      "id": "heading_bold_color",  
-      "type": "color", 
-      "label": "Bold Text Color",   
-      "default": "#111111" 
-    },
-
-    { 
-      "id": "subheading", 
-      "type": "richtext", 
-      "label": "Subheading", 
-      "default": "<p></p>" 
-    },
-
-    { 
-      "id": "image", 
-      "type": "image_picker", 
-      "label": "Hero Image" 
-    },
-
-    { "id": "cta_chip_left_label", 
-      "type": "text", "label": "Left Chip", 
-      "default": "Only $97/Month" 
-    },
-    { 
-      "id": "cta_chip_left_url", 
-      "type": "url", "label": 
-      "Left Chip Link" 
-    },
-
-    { 
-      "id": "cta_chip_right_label", 
-      "type": "text", 
-      "label": "Right Chip", 
-      "default": "Workout How You Want" 
-    },
-    { "id": "cta_chip_right_url", "type": "url", "label": "Right Chip Link" },
-
-    { "id": "big_cta_label", "type": "text", "label": "CTA Button", "default": "Try Elevé" },
-    { "id": "big_cta_url", "type": "url", "label": "CTA Link" },
-
-    { "id": "guarantee_text", "type": "textarea", "label": "Guarantee Text", "default": "60-Day Money Back Guarantee | HSA/FSA" }
-  ],
-  "blocks": [
-    {
-      "type": "bullet",
-      "name": "Check Bullet",
-      "settings": [
-        { "id": "text", "type": "textarea", "label": "Bullet Text", "default": "Studio-Grade Equipment" }
-      ]
-    }
-  ],
-  "presets": [
-    {
-      "name": "Pilates Hero Split",
-      "blocks": [
-        { "type": "bullet", "settings": { "text": "Studio-Grade Equipment" } },
-        { "type": "bullet", "settings": { "text": "Save Thousands On Classes" } },
-        { "type": "bullet", "settings": { "text": "Setup In 60 Seconds" } }
-      ]
-    }
-  ]
-}
-{% endschema %}
