@@ -55,13 +55,90 @@
     </div>
   </div> {% endcomment %}
   <div class="hero-block">
-    <div class="heading-html-block">
-    <div class="heading-html">
-      {{ section.settings.heading_html }}
-    </div>
+    <picture>
+      <img src="{{ section.settings.image | img_url:'master' }}">
+    </picture>
+    <div class="top-portion">
+      <div class="heading-html-block">
+        <div class="trusted"></div>
+        <div class="heading-html">
+          {{ section.settings.heading_html }}
+        </div>
+        <div class="chips-row">
+          <a class="ph_chip" href="{{ section.settings.cta_chip_left_url }}">
+            {{ section.settings.cta_chip_left_label }}
+          </a>
+          <a class="ph_chip" href="{{ section.settings.cta_chip_right_url }}">
+            {{ section.settings.cta_chip_right_label }}
+          </a>
+        </div>
+      </div>
     </div>
   </div>
-<style>
+
+  <style>
+    #pilates-{{ section.id }} .hero-block{
+      display:flex;
+      flex-direction:column;
+      position:relative;
+    }
+    #pilates-{{ section.id }} picture{
+      object-fit:cover;
+      img{
+        object-fit:cover;
+      }
+    }
+    #pilates-{{ section.id }} .white-fade{
+      
+    }
+    #pilates-{{ section.id }} .top-portion{
+      position:absolute;
+      top:0;
+      left:0;
+      width:100%;
+      
+    }
+    #pilates-{{ section.id }} .heading-html-block{
+      width:100%;
+      display:flex;
+      flex-direction:row;
+      justify-content:center;
+      background: linear-gradient(180deg,rgba(255, 255, 255, 1) 0%, rgba(255, 255, 255, 0) 100%);
+      display:block;
+      width:100vw;
+      left:0;
+      position:absolute;
+      top:0;
+      padding:5px 40px;
+      p{
+        font-size:24px;
+        em{
+          color:{{ section.settings.heading_italic_color }};
+        }
+        strong{
+          color:{{ section.settings.heading_bold_color }};
+        }
+      }
+    }
+    #pilates-{{ section.id }} .heading-html{
+      text-align:center;
+    }
+    #pilates-{{ section.id }} .chips-row{
+      display:flex;
+      flex-direction:row;
+      column-gap:20px;
+    }
+    #pilates-{{ section.id }} .ph_chip{
+      background:#000;
+      color:#fff;
+      font-weight:700; 
+      padding:6px 16px; 
+      border-radius:100px; 
+      font-size:15px;
+      box-shadow:0 10px 24px rgba(0,0,0,.18);
+    }
+  </style>
+{% comment %} <style>
   @media (max-width: 749px) {
     .ph__inner {
         padding: 24px 0px!important;
@@ -164,7 +241,7 @@ h2.ph__heading{ margin:15px 0 0; }
         max-width: 92%;
     }
 }
-</style>
+</style> {% endcomment %}
 </section>
 
 {% schema %}
