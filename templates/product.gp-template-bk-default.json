@@ -1,1 +1,1189 @@
-{"order":["main","section_richtext_kFm4JH","section_pair_before_after_M3bx6p","section_image_BRi3dV","section_image_Y79zAE","section_icons_EaQ3ra","section_richtext_mJyfeb","section_gallery_VbyVqY","section_richtext_tiTXni","section_icons_bfCWkQ","section_image_xXicqd","section_richtext_Ugp77U","section_image_9e8xnF","section_richtext_DRGLXc","section_image_mJLfm8","section_richtext_aNGJYD","section_image_EJQjnw","section_pair_hotspots_accordion_iEVahc","related","section_liquid_xHAgRV","section_faq_Eg8wpH","1754313988926d1cc1","section_hero_gCWyck"],"sections":{"1754313988926d1cc1":{"block_order":["loox_reviews_loox_dynamic_section_fCH4EF"],"blocks":{"loox_reviews_loox_dynamic_section_fCH4EF":{"settings":{"aggregated":false,"hide_thumbnails":false,"is_sample":true,"limit":20,"maxwidth":1080,"only_photos":false},"type":"shopify://apps/loox-reviews/blocks/loox-dynamic-section/5c3b337f-fd14-4df5-b1d6-80ec13e6e28e"}},"settings":{"bg":"palette--light bg--neutral","padding_bottom":36,"padding_top":36,"text_color":"text--neutral","width":"wrapper"},"type":"apps"},"main":{"block_order":["loox_reviews_loox_rating_d69WpQ","liquid_bFeLiB","title","liquid_3mHamf","price","liquid_UMHn3b","flex_pay_with_hsa_fsa_tiny_yjUXT3","liquid_Uwe34B","liquid_p6zEDt","icon_kgn9cV","icon_J8kUcp","icon_YgTh7b","variants","subscriptions","buttons","image_jXVfwr","text_NM68pk","description","loox_reviews_loox_snippets_widget_6NRNwF"],"blocks":{"buttons":{"settings":{"enable_gift_card_recipient":false,"enable_payment_button":true,"padding_bottom":32},"type":"add-buttons"},"description":{"settings":{"description_expanded":false,"enable_description":false,"icon_description":"","icon_name_1":"","icon_name_2":"","icon_name_3":"","icon_name_4":"","icon_name_5":"","padding_bottom":20,"raw_content_1":"\u003cp\u003eThe \u003cstrong\u003eElevé Reformer\u003c/strong\u003e (French for “to rise”) is \u003cstrong\u003ehand made\u003c/strong\u003e and \u003cstrong\u003emade to order\u003c/strong\u003e—\u003cstrong\u003eonly fifty are crafted each month\u003c/strong\u003e, making yours truly exclusive. \u003c/p\u003e\u003cp\u003eThoughtfully assembled for total-body sculpting, smooth resistance, and silent movement, it brings the \u003cstrong\u003edepth of a studio experience into your home.\u003c/strong\u003e With every purchase you receive lifetime gifts built into your journey so \u003cstrong\u003eyou’re set for life.\u003c/strong\u003e \u003c/p\u003e\u003cp\u003eRefined in its minimalist design to complement any space and built to last,\u003cstrong\u003e this Reformer is for the woman who moves with intention and expects excellence in every detail.\u003c/strong\u003e\u003c/p\u003e","raw_content_2":"\u003cp\u003e- Stunning \u003cstrong\u003eOak Frame\u003c/strong\u003e\u003c/p\u003e\u003cp\u003e- High quality, \u003cstrong\u003eheavy use upholstery\u003c/strong\u003e\u003c/p\u003e\u003cp\u003e- Easily adjustable \u003cstrong\u003e5 position foot bar\u003c/strong\u003e\u003c/p\u003e\u003cp\u003e- \u003cstrong\u003eThree position\u003c/strong\u003e headrest\u003c/p\u003e\u003cp\u003e- Foot strap\u003c/p\u003e\u003cp\u003e- \u003cstrong\u003e6 commercial springs:\u003c/strong\u003e 2x heavy [red], 2x   medium [blue], and 2x light [yellow]\u003c/p\u003e\u003cp\u003e- Rolls away for storage\u003c/p\u003e\u003cp\u003e- \u003cstrong\u003eDimensions:\u003c/strong\u003e 92.52 inches (L) x 25.20 inches (W) x 10.24-14.17 inches (H)\u003c/p\u003e\u003cp\u003e- \u003cstrong\u003eDimensions (folded):\u003c/strong\u003e 48.03 inches (L) x 25.20 inches (W) x 19.69 inches (H)\u003c/p\u003e","raw_content_3":"\u003cp\u003e\u003cstrong\u003e*Free Shipping*\u003c/strong\u003e\u003c/p\u003e\u003cp\u003e\u003cstrong\u003eEach Elevé Reformer is crafted one at a time.\u003c/strong\u003e\u003cbr/\u003e\u003cbr/\u003eOnce your order is placed, it enters our bespoke production process: a meticulous\u003cstrong\u003e 4-5 week\u003c/strong\u003e journey of hand-assembly and rigorous quality checks to ensure every detail reflects our highest standard.\u003c/p\u003e\u003cp\u003eAfter that, your reformer is carefully packaged and shipped directly to your door with white-glove care. You’ll receive a tracking number the moment it leaves our hands, with final delivery arriving in approximately \u003cstrong\u003e4-5 weeks \u003c/strong\u003e(total time from order to your door is 8-10 weeks).\u003c/p\u003e\u003cp\u003e\u003cstrong\u003eBecause luxury isn’t rushed. It’s \u003c/strong\u003e\u003cem\u003e\u003cstrong\u003ecrafted.\u003c/strong\u003e\u003c/em\u003e\u003c/p\u003e","raw_content_4":"","raw_content_5":"","read_more":false,"style":"accordions","title_1":"Overview","title_2":"Specs","title_3":"Shipping","title_4":"","title_5":""},"type":"description"},"flex_pay_with_hsa_fsa_tiny_yjUXT3":{"settings":{"alignment":"left","style":"light","text":"hsa-fsa","width":80},"type":"shopify://apps/flex-pay-with-hsa-fsa/blocks/tiny/c0438c22-7b33-4278-b0c3-ef6c6b7b5f83"},"icon_J8kUcp":{"settings":{"icon_color":"#4b4b4b","icon_name":"icon-lock-card","icon_size":16,"padding_bottom":8,"text":"\u003cp\u003e\u003cstrong\u003e60 Day Money Back Guarantee \u003c/strong\u003e\u003c/p\u003e"},"type":"icon"},"icon_YgTh7b":{"settings":{"icon_color":"#4b4b4b","icon_name":"icon-truck","icon_size":16,"padding_bottom":16,"text":"\u003cp\u003eFree US Shipping ($300 Value)\u003c/p\u003e"},"type":"icon"},"icon_kgn9cV":{"settings":{"icon_color":"#4b4b4b","icon_name":"icon-award","icon_size":16,"padding_bottom":8,"text":"\u003cp\u003eStudio-Grade Quality \u003c/p\u003e"},"type":"icon"},"image_jXVfwr":{"settings":{"alignment":"product__block__image--center","image":"shopify://shop_images/Untitled_design_87.webp","image_max_limit":500,"padding_bottom":0},"type":"image"},"liquid_3mHamf":{"disabled":true,"name":"Price With Badge","settings":{"custom_liquid":"\u003cdiv class=\"reformer-price-wrapper\"\u003e\n  \u003cspan class=\"reformer-old-price\"\u003e$2,750.00\u003c/span\u003e\n  \u003cspan class=\"reformer-new-price\"\u003e$1,999.00\u003c/span\u003e\n  \u003cspan class=\"reformer-save-badge\"\u003e$750 off\u003c/span\u003e\n\u003c/div\u003e"},"type":"liquid"},"liquid_UMHn3b":{"name":"Shop Pay Installments","settings":{"custom_liquid":"{% assign monthly_price = 97 %}\n{% assign total_installments = 6 %}\n\u003cdiv style=\"font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif; font-size: 15px; color: #333;\"\u003e\n  {{ total_installments }} interest-free installments, or from\u003cbr\u003e\n  \u003cstrong style=\"font-size: 16px;\"\u003e${{ monthly_price }}\u003c/strong\u003e/mo with \n  \u003cspan style=\"color: #5a31f4; font-weight: 600; margin-left: 4px;\"\u003eShop Pay\u003c/span\u003e\n\u003c/div\u003e"},"type":"liquid"},"liquid_Uwe34B":{"name":"Spacer","settings":{"custom_liquid":"\u003c!-- Invisible Spacer --\u003e\n\u003cdiv style=\"height: 16px;\"\u003e\u003c/div\u003e"},"type":"liquid"},"liquid_bFeLiB":{"name":"Spacer","settings":{"custom_liquid":"\u003c!-- Invisible Spacer --\u003e\n\u003cdiv style=\"height: 10px;\"\u003e\u003c/div\u003e"},"type":"liquid"},"liquid_p6zEDt":{"settings":{"custom_liquid":""},"type":"liquid"},"loox_reviews_loox_rating_d69WpQ":{"settings":{"alignment":"","contentSize":16,"emptyRatingWidget":false,"hideText":false,"layout":"","looxOpenFloatingWidget":false,"pattern":"","showAllReviews":true,"starColor":"","textColor":""},"type":"shopify://apps/loox-reviews/blocks/loox-rating/5c3b337f-fd14-4df5-b1d6-80ec13e6e28e"},"loox_reviews_loox_snippets_widget_6NRNwF":{"settings":{"alignment":"left","background-color":"","border-color":"","border-radius":16,"color-scheme":"default","font-size":14,"hide-arrows-mobile":false,"max-width":"","name-color":"","rating-icon-color":"","reviews-limit":10,"shadow":"offset-light","shadow-color":"","show-border":true,"show-image":true,"show-rating":true,"text-color":""},"type":"shopify://apps/loox-reviews/blocks/loox-snippets-widget/5c3b337f-fd14-4df5-b1d6-80ec13e6e28e"},"price":{"settings":{"padding_bottom":0,"price_size":5},"type":"price"},"subscriptions":{"settings":{"padding_bottom":20,"subscriptions_enable_selectors":true},"type":"subscription"},"text_NM68pk":{"name":"Spacer","settings":{"padding_bottom":12,"title":"\u003cp\u003e‎ \u003c/p\u003e"},"type":"text"},"title":{"settings":{"padding_bottom":0,"product_show_cutline":true,"show_rating":true,"show_rating_count":false,"text_size":9},"type":"title"},"variants":{"settings":{"option_size_radio":54,"option_size_swatch":54,"option_space":30,"padding_bottom":30},"type":"variant-selectors"}},"custom_css":[".btn--add-to-cart {background-color: #1e1a1a !important; border: 2px solid #1e1a1a !important; color: #ffffff !important;}",".btn--add-to-cart:hover {background-color: #000000 !important; border-color: #000000 !important;}"],"settings":{"align":"left","alt_text_enable":false,"alt_text_icon":"icon-ruler","bg":"palette--light bg--neutral","enable_video_looping":true,"image_spacing":10,"image_width":"half","layout":"thumbnails-below@slides","mobile_layout":"thumbs","padding_bottom":36,"padding_top":10,"product_breadcrumbs_enable":false,"product_breadcrumbs_list":[],"width":"wrapper--full","zoom_enable":false},"type":"product"},"related":{"disabled":true,"settings":{"bg":"section bg--neutral","grid_large":4,"grid_medium":3,"grid_small":1.2,"heading":"You might also like","limit":8,"padding_bottom":36,"padding_top":36,"product_recently_heading":"Recently viewed","product_recently_limit":6,"product_recently_minimum":3,"product_recommendations_heading":"Related products","related_products_enable":true,"show_recently_viewed":false,"width":"wrapper"},"type":"related"},"section_faq_Eg8wpH":{"block_order":["text_LiLy8M","text_UkUUfp","text_hhFk4A","text_WH9ARM","text_Vhzeme","text_Y4Ky8z","text_fbmrLn","text_EQAyTi","text_kMtN9k"],"blocks":{"text_EQAyTi":{"settings":{"content":"\u003cp\u003eYes! When you move with Elevé, you \u003cstrong\u003eactivate deep core muscles, sculpt long, lean lines, and lift and define\u003c/strong\u003e areas traditional workouts often miss.\u003cbr/\u003e\u003cbr/\u003eOur system is designed around \u003cstrong\u003escientifically proven Pilates principles\u003c/strong\u003e, with beginner-friendly routines to get you visible results faster — even in just \u003cstrong\u003e20–30 minutes a day.\u003c/strong\u003e\u003c/p\u003e","title":"Will I actually see results from using this?"},"type":"text"},"text_LiLy8M":{"settings":{"content":"\u003cp\u003e\u003cstrong\u003eFor the busy mom who does it all, and still wants to feel strong, calm, and like herself again.\u003c/strong\u003e\u003c/p\u003e\u003cp\u003eElevé fits into \u003cem\u003eyour\u003c/em\u003e life: no rigid class times, no driving, no stress. Just 15 quiet minutes a day to reconnect with your body and mind, right at home.\u003c/p\u003e\u003cp\u003e\u003cstrong\u003eBecause when you're thriving, your whole family feels it.\u003c/strong\u003e\u003c/p\u003e\u003cp\u003eThis isn’t just a reformer. It’s your return to \u003cem\u003eyou\u003c/em\u003e.\u003c/p\u003e","title":"Who is the Elevé for?"},"type":"text"},"text_UkUUfp":{"settings":{"content":"\u003cp\u003eHealth Savings Accounts (HSAs) and Flexible Spending Accounts (FSAs) offer tax advantages for \u003cstrong\u003ehealth-related expenses.\u003c/strong\u003e The key difference is ownership—FSAs are employer-owned and typically “use it or lose it,” meaning unused funds expire yearly. HSAs, however, are individually owned, staying with you through job changes and allowing self-employed individuals to open one. Unlike FSAs, HSA funds can be invested and grow tax-free over time, making them a flexible long-term option for managing healthcare costs.\u003c/p\u003e","title":"What is an FSA or HSA and what are the benefits?"},"type":"text"},"text_Vhzeme":{"settings":{"content":"\u003cp\u003eElevé is sleek, foldable, and surprisingly compact. In use, it’s studio-grade. When stored, it disappears beautifully. \u003cstrong\u003ePerfect for bedrooms, living rooms, or serene corners of your home \u003c/strong\u003ewhere you can easily align the reformer against the wall.\u003c/p\u003e","title":"Will it fit in my space?"},"type":"text"},"text_WH9ARM":{"settings":{"content":"\u003cp\u003e\u003cstrong\u003eYes, \u003c/strong\u003eit arrives 85% assembled, with minimal setup required. We believe luxury should feel effortless, and Elevé is \u003cstrong\u003eready for ritual right out of the box.\u003c/strong\u003e\u003c/p\u003e","title":"Does it come fully assembled?"},"type":"text"},"text_Y4Ky8z":{"settings":{"content":"\u003cp\u003eYour Elevé Reformer comes with:\u003c/p\u003e\u003cul\u003e\u003cli\u003e\u003cstrong\u003eThe full Elevé Reformer\u003c/strong\u003e\u003c/li\u003e\u003cli\u003e\u003cstrong\u003ePadded box \u0026 Jumpboard\u003c/strong\u003e\u003c/li\u003e\u003cli\u003e\u003cstrong\u003ePremium Siluet Era Kit (ball, circle, and 2lb Pilates weights)\u003c/strong\u003e\u003c/li\u003e\u003cli\u003e\u003cstrong\u003eAccess to our signature 30-day guided program\u003c/strong\u003e\u003c/li\u003e\u003cli\u003e\u003cstrong\u003eFree shipping\u003c/strong\u003e\u003c/li\u003e\u003c/ul\u003e","title":"What's included with my purchase?"},"type":"text"},"text_fbmrLn":{"settings":{"content":"\u003cp\u003eWe offer a 6\u003cstrong\u003e0-day trial. \u003c/strong\u003eIf it’s not a match, we’ll make it right — no stress, no guilt. But we think you’ll fall in love.\u003c/p\u003e","title":"Whats's the return policy?"},"type":"text"},"text_hhFk4A":{"settings":{"content":"\u003cp\u003e\u003cstrong\u003eYes, and we encourage you to use it.\u003c/strong\u003e\u003cbr/\u003eYou can split your purchase into 6 interest-free payments or \u003cstrong\u003e$97/month\u003c/strong\u003e with Shop Pay — \u003cstrong\u003eless than most studio memberships.\u003c/strong\u003e\u003c/p\u003e","title":"Is there a payment plan?"},"type":"text"},"text_kMtN9k":{"settings":{"content":"\u003cp\u003eYour Elevé will be \u003cstrong\u003eprofessionally packaged, padded, and protected\u003c/strong\u003e to ensure it arrives in perfect condition.\u003cbr/\u003e\u003cbr/\u003eWe partner with trusted carriers for secure freight delivery and in just \u003cstrong\u003e8-10 weeks\u003c/strong\u003e you will have a \u003cem\u003elifelong partner\u003c/em\u003e!\u003c/p\u003e","title":"Will my Elevé arrive safely?"},"type":"text"}},"disabled":true,"name":"Accordion group","settings":{"bg":"palette--light bg--neutral","heading_size":6,"padding_bottom":36,"padding_top":36,"text_color":"text--neutral","text_size":5,"title":"FAQ","title_align":"text-left","title_size":12,"width":"wrapper"},"type":"section-faq"},"section_gallery_VbyVqY":{"block_order":["image_rjNNC7","image_beXzTk","image_kw8atA"],"blocks":{"image_beXzTk":{"settings":{"image":"shopify://shop_images/3_acb9418b-7b8f-4f51-9d7f-f56965ac829f.png","link":""},"type":"image"},"image_kw8atA":{"settings":{"image":"shopify://shop_images/AdobeStock_617941816.webp","link":""},"type":"image"},"image_rjNNC7":{"settings":{"image":"shopify://shop_images/OnyxBarrel3.webp","link":""},"type":"image"}},"name":"Gallery","settings":{"add_gutters":true,"bg":"palette--light bg--neutral","grid_large":3,"grid_medium":2,"grid_mobile":1,"padding_bottom":36,"padding_top":36,"progress_bar":"mobile","scale_image":false,"wh_ratio":1,"width":"wrapper"},"type":"section-gallery"},"section_hero_gCWyck":{"block_order":["heading_LhxLwk","button_Gwme4W"],"blocks":{"button_Gwme4W":{"settings":{"button_color_1":"btn--primary","button_color_2":"btn--white","button_color_3":"btn--white","button_size_1":"btn--large","button_size_2":"btn--long","button_size_3":"btn--long","button_style_1":"btn","button_style_2":"btn-text-thick-line","button_style_3":"btn-text-thick-line","link_1":"","link_2":"","link_3":"","link_text_1":"Experience Siluet","link_text_2":"","link_text_3":""},"type":"button"},"heading_LhxLwk":{"settings":{"text_size":8,"title":"Try It Risk-Free For 60 Days"},"type":"heading"}},"name":"Image banner","settings":{"color_bg":"hero__content--transparent","content_width":2000,"enable_overlay_text":false,"height":"use_image","image":"shopify://shop_images/image_12.png","overlay_color":"#000000","overlay_opacity":0,"padding_bottom":0,"padding_top":0,"preload_image":false,"text_align":"align--middle-center","text_color":"text--white","width":"wrapper--none"},"type":"section-hero"},"section_icons_EaQ3ra":{"block_order":["icon_block_QFwbHh","icon_block_xxBTaV","icon_block_RLgjDU"],"blocks":{"icon_block_QFwbHh":{"settings":{"icon_alt":"shopify://shop_images/Rectangle_54_1.webp","icon_color":"#aaaaaa","icon_name":"icon-basket-return","link_text":"","link_url":"","text":"\u003cp\u003eInstead of paying $40+ per class or $3-4,000/year for spots you can't even book, busy moms are getting results with a reformer that replaces the studio chaos\u003c/p\u003e","title":"Ditch The Expensive Classes That Don’t Get Results"},"type":"icon_block"},"icon_block_RLgjDU":{"settings":{"icon_alt":"shopify://shop_images/Rectangle_54_3.webp","icon_color":"#aaaaaa","icon_name":"icon-phone","link_text":"","link_url":"","text":"\u003cp\u003eSay goodbye to one-off classes and inconsistency. You're not chasing motivation that comes and goes, you're building an unbreakable habit with a reformer that removes every excuse. And that consistency turns effort into transformation.\u003c/p\u003e","title":"Get Real Results From A Consistent Routine"},"type":"icon_block"},"icon_block_xxBTaV":{"settings":{"icon_alt":"shopify://shop_images/Rectangle_54_2.webp","icon_color":"#aaaaaa","icon_name":"icon-shipment-world","link_text":"","link_url":"","text":"\u003cp\u003eInstead of needing hour-long blocks and a dedicated room, you're unfolding your Elevé in under 60 seconds and working out in life's small gap\u003c/p\u003e","title":"Workout When/How You Want In Seconds"},"type":"icon_block"}},"name":"Icon columns","settings":{"align_text":"text-left","bg":"palette--light bg--neutral","icon_alignment":"icon--left","icons_size":30,"layout":"grid--stacked","padding_bottom":36,"padding_top":36,"title":"","width":"wrapper"},"type":"section-icons"},"section_icons_bfCWkQ":{"block_order":["icon_block_Bc9wKC","icon_block_X8AxTU","icon_block_Xw4tbt","icon_block_YGVrzn","icon_block_KYKngi","icon_block_zabhKT"],"blocks":{"icon_block_Bc9wKC":{"settings":{"icon_alt":"shopify://shop_images/New_Project_2.webp","icon_color":"#aaaaaa","icon_name":"icon-basket-return","link_text":"","link_url":"","text":"\u003cp\u003eReceive Order Confirmation Via Email\u003c/p\u003e","title":"Order Confirmation"},"type":"icon_block"},"icon_block_KYKngi":{"settings":{"icon_color":"#000000","icon_name":"icon-shipment","link_text":"","link_url":"","text":"","title":"Arrives At Home"},"type":"icon_block"},"icon_block_X8AxTU":{"settings":{"icon_alt":"shopify://shop_images/New_Project_3.webp","icon_color":"#aaaaaa","icon_name":"icon-shipment-world","link_text":"","link_url":"","text":"\u003cp\u003eStart Construction On Your Reformer (1-2 Weeks)\u003c/p\u003e","title":"Made To Order"},"type":"icon_block"},"icon_block_Xw4tbt":{"settings":{"icon_alt":"shopify://shop_images/New_Project_4.webp","icon_color":"#aaaaaa","icon_name":"icon-phone","link_text":"","link_url":"","text":"\u003cp\u003eReceive Tracking Email(1-2 Weeks)\u003c/p\u003e","title":"Tracking Email"},"type":"icon_block"},"icon_block_YGVrzn":{"settings":{"icon_alt":"shopify://shop_images/New_Project_5.webp","icon_color":"#aaaaaa","icon_name":"icon-phone","link_text":"","link_url":"","text":"\u003cp\u003eShipped Reformer, Delivery in 2-4 Weeks\u003c/p\u003e","title":"Shipped"},"type":"icon_block"},"icon_block_zabhKT":{"settings":{"icon_color":"#000000","icon_name":"icon-basket-return","link_text":"","link_url":"","text":"","title":"60-Day Retunrs"},"type":"icon_block"}},"custom_css":["@media (max-width: 750px) {.float-grid.grid--stacked.grid--uniform {display: flex; flex-wrap: wrap; align-content: center; align-items: center; } .grid__item.medium-up--one-third.small--one-third.text-center {width: 50%; }}"],"name":"Icon columns","settings":{"align_text":"text-center","bg":"palette--light bg--neutral","icon_alignment":"icon--top","icons_size":80,"layout":"grid--stacked","padding_bottom":36,"padding_top":36,"title":"","width":"wrapper"},"type":"section-icons"},"section_image_9e8xnF":{"name":"Image","settings":{"color_bg":"palette--light bg--neutral","image":"shopify://shop_images/Screenshot_2025-10-28_201453.png","max_width":100,"padding_bottom":36,"padding_top":36,"width":"wrapper--none","x_align":"center"},"type":"section-image"},"section_image_BRi3dV":{"disabled":true,"name":"Image","settings":{"color_bg":"palette--light bg--neutral","image":"shopify://shop_images/8d2c526b-26db-4b25-863e-5fae85b57f90.png","max_width":100,"padding_bottom":0,"padding_top":0,"width":"wrapper--none","x_align":"center"},"type":"section-image"},"section_image_EJQjnw":{"name":"Image","settings":{"color_bg":"palette--light bg--neutral","image":"shopify://shop_images/Screenshot_2025-10-28_203921.png","max_width":100,"padding_bottom":0,"padding_top":36,"width":"wrapper--full","x_align":"center"},"type":"section-image"},"section_image_Y79zAE":{"disabled":true,"name":"Image","settings":{"color_bg":"palette--light bg--neutral","image":"shopify://shop_images/Gauranteed_giftz.webp","max_width":100,"padding_bottom":36,"padding_top":36,"width":"wrapper--none","x_align":"center"},"type":"section-image"},"section_image_mJLfm8":{"name":"Image","settings":{"color_bg":"palette--light bg--neutral","image":"shopify://shop_images/Easily_folded_1.png","max_width":100,"padding_bottom":0,"padding_top":0,"width":"wrapper--none","x_align":"center"},"type":"section-image"},"section_image_xXicqd":{"disabled":true,"name":"Image","settings":{"color_bg":"palette--light bg--neutral","image":"shopify://shop_images/ff8c35b7-0958-40c7-94a5-7340dc4d8d0f.png","max_width":100,"padding_bottom":36,"padding_top":36,"width":"wrapper","x_align":"center"},"type":"section-image"},"section_liquid_xHAgRV":{"name":"Custom Liquid","settings":{"custom_liquid":"\u003cdiv style=\"background-color: #1E1A1A; color: #FDFBF7; text-align: center; padding: 3 0; font-size: 14.6px; letter-spacing: 1.1px; font-family: 'Playfair Display', serif;\"\u003e\n\n\u003c/div\u003e"},"type":"section-liquid"},"section_pair_before_after_M3bx6p":{"blocks":{"before-after":{"blocks":{},"settings":{"after_image":"shopify://shop_images/8d2c526b-26db-4b25-863e-5fae85b57f90.png","before_image":"shopify://shop_images/8d2c526b-26db-4b25-863e-5fae85b57f90.png","handle_color":"#ffffff","orientation":"horizontal","start_position":50},"static":true,"type":"_pair-before-after"},"text":{"block_order":["theme_group_TnWcjE"],"blocks":{"theme_group_TnWcjE":{"block_order":["theme_text_richtext_4rBdPW"],"blocks":{"theme_text_richtext_4rBdPW":{"blocks":{},"name":"Text: Rich text","settings":{"font_family":"body","max_width":550,"text":"\u003ch4\u003eHow\u003cstrong\u003e Busy Mom’s\u003c/strong\u003e Are Getting In The \u003cstrong\u003eBest Shape Of Their Lives \u003c/strong\u003eWith The Elevé Reformer\u003c/h4\u003e","text_size":5},"type":"theme-text-richtext"}},"settings":{"alignment":"start","flow":"row","gap":"sm"},"type":"theme-group"}},"settings":{"bg_color":"","gap":"sm","horizontal_placement":"start","text_color":"text--neutral","vertical_placement":"center"},"static":true,"type":"_pair-content"}},"custom_css":["@media only screen and (max-width: 767px) {.brick__section--reverse {flex-direction: column; text-align: center !important; }}"],"name":"Pair: Before/After \u0026 Text","settings":{"bg_color":"","borders":false,"brick_gutter":0,"height":"use_screen_one_half","order":"text-first","padding_bottom":36,"padding_top":36,"width":"wrapper"},"type":"section-pair-before-after"},"section_pair_hotspots_accordion_iEVahc":{"blocks":{"accordion":{"block_order":["pair_accordion_item_CKyMm6","pair_accordion_item_te6wYy","pair_accordion_item_CBMWTa","pair_accordion_item_Kpe7Dd"],"blocks":{"pair_accordion_item_CBMWTa":{"block_order":["theme_text_m4UVKL"],"blocks":{"theme_text_m4UVKL":{"blocks":{},"settings":{"font_family":"body","max_width":550,"text":"Using only the finest inputs, we are able to craft a result that stands apart. The details matter and we put time and effort into ensuring our customers get the best.","text_size":4},"type":"theme-text"}},"settings":{"gap":"sm","title":"Premium inputs, quality product"},"type":"_pair-accordion-item"},"pair_accordion_item_CKyMm6":{"block_order":["theme_text_q397e9"],"blocks":{"theme_text_q397e9":{"blocks":{},"settings":{"font_family":"body","max_width":550,"text":"Crafted with precision and attention to detail, we ensure excellence. Designed to meet the highest standards, ensuring an exceptional experience every time.","text_size":4},"type":"theme-text"}},"settings":{"gap":"sm","title":"The highest quality"},"type":"_pair-accordion-item"},"pair_accordion_item_Kpe7Dd":{"block_order":["theme_text_TXhRn8"],"blocks":{"theme_text_TXhRn8":{"blocks":{},"settings":{"font_family":"body","max_width":550,"text":"Use this accordion to share simple text or unleash your creativity with buttons, images, and layout blocks. Experiment with custom designs to make your content stand out and engage your customers","text_size":4},"type":"theme-text"}},"name":"Accordion Item","settings":{"gap":"sm","title":""},"type":"_pair-accordion-item"},"pair_accordion_item_te6wYy":{"block_order":["theme_text_ciPD8r"],"blocks":{"theme_text_ciPD8r":{"blocks":{},"settings":{"font_family":"body","max_width":550,"text":"Made to perform when it matters most, we offer quality that you can count on. Tested and proven to deliver consistent results, it's made for everyday use and beyond.","text_size":4},"type":"theme-text"}},"settings":{"gap":"sm","title":"Reliability you can trust"},"type":"_pair-accordion-item"},"title":{"block_order":["theme_kicker_QixWDK","theme_spacer_kh6axi"],"blocks":{"theme_kicker_QixWDK":{"blocks":{},"settings":{"enable_line":true,"kicker":"Key Features","text_size":4},"type":"theme-kicker"},"theme_spacer_kh6axi":{"blocks":{},"settings":{"line_color":"#000000","line_stroke":0,"line_width":"full","spacer_padding":0},"type":"theme-spacer"}},"disabled":true,"settings":{"alignment":"start","gap":"md"},"static":true,"type":"_pair-title"}},"settings":{"bg_color":"","font_family":"accent","font_weight":"normal","text_color":"text--neutral","text_size":4},"static":true,"type":"_pair-accordion"},"hotspots":{"block_order":["pair_hotspot_HbW7GV","pair_hotspot_DVbfac","pair_hotspot_NENFU9"],"blocks":{"pair_hotspot_DVbfac":{"blocks":{},"settings":{"left":55,"left_mobile":55,"top":55,"top_mobile":55},"type":"_pair-hotspots-hotspot"},"pair_hotspot_HbW7GV":{"blocks":{},"settings":{"left":25,"left_mobile":30,"top":45,"top_mobile":45},"type":"_pair-hotspots-hotspot"},"pair_hotspot_NENFU9":{"blocks":{},"settings":{"left":75,"left_mobile":75,"top":76,"top_mobile":60},"type":"_pair-hotspots-hotspot"}},"settings":{},"static":true,"type":"_pair-hotspots"}},"disabled":true,"settings":{"bg_color":"","borders":false,"brick_gutter":0,"dot_color":"palette--light bg--neutral","duration":5,"image":"{{ product.featured_image }}","order":"accordion-first","padding_bottom":36,"padding_top":36,"width":"wrapper"},"type":"section-pair-hotspots-accordion"},"section_richtext_DRGLXc":{"block_order":["text_eFXnmY"],"blocks":{"text_eFXnmY":{"settings":{"text":"\u003ch4\u003eThe Elevé Transformer\u003c/h4\u003e","text_columns":1,"text_size":4},"type":"text"}},"name":"Rich text","settings":{"align_text":"text-center","bg":"palette--light bg--neutral","content_width":2000,"padding_bottom":0,"padding_top":0,"text_color":"text--neutral","width":"wrapper"},"type":"section-richtext"},"section_richtext_Ugp77U":{"block_order":["text_yaYK83"],"blocks":{"text_yaYK83":{"settings":{"text":"\u003ch3\u003eElevé VS. Others\u003c/h3\u003e","text_columns":1,"text_size":3},"type":"text"}},"name":"Rich text","settings":{"align_text":"text-center","bg":"palette--light bg--neutral","content_width":2000,"padding_bottom":0,"padding_top":0,"text_color":"text--neutral","width":"wrapper"},"type":"section-richtext"},"section_richtext_aNGJYD":{"block_order":["text_Hp9P6G","text_WGBYaW"],"blocks":{"text_Hp9P6G":{"settings":{"text":"\u003ch6\u003eReal Women. Real Results.\u003c/h6\u003e","text_columns":1,"text_size":1},"type":"text"},"text_WGBYaW":{"settings":{"text":"\u003ch3\u003eSee How \u003cstrong\u003eWomen 30+ Changed Their Lives\u003c/strong\u003e With Siluet\u003c/h3\u003e","text_columns":1,"text_size":4},"type":"text"}},"name":"Rich text","settings":{"align_text":"text-center","bg":"palette--light bg--neutral","content_width":2000,"padding_bottom":0,"padding_top":36,"text_color":"text--neutral","width":"wrapper"},"type":"section-richtext"},"section_richtext_kFm4JH":{"block_order":["text_cyCNd3"],"blocks":{"text_cyCNd3":{"settings":{"text":"\u003ch4\u003eHow\u003cstrong\u003e Busy Mom’s\u003c/strong\u003e Are Getting In The \u003cstrong\u003eBest Shape Of Their Lives \u003c/strong\u003eWith The Elevé Reformer\u003c/h4\u003e","text_columns":1,"text_size":4},"type":"text"}},"disabled":true,"name":"Rich text","settings":{"align_text":"text-center","bg":"palette--light bg--neutral","content_width":2000,"padding_bottom":0,"padding_top":0,"text_color":"text--neutral","width":"wrapper"},"type":"section-richtext"},"section_richtext_mJyfeb":{"block_order":["heading_RGTBzf"],"blocks":{"heading_RGTBzf":{"settings":{"heading":"Easy Setup And Take Down In Less Than 60 Seconds","text_size":8},"type":"heading"}},"name":"Rich text","settings":{"align_text":"text-center","bg":"palette--light bg--neutral","content_width":2000,"padding_bottom":0,"padding_top":0,"text_color":"text--neutral","width":"wrapper"},"type":"section-richtext"},"section_richtext_tiTXni":{"block_order":["heading_MhJMqr"],"blocks":{"heading_MhJMqr":{"settings":{"heading":"Order Now, Start Your Routine As Little As 4-8 Weeks","text_size":8},"type":"heading"}},"name":"Rich text","settings":{"align_text":"text-center","bg":"palette--light bg--neutral","content_width":2000,"padding_bottom":0,"padding_top":0,"text_color":"text--neutral","width":"wrapper"},"type":"section-richtext"}}}
+{
+  "order": [
+    "main",
+    "section_richtext_kFm4JH",
+    "section_pair_before_after_M3bx6p",
+    "section_image_BRi3dV",
+    "section_image_Y79zAE",
+    "section_icons_EaQ3ra",
+    "section_richtext_mJyfeb",
+    "section_gallery_VbyVqY",
+    "section_richtext_tiTXni",
+    "section_icons_bfCWkQ",
+    "section_image_xXicqd",
+    "section_richtext_Ugp77U",
+    "section_image_9e8xnF",
+    "section_richtext_DRGLXc",
+    "section_image_mJLfm8",
+    "section_richtext_aNGJYD",
+    "section_image_EJQjnw",
+    "section_pair_hotspots_accordion_iEVahc",
+    "related",
+    "section_liquid_xHAgRV",
+    "section_faq_Eg8wpH",
+    "1754313988926d1cc1",
+    "section_hero_gCWyck"
+  ],
+  "sections": {
+    "1754313988926d1cc1": {
+      "block_order": [
+        "loox_reviews_loox_dynamic_section_fCH4EF"
+      ],
+      "blocks": {
+        "loox_reviews_loox_dynamic_section_fCH4EF": {
+          "settings": {
+            "aggregated": false,
+            "hide_thumbnails": false,
+            "is_sample": true,
+            "limit": 20,
+            "maxwidth": 1080,
+            "only_photos": false
+          },
+          "type": "shopify:\/\/apps\/loox-reviews\/blocks\/loox-dynamic-section\/5c3b337f-fd14-4df5-b1d6-80ec13e6e28e"
+        }
+      },
+      "settings": {
+        "bg": "palette--light bg--neutral",
+        "padding_bottom": 36,
+        "padding_top": 36,
+        "text_color": "text--neutral",
+        "width": "wrapper"
+      },
+      "type": "apps"
+    },
+    "main": {
+      "block_order": [
+        "loox_reviews_loox_rating_d69WpQ",
+        "liquid_bFeLiB",
+        "title",
+        "liquid_3mHamf",
+        "price",
+        "liquid_UMHn3b",
+        "flex_pay_with_hsa_fsa_tiny_yjUXT3",
+        "liquid_Uwe34B",
+        "liquid_p6zEDt",
+        "icon_kgn9cV",
+        "icon_J8kUcp",
+        "icon_YgTh7b",
+        "variants",
+        "subscriptions",
+        "buttons",
+        "image_jXVfwr",
+        "text_NM68pk",
+        "description",
+        "loox_reviews_loox_snippets_widget_6NRNwF"
+      ],
+      "blocks": {
+        "buttons": {
+          "settings": {
+            "enable_gift_card_recipient": false,
+            "enable_payment_button": true,
+            "padding_bottom": 32
+          },
+          "type": "add-buttons"
+        },
+        "description": {
+          "settings": {
+            "description_expanded": false,
+            "enable_description": false,
+            "icon_description": "",
+            "icon_name_1": "",
+            "icon_name_2": "",
+            "icon_name_3": "",
+            "icon_name_4": "",
+            "icon_name_5": "",
+            "padding_bottom": 20,
+            "raw_content_1": "<p>The <strong>Elevé Reformer<\/strong> (French for “to rise”) is <strong>hand made<\/strong> and <strong>made to order<\/strong>—<strong>only fifty are crafted each month<\/strong>, making yours truly exclusive. <\/p><p>Thoughtfully assembled for total-body sculpting, smooth resistance, and silent movement, it brings the <strong>depth of a studio experience into your home.<\/strong> With every purchase you receive lifetime gifts built into your journey so <strong>you’re set for life.<\/strong> <\/p><p>Refined in its minimalist design to complement any space and built to last,<strong> this Reformer is for the woman who moves with intention and expects excellence in every detail.<\/strong><\/p>",
+            "raw_content_2": "<p>- Stunning <strong>Oak Frame<\/strong><\/p><p>- High quality, <strong>heavy use upholstery<\/strong><\/p><p>- Easily adjustable <strong>5 position foot bar<\/strong><\/p><p>- <strong>Three position<\/strong> headrest<\/p><p>- Foot strap<\/p><p>- <strong>6 commercial springs:<\/strong> 2x heavy [red], 2x   medium [blue], and 2x light [yellow]<\/p><p>- Rolls away for storage<\/p><p>- <strong>Dimensions:<\/strong> 92.52 inches (L) x 25.20 inches (W) x 10.24-14.17 inches (H)<\/p><p>- <strong>Dimensions (folded):<\/strong> 48.03 inches (L) x 25.20 inches (W) x 19.69 inches (H)<\/p>",
+            "raw_content_3": "<p><strong>*Free Shipping*<\/strong><\/p><p><strong>Each Elevé Reformer is crafted one at a time.<\/strong><br\/><br\/>Once your order is placed, it enters our bespoke production process: a meticulous<strong> 4-5 week<\/strong> journey of hand-assembly and rigorous quality checks to ensure every detail reflects our highest standard.<\/p><p>After that, your reformer is carefully packaged and shipped directly to your door with white-glove care. You’ll receive a tracking number the moment it leaves our hands, with final delivery arriving in approximately <strong>4-5 weeks <\/strong>(total time from order to your door is 8-10 weeks).<\/p><p><strong>Because luxury isn’t rushed. It’s <\/strong><em><strong>crafted.<\/strong><\/em><\/p>",
+            "raw_content_4": "",
+            "raw_content_5": "",
+            "read_more": false,
+            "style": "accordions",
+            "title_1": "Overview",
+            "title_2": "Specs",
+            "title_3": "Shipping",
+            "title_4": "",
+            "title_5": ""
+          },
+          "type": "description"
+        },
+        "flex_pay_with_hsa_fsa_tiny_yjUXT3": {
+          "settings": {
+            "alignment": "left",
+            "style": "light",
+            "text": "hsa-fsa",
+            "width": 80
+          },
+          "type": "shopify:\/\/apps\/flex-pay-with-hsa-fsa\/blocks\/tiny\/c0438c22-7b33-4278-b0c3-ef6c6b7b5f83"
+        },
+        "icon_J8kUcp": {
+          "settings": {
+            "icon_color": "#4b4b4b",
+            "icon_name": "icon-lock-card",
+            "icon_size": 16,
+            "padding_bottom": 8,
+            "text": "<p><strong>60 Day Money Back Guarantee <\/strong><\/p>"
+          },
+          "type": "icon"
+        },
+        "icon_YgTh7b": {
+          "settings": {
+            "icon_color": "#4b4b4b",
+            "icon_name": "icon-truck",
+            "icon_size": 16,
+            "padding_bottom": 16,
+            "text": "<p>Free US Shipping ($300 Value)<\/p>"
+          },
+          "type": "icon"
+        },
+        "icon_kgn9cV": {
+          "settings": {
+            "icon_color": "#4b4b4b",
+            "icon_name": "icon-award",
+            "icon_size": 16,
+            "padding_bottom": 8,
+            "text": "<p>Studio-Grade Quality <\/p>"
+          },
+          "type": "icon"
+        },
+        "image_jXVfwr": {
+          "settings": {
+            "alignment": "product__block__image--center",
+            "image": "shopify:\/\/shop_images\/Untitled_design_87.webp",
+            "image_max_limit": 500,
+            "padding_bottom": 0
+          },
+          "type": "image"
+        },
+        "liquid_3mHamf": {
+          "disabled": true,
+          "name": "Price With Badge",
+          "settings": {
+            "custom_liquid": "<div class=\"reformer-price-wrapper\">\n  <span class=\"reformer-old-price\">$2,750.00<\/span>\n  <span class=\"reformer-new-price\">$1,999.00<\/span>\n  <span class=\"reformer-save-badge\">$750 off<\/span>\n<\/div>"
+          },
+          "type": "liquid"
+        },
+        "liquid_UMHn3b": {
+          "name": "Shop Pay Installments",
+          "settings": {
+            "custom_liquid": "{% assign monthly_price = 97 %}\n{% assign total_installments = 6 %}\n<div style=\"font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif; font-size: 15px; color: #333;\">\n  {{ total_installments }} interest-free installments, or from<br>\n  <strong style=\"font-size: 16px;\">${{ monthly_price }}<\/strong>\/mo with \n  <span style=\"color: #5a31f4; font-weight: 600; margin-left: 4px;\">Shop Pay<\/span>\n<\/div>"
+          },
+          "type": "liquid"
+        },
+        "liquid_Uwe34B": {
+          "name": "Spacer",
+          "settings": {
+            "custom_liquid": "<!-- Invisible Spacer -->\n<div style=\"height: 16px;\"><\/div>"
+          },
+          "type": "liquid"
+        },
+        "liquid_bFeLiB": {
+          "name": "Spacer",
+          "settings": {
+            "custom_liquid": "<!-- Invisible Spacer -->\n<div style=\"height: 10px;\"><\/div>"
+          },
+          "type": "liquid"
+        },
+        "liquid_p6zEDt": {
+          "settings": {
+            "custom_liquid": ""
+          },
+          "type": "liquid"
+        },
+        "loox_reviews_loox_rating_d69WpQ": {
+          "settings": {
+            "alignment": "",
+            "contentSize": 16,
+            "emptyRatingWidget": false,
+            "hideText": false,
+            "layout": "",
+            "looxOpenFloatingWidget": false,
+            "pattern": "",
+            "showAllReviews": true,
+            "starColor": "",
+            "textColor": ""
+          },
+          "type": "shopify:\/\/apps\/loox-reviews\/blocks\/loox-rating\/5c3b337f-fd14-4df5-b1d6-80ec13e6e28e"
+        },
+        "loox_reviews_loox_snippets_widget_6NRNwF": {
+          "settings": {
+            "alignment": "left",
+            "background-color": "",
+            "border-color": "",
+            "border-radius": 16,
+            "color-scheme": "default",
+            "font-size": 14,
+            "hide-arrows-mobile": false,
+            "max-width": "",
+            "name-color": "",
+            "rating-icon-color": "",
+            "reviews-limit": 10,
+            "shadow": "offset-light",
+            "shadow-color": "",
+            "show-border": true,
+            "show-image": true,
+            "show-rating": true,
+            "text-color": ""
+          },
+          "type": "shopify:\/\/apps\/loox-reviews\/blocks\/loox-snippets-widget\/5c3b337f-fd14-4df5-b1d6-80ec13e6e28e"
+        },
+        "price": {
+          "settings": {
+            "padding_bottom": 0,
+            "price_size": 5
+          },
+          "type": "price"
+        },
+        "subscriptions": {
+          "settings": {
+            "padding_bottom": 20,
+            "subscriptions_enable_selectors": true
+          },
+          "type": "subscription"
+        },
+        "text_NM68pk": {
+          "name": "Spacer",
+          "settings": {
+            "padding_bottom": 12,
+            "title": "<p>‎ <\/p>"
+          },
+          "type": "text"
+        },
+        "title": {
+          "settings": {
+            "padding_bottom": 0,
+            "product_show_cutline": true,
+            "show_rating": true,
+            "show_rating_count": false,
+            "text_size": 9
+          },
+          "type": "title"
+        },
+        "variants": {
+          "settings": {
+            "option_size_radio": 54,
+            "option_size_swatch": 54,
+            "option_space": 30,
+            "padding_bottom": 30
+          },
+          "type": "variant-selectors"
+        }
+      },
+      "custom_css": [
+        ".btn--add-to-cart {background-color: #1e1a1a !important; border: 2px solid #1e1a1a !important; color: #ffffff !important;}",
+        ".btn--add-to-cart:hover {background-color: #000000 !important; border-color: #000000 !important;}"
+      ],
+      "settings": {
+        "align": "left",
+        "alt_text_enable": false,
+        "alt_text_icon": "icon-ruler",
+        "bg": "palette--light bg--neutral",
+        "enable_video_looping": true,
+        "image_spacing": 10,
+        "image_width": "half",
+        "layout": "thumbnails-below@slides",
+        "mobile_layout": "thumbs",
+        "padding_bottom": 36,
+        "padding_top": 10,
+        "product_breadcrumbs_enable": false,
+        "product_breadcrumbs_list": [],
+        "width": "wrapper--full",
+        "zoom_enable": false
+      },
+      "type": "product"
+    },
+    "related": {
+      "disabled": true,
+      "settings": {
+        "bg": "section bg--neutral",
+        "grid_large": 4,
+        "grid_medium": 3,
+        "grid_small": 1.2,
+        "heading": "You might also like",
+        "limit": 8,
+        "padding_bottom": 36,
+        "padding_top": 36,
+        "product_recently_heading": "Recently viewed",
+        "product_recently_limit": 6,
+        "product_recently_minimum": 3,
+        "product_recommendations_heading": "Related products",
+        "related_products_enable": true,
+        "show_recently_viewed": false,
+        "width": "wrapper"
+      },
+      "type": "related"
+    },
+    "section_faq_Eg8wpH": {
+      "block_order": [
+        "text_LiLy8M",
+        "text_UkUUfp",
+        "text_hhFk4A",
+        "text_WH9ARM",
+        "text_Vhzeme",
+        "text_Y4Ky8z",
+        "text_fbmrLn",
+        "text_EQAyTi",
+        "text_kMtN9k"
+      ],
+      "blocks": {
+        "text_EQAyTi": {
+          "settings": {
+            "content": "<p>Yes! When you move with Elevé, you <strong>activate deep core muscles, sculpt long, lean lines, and lift and define<\/strong> areas traditional workouts often miss.<br\/><br\/>Our system is designed around <strong>scientifically proven Pilates principles<\/strong>, with beginner-friendly routines to get you visible results faster — even in just <strong>20–30 minutes a day.<\/strong><\/p>",
+            "title": "Will I actually see results from using this?"
+          },
+          "type": "text"
+        },
+        "text_LiLy8M": {
+          "settings": {
+            "content": "<p><strong>For the busy mom who does it all, and still wants to feel strong, calm, and like herself again.<\/strong><\/p><p>Elevé fits into <em>your<\/em> life: no rigid class times, no driving, no stress. Just 15 quiet minutes a day to reconnect with your body and mind, right at home.<\/p><p><strong>Because when you're thriving, your whole family feels it.<\/strong><\/p><p>This isn’t just a reformer. It’s your return to <em>you<\/em>.<\/p>",
+            "title": "Who is the Elevé for?"
+          },
+          "type": "text"
+        },
+        "text_UkUUfp": {
+          "settings": {
+            "content": "<p>Health Savings Accounts (HSAs) and Flexible Spending Accounts (FSAs) offer tax advantages for <strong>health-related expenses.<\/strong> The key difference is ownership—FSAs are employer-owned and typically “use it or lose it,” meaning unused funds expire yearly. HSAs, however, are individually owned, staying with you through job changes and allowing self-employed individuals to open one. Unlike FSAs, HSA funds can be invested and grow tax-free over time, making them a flexible long-term option for managing healthcare costs.<\/p>",
+            "title": "What is an FSA or HSA and what are the benefits?"
+          },
+          "type": "text"
+        },
+        "text_Vhzeme": {
+          "settings": {
+            "content": "<p>Elevé is sleek, foldable, and surprisingly compact. In use, it’s studio-grade. When stored, it disappears beautifully. <strong>Perfect for bedrooms, living rooms, or serene corners of your home <\/strong>where you can easily align the reformer against the wall.<\/p>",
+            "title": "Will it fit in my space?"
+          },
+          "type": "text"
+        },
+        "text_WH9ARM": {
+          "settings": {
+            "content": "<p><strong>Yes, <\/strong>it arrives 85% assembled, with minimal setup required. We believe luxury should feel effortless, and Elevé is <strong>ready for ritual right out of the box.<\/strong><\/p>",
+            "title": "Does it come fully assembled?"
+          },
+          "type": "text"
+        },
+        "text_Y4Ky8z": {
+          "settings": {
+            "content": "<p>Your Elevé Reformer comes with:<\/p><ul><li><strong>The full Elevé Reformer<\/strong><\/li><li><strong>Padded box & Jumpboard<\/strong><\/li><li><strong>Premium Siluet Era Kit (ball, circle, and 2lb Pilates weights)<\/strong><\/li><li><strong>Access to our signature 30-day guided program<\/strong><\/li><li><strong>Free shipping<\/strong><\/li><\/ul>",
+            "title": "What's included with my purchase?"
+          },
+          "type": "text"
+        },
+        "text_fbmrLn": {
+          "settings": {
+            "content": "<p>We offer a 6<strong>0-day trial. <\/strong>If it’s not a match, we’ll make it right — no stress, no guilt. But we think you’ll fall in love.<\/p>",
+            "title": "Whats's the return policy?"
+          },
+          "type": "text"
+        },
+        "text_hhFk4A": {
+          "settings": {
+            "content": "<p><strong>Yes, and we encourage you to use it.<\/strong><br\/>You can split your purchase into 6 interest-free payments or <strong>$97\/month<\/strong> with Shop Pay — <strong>less than most studio memberships.<\/strong><\/p>",
+            "title": "Is there a payment plan?"
+          },
+          "type": "text"
+        },
+        "text_kMtN9k": {
+          "settings": {
+            "content": "<p>Your Elevé will be <strong>professionally packaged, padded, and protected<\/strong> to ensure it arrives in perfect condition.<br\/><br\/>We partner with trusted carriers for secure freight delivery and in just <strong>8-10 weeks<\/strong> you will have a <em>lifelong partner<\/em>!<\/p>",
+            "title": "Will my Elevé arrive safely?"
+          },
+          "type": "text"
+        }
+      },
+      "disabled": true,
+      "name": "Accordion group",
+      "settings": {
+        "bg": "palette--light bg--neutral",
+        "heading_size": 6,
+        "padding_bottom": 36,
+        "padding_top": 36,
+        "text_color": "text--neutral",
+        "text_size": 5,
+        "title": "FAQ",
+        "title_align": "text-left",
+        "title_size": 12,
+        "width": "wrapper"
+      },
+      "type": "section-faq"
+    },
+    "section_gallery_VbyVqY": {
+      "block_order": [
+        "image_rjNNC7",
+        "image_beXzTk",
+        "image_kw8atA"
+      ],
+      "blocks": {
+        "image_beXzTk": {
+          "settings": {
+            "image": "shopify:\/\/shop_images\/3_acb9418b-7b8f-4f51-9d7f-f56965ac829f.png",
+            "link": ""
+          },
+          "type": "image"
+        },
+        "image_kw8atA": {
+          "settings": {
+            "image": "shopify:\/\/shop_images\/AdobeStock_617941816.webp",
+            "link": ""
+          },
+          "type": "image"
+        },
+        "image_rjNNC7": {
+          "settings": {
+            "image": "shopify:\/\/shop_images\/OnyxBarrel3.webp",
+            "link": ""
+          },
+          "type": "image"
+        }
+      },
+      "name": "Gallery",
+      "settings": {
+        "add_gutters": true,
+        "bg": "palette--light bg--neutral",
+        "grid_large": 3,
+        "grid_medium": 2,
+        "grid_mobile": 1,
+        "padding_bottom": 36,
+        "padding_top": 36,
+        "progress_bar": "mobile",
+        "scale_image": false,
+        "wh_ratio": 1,
+        "width": "wrapper"
+      },
+      "type": "section-gallery"
+    },
+    "section_hero_gCWyck": {
+      "block_order": [
+        "heading_LhxLwk",
+        "button_Gwme4W"
+      ],
+      "blocks": {
+        "button_Gwme4W": {
+          "settings": {
+            "button_color_1": "btn--primary",
+            "button_color_2": "btn--white",
+            "button_color_3": "btn--white",
+            "button_size_1": "btn--large",
+            "button_size_2": "btn--long",
+            "button_size_3": "btn--long",
+            "button_style_1": "btn",
+            "button_style_2": "btn-text-thick-line",
+            "button_style_3": "btn-text-thick-line",
+            "link_1": "",
+            "link_2": "",
+            "link_3": "",
+            "link_text_1": "Experience Siluet",
+            "link_text_2": "",
+            "link_text_3": ""
+          },
+          "type": "button"
+        },
+        "heading_LhxLwk": {
+          "settings": {
+            "text_size": 8,
+            "title": "Try It Risk-Free For 60 Days"
+          },
+          "type": "heading"
+        }
+      },
+      "name": "Image banner",
+      "settings": {
+        "color_bg": "hero__content--transparent",
+        "content_width": 2000,
+        "enable_overlay_text": false,
+        "height": "use_image",
+        "image": "shopify:\/\/shop_images\/image_12.png",
+        "overlay_color": "#000000",
+        "overlay_opacity": 0,
+        "padding_bottom": 0,
+        "padding_top": 0,
+        "preload_image": false,
+        "text_align": "align--middle-center",
+        "text_color": "text--white",
+        "width": "wrapper--none"
+      },
+      "type": "section-hero"
+    },
+    "section_icons_EaQ3ra": {
+      "block_order": [
+        "icon_block_QFwbHh",
+        "icon_block_xxBTaV",
+        "icon_block_RLgjDU"
+      ],
+      "blocks": {
+        "icon_block_QFwbHh": {
+          "settings": {
+            "icon_alt": "shopify:\/\/shop_images\/Rectangle_54_1.webp",
+            "icon_color": "#aaaaaa",
+            "icon_name": "icon-basket-return",
+            "link_text": "",
+            "link_url": "",
+            "text": "<p>Instead of paying $40+ per class or $3-4,000\/year for spots you can't even book, busy moms are getting results with a reformer that replaces the studio chaos<\/p>",
+            "title": "Ditch The Expensive Classes That Don’t Get Results"
+          },
+          "type": "icon_block"
+        },
+        "icon_block_RLgjDU": {
+          "settings": {
+            "icon_alt": "shopify:\/\/shop_images\/Rectangle_54_3.webp",
+            "icon_color": "#aaaaaa",
+            "icon_name": "icon-phone",
+            "link_text": "",
+            "link_url": "",
+            "text": "<p>Say goodbye to one-off classes and inconsistency. You're not chasing motivation that comes and goes, you're building an unbreakable habit with a reformer that removes every excuse. And that consistency turns effort into transformation.<\/p>",
+            "title": "Get Real Results From A Consistent Routine"
+          },
+          "type": "icon_block"
+        },
+        "icon_block_xxBTaV": {
+          "settings": {
+            "icon_alt": "shopify:\/\/shop_images\/Rectangle_54_2.webp",
+            "icon_color": "#aaaaaa",
+            "icon_name": "icon-shipment-world",
+            "link_text": "",
+            "link_url": "",
+            "text": "<p>Instead of needing hour-long blocks and a dedicated room, you're unfolding your Elevé in under 60 seconds and working out in life's small gap<\/p>",
+            "title": "Workout When\/How You Want In Seconds"
+          },
+          "type": "icon_block"
+        }
+      },
+      "name": "Icon columns",
+      "settings": {
+        "align_text": "text-left",
+        "bg": "palette--light bg--neutral",
+        "icon_alignment": "icon--left",
+        "icons_size": 30,
+        "layout": "grid--stacked",
+        "padding_bottom": 36,
+        "padding_top": 36,
+        "title": "",
+        "width": "wrapper"
+      },
+      "type": "section-icons"
+    },
+    "section_icons_bfCWkQ": {
+      "block_order": [
+        "icon_block_Bc9wKC",
+        "icon_block_X8AxTU",
+        "icon_block_Xw4tbt",
+        "icon_block_YGVrzn",
+        "icon_block_KYKngi",
+        "icon_block_zabhKT"
+      ],
+      "blocks": {
+        "icon_block_Bc9wKC": {
+          "settings": {
+            "icon_alt": "shopify:\/\/shop_images\/New_Project_2.webp",
+            "icon_color": "#aaaaaa",
+            "icon_name": "icon-basket-return",
+            "link_text": "",
+            "link_url": "",
+            "text": "<p>Receive Order Confirmation Via Email<\/p>",
+            "title": "Order Confirmation"
+          },
+          "type": "icon_block"
+        },
+        "icon_block_KYKngi": {
+          "settings": {
+            "icon_color": "#000000",
+            "icon_name": "icon-shipment",
+            "link_text": "",
+            "link_url": "",
+            "text": "",
+            "title": "Arrives At Home"
+          },
+          "type": "icon_block"
+        },
+        "icon_block_X8AxTU": {
+          "settings": {
+            "icon_alt": "shopify:\/\/shop_images\/New_Project_3.webp",
+            "icon_color": "#aaaaaa",
+            "icon_name": "icon-shipment-world",
+            "link_text": "",
+            "link_url": "",
+            "text": "<p>Start Construction On Your Reformer (1-2 Weeks)<\/p>",
+            "title": "Made To Order"
+          },
+          "type": "icon_block"
+        },
+        "icon_block_Xw4tbt": {
+          "settings": {
+            "icon_alt": "shopify:\/\/shop_images\/New_Project_4.webp",
+            "icon_color": "#aaaaaa",
+            "icon_name": "icon-phone",
+            "link_text": "",
+            "link_url": "",
+            "text": "<p>Receive Tracking Email(1-2 Weeks)<\/p>",
+            "title": "Tracking Email"
+          },
+          "type": "icon_block"
+        },
+        "icon_block_YGVrzn": {
+          "settings": {
+            "icon_alt": "shopify:\/\/shop_images\/New_Project_5.webp",
+            "icon_color": "#aaaaaa",
+            "icon_name": "icon-phone",
+            "link_text": "",
+            "link_url": "",
+            "text": "<p>Shipped Reformer, Delivery in 2-4 Weeks<\/p>",
+            "title": "Shipped"
+          },
+          "type": "icon_block"
+        },
+        "icon_block_zabhKT": {
+          "settings": {
+            "icon_color": "#000000",
+            "icon_name": "icon-basket-return",
+            "link_text": "",
+            "link_url": "",
+            "text": "",
+            "title": "60-Day Retunrs"
+          },
+          "type": "icon_block"
+        }
+      },
+      "custom_css": [
+        "@media (max-width: 750px) {.float-grid.grid--stacked.grid--uniform {display: flex; flex-wrap: wrap; align-content: center; align-items: center; } .grid__item.medium-up--one-third.small--one-third.text-center {width: 50%; }}"
+      ],
+      "name": "Icon columns",
+      "settings": {
+        "align_text": "text-center",
+        "bg": "palette--light bg--neutral",
+        "icon_alignment": "icon--top",
+        "icons_size": 80,
+        "layout": "grid--stacked",
+        "padding_bottom": 36,
+        "padding_top": 36,
+        "title": "",
+        "width": "wrapper"
+      },
+      "type": "section-icons"
+    },
+    "section_image_9e8xnF": {
+      "name": "Image",
+      "settings": {
+        "color_bg": "palette--light bg--neutral",
+        "image": "shopify:\/\/shop_images\/Screenshot_2025-10-28_201453.png",
+        "max_width": 100,
+        "padding_bottom": 36,
+        "padding_top": 36,
+        "width": "wrapper--none",
+        "x_align": "center"
+      },
+      "type": "section-image"
+    },
+    "section_image_BRi3dV": {
+      "disabled": true,
+      "name": "Image",
+      "settings": {
+        "color_bg": "palette--light bg--neutral",
+        "image": "shopify:\/\/shop_images\/8d2c526b-26db-4b25-863e-5fae85b57f90.png",
+        "max_width": 100,
+        "padding_bottom": 0,
+        "padding_top": 0,
+        "width": "wrapper--none",
+        "x_align": "center"
+      },
+      "type": "section-image"
+    },
+    "section_image_EJQjnw": {
+      "name": "Image",
+      "settings": {
+        "color_bg": "palette--light bg--neutral",
+        "image": "shopify:\/\/shop_images\/Screenshot_2025-10-28_203921.png",
+        "max_width": 100,
+        "padding_bottom": 0,
+        "padding_top": 36,
+        "width": "wrapper--full",
+        "x_align": "center"
+      },
+      "type": "section-image"
+    },
+    "section_image_Y79zAE": {
+      "disabled": true,
+      "name": "Image",
+      "settings": {
+        "color_bg": "palette--light bg--neutral",
+        "image": "shopify:\/\/shop_images\/Gauranteed_giftz.webp",
+        "max_width": 100,
+        "padding_bottom": 36,
+        "padding_top": 36,
+        "width": "wrapper--none",
+        "x_align": "center"
+      },
+      "type": "section-image"
+    },
+    "section_image_mJLfm8": {
+      "name": "Image",
+      "settings": {
+        "color_bg": "palette--light bg--neutral",
+        "image": "shopify:\/\/shop_images\/Easily_folded_1.png",
+        "max_width": 100,
+        "padding_bottom": 0,
+        "padding_top": 0,
+        "width": "wrapper--none",
+        "x_align": "center"
+      },
+      "type": "section-image"
+    },
+    "section_image_xXicqd": {
+      "disabled": true,
+      "name": "Image",
+      "settings": {
+        "color_bg": "palette--light bg--neutral",
+        "image": "shopify:\/\/shop_images\/ff8c35b7-0958-40c7-94a5-7340dc4d8d0f.png",
+        "max_width": 100,
+        "padding_bottom": 36,
+        "padding_top": 36,
+        "width": "wrapper",
+        "x_align": "center"
+      },
+      "type": "section-image"
+    },
+    "section_liquid_xHAgRV": {
+      "name": "Custom Liquid",
+      "settings": {
+        "custom_liquid": "<div style=\"background-color: #1E1A1A; color: #FDFBF7; text-align: center; padding: 3 0; font-size: 14.6px; letter-spacing: 1.1px; font-family: 'Playfair Display', serif;\">\n\n<\/div>"
+      },
+      "type": "section-liquid"
+    },
+    "section_pair_before_after_M3bx6p": {
+      "blocks": {
+        "before-after": {
+          "blocks": {},
+          "settings": {
+            "after_image": "shopify:\/\/shop_images\/8d2c526b-26db-4b25-863e-5fae85b57f90.png",
+            "before_image": "shopify:\/\/shop_images\/8d2c526b-26db-4b25-863e-5fae85b57f90.png",
+            "handle_color": "#ffffff",
+            "orientation": "horizontal",
+            "start_position": 50
+          },
+          "static": true,
+          "type": "_pair-before-after"
+        },
+        "text": {
+          "block_order": [
+            "theme_group_TnWcjE"
+          ],
+          "blocks": {
+            "theme_group_TnWcjE": {
+              "block_order": [
+                "theme_text_richtext_4rBdPW"
+              ],
+              "blocks": {
+                "theme_text_richtext_4rBdPW": {
+                  "blocks": {},
+                  "name": "Text: Rich text",
+                  "settings": {
+                    "font_family": "body",
+                    "max_width": 550,
+                    "text": "<h4>How<strong> Busy Mom’s<\/strong> Are Getting In The <strong>Best Shape Of Their Lives <\/strong>With The Elevé Reformer<\/h4>",
+                    "text_size": 5
+                  },
+                  "type": "theme-text-richtext"
+                }
+              },
+              "settings": {
+                "alignment": "start",
+                "flow": "row",
+                "gap": "sm"
+              },
+              "type": "theme-group"
+            }
+          },
+          "settings": {
+            "bg_color": "",
+            "gap": "sm",
+            "horizontal_placement": "start",
+            "text_color": "text--neutral",
+            "vertical_placement": "center"
+          },
+          "static": true,
+          "type": "_pair-content"
+        }
+      },
+      "custom_css": [
+        "@media only screen and (max-width: 767px) {.brick__section--reverse {flex-direction: column; text-align: center !important; }}"
+      ],
+      "name": "Pair: Before\/After & Text",
+      "settings": {
+        "bg_color": "",
+        "borders": false,
+        "brick_gutter": 0,
+        "height": "use_screen_one_half",
+        "order": "text-first",
+        "padding_bottom": 36,
+        "padding_top": 36,
+        "width": "wrapper"
+      },
+      "type": "section-pair-before-after"
+    },
+    "section_pair_hotspots_accordion_iEVahc": {
+      "blocks": {
+        "accordion": {
+          "block_order": [
+            "pair_accordion_item_CKyMm6",
+            "pair_accordion_item_te6wYy",
+            "pair_accordion_item_CBMWTa",
+            "pair_accordion_item_Kpe7Dd"
+          ],
+          "blocks": {
+            "pair_accordion_item_CBMWTa": {
+              "block_order": [
+                "theme_text_m4UVKL"
+              ],
+              "blocks": {
+                "theme_text_m4UVKL": {
+                  "blocks": {},
+                  "settings": {
+                    "font_family": "body",
+                    "max_width": 550,
+                    "text": "Using only the finest inputs, we are able to craft a result that stands apart. The details matter and we put time and effort into ensuring our customers get the best.",
+                    "text_size": 4
+                  },
+                  "type": "theme-text"
+                }
+              },
+              "settings": {
+                "gap": "sm",
+                "title": "Premium inputs, quality product"
+              },
+              "type": "_pair-accordion-item"
+            },
+            "pair_accordion_item_CKyMm6": {
+              "block_order": [
+                "theme_text_q397e9"
+              ],
+              "blocks": {
+                "theme_text_q397e9": {
+                  "blocks": {},
+                  "settings": {
+                    "font_family": "body",
+                    "max_width": 550,
+                    "text": "Crafted with precision and attention to detail, we ensure excellence. Designed to meet the highest standards, ensuring an exceptional experience every time.",
+                    "text_size": 4
+                  },
+                  "type": "theme-text"
+                }
+              },
+              "settings": {
+                "gap": "sm",
+                "title": "The highest quality"
+              },
+              "type": "_pair-accordion-item"
+            },
+            "pair_accordion_item_Kpe7Dd": {
+              "block_order": [
+                "theme_text_TXhRn8"
+              ],
+              "blocks": {
+                "theme_text_TXhRn8": {
+                  "blocks": {},
+                  "settings": {
+                    "font_family": "body",
+                    "max_width": 550,
+                    "text": "Use this accordion to share simple text or unleash your creativity with buttons, images, and layout blocks. Experiment with custom designs to make your content stand out and engage your customers",
+                    "text_size": 4
+                  },
+                  "type": "theme-text"
+                }
+              },
+              "name": "Accordion Item",
+              "settings": {
+                "gap": "sm",
+                "title": ""
+              },
+              "type": "_pair-accordion-item"
+            },
+            "pair_accordion_item_te6wYy": {
+              "block_order": [
+                "theme_text_ciPD8r"
+              ],
+              "blocks": {
+                "theme_text_ciPD8r": {
+                  "blocks": {},
+                  "settings": {
+                    "font_family": "body",
+                    "max_width": 550,
+                    "text": "Made to perform when it matters most, we offer quality that you can count on. Tested and proven to deliver consistent results, it's made for everyday use and beyond.",
+                    "text_size": 4
+                  },
+                  "type": "theme-text"
+                }
+              },
+              "settings": {
+                "gap": "sm",
+                "title": "Reliability you can trust"
+              },
+              "type": "_pair-accordion-item"
+            },
+            "title": {
+              "block_order": [
+                "theme_kicker_QixWDK",
+                "theme_spacer_kh6axi"
+              ],
+              "blocks": {
+                "theme_kicker_QixWDK": {
+                  "blocks": {},
+                  "settings": {
+                    "enable_line": true,
+                    "kicker": "Key Features",
+                    "text_size": 4
+                  },
+                  "type": "theme-kicker"
+                },
+                "theme_spacer_kh6axi": {
+                  "blocks": {},
+                  "settings": {
+                    "line_color": "#000000",
+                    "line_stroke": 0,
+                    "line_width": "full",
+                    "spacer_padding": 0
+                  },
+                  "type": "theme-spacer"
+                }
+              },
+              "disabled": true,
+              "settings": {
+                "alignment": "start",
+                "gap": "md"
+              },
+              "static": true,
+              "type": "_pair-title"
+            }
+          },
+          "settings": {
+            "bg_color": "",
+            "font_family": "accent",
+            "font_weight": "normal",
+            "text_color": "text--neutral",
+            "text_size": 4
+          },
+          "static": true,
+          "type": "_pair-accordion"
+        },
+        "hotspots": {
+          "block_order": [
+            "pair_hotspot_HbW7GV",
+            "pair_hotspot_DVbfac",
+            "pair_hotspot_NENFU9"
+          ],
+          "blocks": {
+            "pair_hotspot_DVbfac": {
+              "blocks": {},
+              "settings": {
+                "left": 55,
+                "left_mobile": 55,
+                "top": 55,
+                "top_mobile": 55
+              },
+              "type": "_pair-hotspots-hotspot"
+            },
+            "pair_hotspot_HbW7GV": {
+              "blocks": {},
+              "settings": {
+                "left": 25,
+                "left_mobile": 30,
+                "top": 45,
+                "top_mobile": 45
+              },
+              "type": "_pair-hotspots-hotspot"
+            },
+            "pair_hotspot_NENFU9": {
+              "blocks": {},
+              "settings": {
+                "left": 75,
+                "left_mobile": 75,
+                "top": 76,
+                "top_mobile": 60
+              },
+              "type": "_pair-hotspots-hotspot"
+            }
+          },
+          "settings": {},
+          "static": true,
+          "type": "_pair-hotspots"
+        }
+      },
+      "disabled": true,
+      "settings": {
+        "bg_color": "",
+        "borders": false,
+        "brick_gutter": 0,
+        "dot_color": "palette--light bg--neutral",
+        "duration": 5,
+        "image": "{{ product.featured_image }}",
+        "order": "accordion-first",
+        "padding_bottom": 36,
+        "padding_top": 36,
+        "width": "wrapper"
+      },
+      "type": "section-pair-hotspots-accordion"
+    },
+    "section_richtext_DRGLXc": {
+      "block_order": [
+        "text_eFXnmY"
+      ],
+      "blocks": {
+        "text_eFXnmY": {
+          "settings": {
+            "text": "<h4>The Elevé Transformer<\/h4>",
+            "text_columns": 1,
+            "text_size": 4
+          },
+          "type": "text"
+        }
+      },
+      "name": "Rich text",
+      "settings": {
+        "align_text": "text-center",
+        "bg": "palette--light bg--neutral",
+        "content_width": 2000,
+        "padding_bottom": 0,
+        "padding_top": 0,
+        "text_color": "text--neutral",
+        "width": "wrapper"
+      },
+      "type": "section-richtext"
+    },
+    "section_richtext_Ugp77U": {
+      "block_order": [
+        "text_yaYK83"
+      ],
+      "blocks": {
+        "text_yaYK83": {
+          "settings": {
+            "text": "<h3>Elevé VS. Others<\/h3>",
+            "text_columns": 1,
+            "text_size": 3
+          },
+          "type": "text"
+        }
+      },
+      "name": "Rich text",
+      "settings": {
+        "align_text": "text-center",
+        "bg": "palette--light bg--neutral",
+        "content_width": 2000,
+        "padding_bottom": 0,
+        "padding_top": 0,
+        "text_color": "text--neutral",
+        "width": "wrapper"
+      },
+      "type": "section-richtext"
+    },
+    "section_richtext_aNGJYD": {
+      "block_order": [
+        "text_Hp9P6G",
+        "text_WGBYaW"
+      ],
+      "blocks": {
+        "text_Hp9P6G": {
+          "settings": {
+            "text": "<h6>Real Women. Real Results.<\/h6>",
+            "text_columns": 1,
+            "text_size": 1
+          },
+          "type": "text"
+        },
+        "text_WGBYaW": {
+          "settings": {
+            "text": "<h3>See How <strong>Women 30+ Changed Their Lives<\/strong> With Siluet<\/h3>",
+            "text_columns": 1,
+            "text_size": 4
+          },
+          "type": "text"
+        }
+      },
+      "name": "Rich text",
+      "settings": {
+        "align_text": "text-center",
+        "bg": "palette--light bg--neutral",
+        "content_width": 2000,
+        "padding_bottom": 0,
+        "padding_top": 36,
+        "text_color": "text--neutral",
+        "width": "wrapper"
+      },
+      "type": "section-richtext"
+    },
+    "section_richtext_kFm4JH": {
+      "block_order": [
+        "text_cyCNd3"
+      ],
+      "blocks": {
+        "text_cyCNd3": {
+          "settings": {
+            "text": "<h4>How<strong> Busy Mom’s<\/strong> Are Getting In The <strong>Best Shape Of Their Lives <\/strong>With The Elevé Reformer<\/h4>",
+            "text_columns": 1,
+            "text_size": 4
+          },
+          "type": "text"
+        }
+      },
+      "disabled": true,
+      "name": "Rich text",
+      "settings": {
+        "align_text": "text-center",
+        "bg": "palette--light bg--neutral",
+        "content_width": 2000,
+        "padding_bottom": 0,
+        "padding_top": 0,
+        "text_color": "text--neutral",
+        "width": "wrapper"
+      },
+      "type": "section-richtext"
+    },
+    "section_richtext_mJyfeb": {
+      "block_order": [
+        "heading_RGTBzf"
+      ],
+      "blocks": {
+        "heading_RGTBzf": {
+          "settings": {
+            "heading": "Easy Setup And Take Down In Less Than 60 Seconds",
+            "text_size": 8
+          },
+          "type": "heading"
+        }
+      },
+      "name": "Rich text",
+      "settings": {
+        "align_text": "text-center",
+        "bg": "palette--light bg--neutral",
+        "content_width": 2000,
+        "padding_bottom": 0,
+        "padding_top": 0,
+        "text_color": "text--neutral",
+        "width": "wrapper"
+      },
+      "type": "section-richtext"
+    },
+    "section_richtext_tiTXni": {
+      "block_order": [
+        "heading_MhJMqr"
+      ],
+      "blocks": {
+        "heading_MhJMqr": {
+          "settings": {
+            "heading": "Order Now, Start Your Routine As Little As 4-8 Weeks",
+            "text_size": 8
+          },
+          "type": "heading"
+        }
+      },
+      "name": "Rich text",
+      "settings": {
+        "align_text": "text-center",
+        "bg": "palette--light bg--neutral",
+        "content_width": 2000,
+        "padding_bottom": 0,
+        "padding_top": 0,
+        "text_color": "text--neutral",
+        "width": "wrapper"
+      },
+      "type": "section-richtext"
+    }
+  }
+}

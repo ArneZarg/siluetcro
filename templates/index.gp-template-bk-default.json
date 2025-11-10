@@ -1,1 +1,679 @@
-{"order":["section_double_nqdtML","hero","logos","section_text_spotlight_XFbBCT","section_image_hxHTD6","section_gallery_text_x4gPTi","section_icons_Bdjdfd","section_collection_3WBxBb","1754199027eb9d83c3","section_blog_h8XWnm","section_image_Mx4nbC","section_richtext_wcanFf","section_gallery_r8eJzX","section_pair_before_after_HCbaKp","section_faq_y38K36","section_hero_mkbMhd","1758013167f3644696"],"sections":{"1754199027eb9d83c3":{"block_order":["loox_reviews_loox_dynamic_carousel_TVWNnt"],"blocks":{"loox_reviews_loox_dynamic_carousel_TVWNnt":{"settings":{"autoplay":false,"autoplay-delay":5,"corner-radius":8,"items-per-view":2,"items-per-view-mobile":3,"main-color":"#1e1a1a","max-characters":180,"product-ids":"","quote-marks-icon":"style-1","quote-marks-icon-color":"","review-background-color":"","reviewer-name-color":"","show-review-text":true,"stars-color":"#ffc107","text-color":"","verified-badge-color":"#66ceaa"},"type":"shopify://apps/loox-reviews/blocks/loox-dynamic-carousel/5c3b337f-fd14-4df5-b1d6-80ec13e6e28e"}},"settings":{"bg":"palette--light bg--neutral","padding_bottom":36,"padding_top":36,"text_color":"text--neutral","width":"wrapper"},"type":"apps"},"1758013167f3644696":{"settings":{},"type":"_blocks"},"hero":{"block_order":["banner-kicker","banner-heading","banner-text","banner-button"],"blocks":{"banner-button":{"settings":{"button_color_1":"btn--white","button_color_2":"btn--neutral","button_color_3":"btn--white","button_size_1":"btn--long","button_size_2":"btn--long","button_size_3":"btn--long","button_style_1":"btn","button_style_2":"btn-text-thick-line","button_style_3":"btn-text-thick-line","link_1":"shopify://collections/products","link_2":"shopify://pages/contact","link_3":"","link_text_1":"Shop Wellness Staples","link_text_2":"","link_text_3":""},"type":"button"},"banner-heading":{"settings":{"text_size":11,"title":"The Body You Crave. The Energy You Deserve."},"type":"heading"},"banner-kicker":{"settings":{"enable_line":true,"kicker":"Siluet","text_size":3},"type":"kicker"},"banner-text":{"settings":{"richtext":"\u003cp\u003e\u003cem\u003eLuxury Wellness for women in motion\u003c/em\u003e\u003c/p\u003e","text_size":6},"type":"text"}},"settings":{"color_bg":"hero__content--transparent","content_width":2000,"enable_overlay_text":true,"height":"use_screen_one_third","image":"shopify://shop_images/Untitled_design_86_1.webp","overlay_color":"#ffffff","overlay_opacity":100,"padding_bottom":0,"padding_top":0,"preload_image":true,"text_align":"align--middle-center","text_color":"text--neutral","width":"wrapper--none"},"type":"section-hero"},"logos":{"block_order":["logo-0","logo-1","logo-2","logo-3","logo-4"],"blocks":{"logo-0":{"settings":{"image":"shopify://shop_images/5_1.webp","link":"","new_tab":false,"spacing":15,"width":50},"type":"logo_image"},"logo-1":{"settings":{"image":"shopify://shop_images/2_4fa4fca5-1fb4-4a72-ba57-ff6f11187088.webp","link":"","new_tab":false,"spacing":15,"width":50},"type":"logo_image"},"logo-2":{"settings":{"image":"shopify://shop_images/4_3e6916de-e61d-49d8-9972-f7b164d05980.webp","link":"","new_tab":false,"spacing":15,"width":50},"type":"logo_image"},"logo-3":{"settings":{"image":"shopify://shop_images/gempages_567635487360025509-13578041-d466-4f3a-81df-13f46b718a47.png","link":"","new_tab":true,"spacing":15,"width":50},"type":"logo_image"},"logo-4":{"settings":{"image":"shopify://shop_images/6_1.webp","link":"","new_tab":false,"spacing":15,"width":50},"type":"logo_image"}},"name":"Scrolling logo marquee","settings":{"bg":"palette--bright bg--bright--accent","enable_marquee":true,"marquee_speed":30,"padding_bottom":0,"padding_top":0,"title":"","width":"wrapper--none"},"type":"section-logos"},"section_blog_h8XWnm":{"name":"Blog posts","settings":{"bg":"palette--light bg--neutral","button_style":"btn--outline","color":"text--white","grid_large":3,"grid_medium":2,"grid_mobile":1.2,"homepage_blog":"the-siluet-edit","homepage_blog_count":6,"padding_bottom":36,"padding_top":36,"progress_bar":"mobile","show_author":true,"show_date":true,"show_link":true,"show_preview":false,"show_tags":true,"show_view_all":false,"title":"The Siluet Edit","wh_ratio":1.7,"width":"wrapper"},"type":"section-blog"},"section_collection_3WBxBb":{"name":"Product grid","settings":{"bg":"palette--bright bg--bright--accent","collection":"products","grid":3,"grid_mobile":"2","padding_bottom":36,"padding_top":36,"rows":1,"show_view_all":false,"title":"Wellness Staples","width":"wrapper"},"type":"section-collection"},"section_double_nqdtML":{"block_order":["text_8LmCDQ","image_ENkPQR"],"blocks":{"image_ENkPQR":{"settings":{"button_color":"btn--white","button_style":"btn","enable_overlay_text":false,"kicker":"","link":"","link_text":"Shop Now","overlay_color":"#000000","overlay_opacity":15,"richtext":"","text_align":"align--middle-center","text_color":"text--white","title":""},"type":"image"},"text_8LmCDQ":{"settings":{"align_text":"text-left","bg_color":"","button_color":"btn--neutral","button_style":"btn-text-thick-line","button_text":"","button_url":"","font_size":5,"kicker":"","text":"\u003ch3\u003eThe Pilates Studio ExperienceIn The Comfort Of Your Home\u003c/h3\u003e\u003cp\u003e\u003cbr/\u003eExperience the benefits of pilates at home for a fraction of the cost. Say goodbye to expensive classes that fail to get you toned. Say hello to your new daily exercise routine and get in the best shape of your life.\u003c/p\u003e","text_color":"text--neutral","text_columns":1,"title":""},"type":"text"}},"name":"Image with text","settings":{"bg_color":"","borders":false,"brick_gutter":0,"height":"use_screen_one_half","padding_bottom":36,"padding_top":36,"preload_image":false,"width":"wrapper"},"type":"section-double"},"section_faq_y38K36":{"block_order":["text_hdMwVm","text_jaLQ34","text_echjet"],"blocks":{"text_echjet":{"settings":{"content":"\u003cp\u003eShare details about your shipping policies, item returns, or customer service.\u003c/p\u003e","title":"Frequently asked question"},"type":"text"},"text_hdMwVm":{"settings":{"content":"\u003cp\u003eShare details about your shipping policies, item returns, or customer service.\u003c/p\u003e","title":"Frequently asked question"},"type":"text"},"text_jaLQ34":{"settings":{"content":"\u003cp\u003eShare details about your shipping policies, item returns, or customer service.\u003c/p\u003e","title":"Frequently asked question"},"type":"text"}},"name":"Accordion group","settings":{"bg":"palette--dark bg--invert","heading_size":5,"padding_bottom":36,"padding_top":36,"text_color":"text--white","text_size":5,"title":"Frequently Asked Questions","title_align":"text-center","title_size":7,"width":"wrapper"},"type":"section-faq"},"section_gallery_r8eJzX":{"block_order":["image_8i7wtK","image_iBVYAd","image_FxNRbM","image_P3tdtK"],"blocks":{"image_8i7wtK":{"settings":{"image":"shopify://shop_images/image_10.png","link":""},"type":"image"},"image_FxNRbM":{"settings":{"image":"shopify://shop_images/image_9_1.png","link":""},"type":"image"},"image_P3tdtK":{"settings":{"image":"shopify://shop_images/image_7.png","link":""},"type":"image"},"image_iBVYAd":{"settings":{"image":"shopify://shop_images/image_8.png","link":""},"type":"image"}},"custom_css":["@media (max-width: 767px) {[data-grid][data-grid-small] [data-item] {width: calc( (100% - var(--outer)) / 2 - (var(--gutter) - 1px / 2 * (var(--grid-small-items) - 1)) ); margin-bottom: 20px; } .gallery.flickity-disabled-mobile.flickity-static {overflow: unset; flex-flow: wrap !important; scroll-behavior: smooth; } .custom-scrollbar {display: unset !important; }}"],"name":"Gallery","settings":{"add_gutters":true,"bg":"palette--light bg--neutral","grid_large":4,"grid_medium":4,"grid_mobile":4,"padding_bottom":0,"padding_top":36,"progress_bar":"mobile","scale_image":false,"wh_ratio":1,"width":"wrapper"},"type":"section-gallery"},"section_gallery_text_x4gPTi":{"block_order":["text_CMC39J"],"blocks":{"text_CMC39J":{"settings":{"body_size":6,"text":"\u003cp\u003e\u003cstrong\u003eAt Siluet, luxury is a journey.\u003c/strong\u003e From \u003cstrong\u003eGermany\u003c/strong\u003e, \u003cstrong\u003eJapan\u003c/strong\u003e, and \u003cstrong\u003eSouth\u003c/strong\u003e \u003cstrong\u003eKorea\u003c/strong\u003e, we select only exceptional components. Our skilled artisans meticulously craft each piece by hand, delivering Pilates equipment that embodies \u003cstrong\u003equality, luxury, and care.\u003c/strong\u003e\u003c/p\u003e","text_align":"text-left","title":"Sourced Globally, Refined by Hand","title_size":8},"type":"text"}},"name":"Gallery text","settings":{"bg":"palette--light bg--neutral","grid_large":1,"grid_medium":1,"grid_mobile":1,"padding_bottom":36,"padding_top":36,"width":"wrapper"},"type":"section-gallery-text"},"section_hero_mkbMhd":{"block_order":["heading_aYaBRV","button_7Ec3if"],"blocks":{"button_7Ec3if":{"settings":{"button_color_1":"btn--primary","button_color_2":"btn--white","button_color_3":"btn--white","button_size_1":"btn--large","button_size_2":"btn--long","button_size_3":"btn--long","button_style_1":"btn","button_style_2":"btn-text-thick-line","button_style_3":"btn-text-thick-line","link_1":"","link_2":"","link_3":"","link_text_1":"Experience Siluet","link_text_2":"","link_text_3":""},"type":"button"},"heading_aYaBRV":{"settings":{"text_size":10,"title":"Try It Risk-Free For 60 Days"},"type":"heading"}},"name":"Image banner","settings":{"color_bg":"hero__content--transparent","content_width":2000,"enable_overlay_text":false,"height":"use_image","image":"shopify://shop_images/image_12.png","overlay_color":"#000000","overlay_opacity":0,"padding_bottom":0,"padding_top":0,"preload_image":false,"text_align":"align--middle-center","text_color":"text--white","width":"wrapper--none"},"type":"section-hero"},"section_icons_Bdjdfd":{"block_order":["icon_block_xrJ6YA","icon_block_gMR4p7","icon_block_Yjch64"],"blocks":{"icon_block_Yjch64":{"settings":{"icon_color":"#aaaaaa","icon_name":"icon-phone","link_text":"","link_url":"","text":"\u003cp\u003eCall us anytime at 1(800) 555-1234.\u003c/p\u003e","title":"24/7 support"},"type":"icon_block"},"icon_block_gMR4p7":{"settings":{"icon_color":"#aaaaaa","icon_name":"icon-shipment-world","link_text":"","link_url":"","text":"\u003cp\u003eShip anywhere, rates available at checkout.\u003c/p\u003e","title":"Worldwide shipping"},"type":"icon_block"},"icon_block_xrJ6YA":{"settings":{"icon_color":"#aaaaaa","icon_name":"icon-basket-return","link_text":"","link_url":"","text":"\u003cp\u003eReturns within 30 days receive a full refund.\u003c/p\u003e","title":"Free returns"},"type":"icon_block"}},"disabled":true,"name":"Icon columns","settings":{"align_text":"text-center","bg":"palette--light bg--neutral","icon_alignment":"icon--top","icons_size":30,"layout":"grid--stacked","padding_bottom":36,"padding_top":36,"title":"","width":"wrapper"},"type":"section-icons"},"section_image_Mx4nbC":{"name":"Image","settings":{"color_bg":"palette--light bg--neutral","image":"shopify://shop_images/Easily_folded_1.png","max_width":100,"padding_bottom":0,"padding_top":0,"width":"wrapper--none","x_align":"center"},"type":"section-image"},"section_image_hxHTD6":{"name":"Image","settings":{"color_bg":"palette--light bg--neutral","image":"shopify://shop_images/Untitled_design_86.webp","max_width":100,"padding_bottom":0,"padding_top":0,"width":"wrapper","x_align":"center"},"type":"section-image"},"section_pair_before_after_HCbaKp":{"blocks":{"before-after":{"blocks":{},"settings":{"after_image":"shopify://shop_images/8d2c526b-26db-4b25-863e-5fae85b57f90.png","before_image":"shopify://shop_images/8d2c526b-26db-4b25-863e-5fae85b57f90.png","handle_color":"#ffffff","orientation":"horizontal","start_position":50},"static":true,"type":"_pair-before-after"},"text":{"block_order":["theme_group_rBTgRm"],"blocks":{"theme_group_rBTgRm":{"block_order":["theme_text_richtext_eiCnpG"],"blocks":{"theme_text_richtext_eiCnpG":{"blocks":{},"name":"Text: Rich text","settings":{"font_family":"body","max_width":550,"text":"\u003ch4\u003eHow\u003cstrong\u003e Busy Mom’s\u003c/strong\u003e Are Getting In The \u003cstrong\u003eBest Shape Of Their Lives \u003c/strong\u003eWith The Elevé Reformer\u003c/h4\u003e","text_size":5},"type":"theme-text-richtext"}},"settings":{"alignment":"start","flow":"row","gap":"sm"},"type":"theme-group"}},"settings":{"bg_color":"","gap":"sm","horizontal_placement":"center","text_color":"text--neutral","vertical_placement":"center"},"static":true,"type":"_pair-content"}},"name":"Pair: Before/After \u0026 Text","settings":{"bg_color":"","borders":false,"brick_gutter":0,"height":"use_screen_one_half","order":"text-first","padding_bottom":36,"padding_top":36,"width":"wrapper"},"type":"section-pair-before-after"},"section_richtext_wcanFf":{"block_order":["text_yjBRXa","text_QqC8Tg"],"blocks":{"text_QqC8Tg":{"settings":{"text":"\u003ch3\u003eSee How Women 30+ Changed Their Lives With Siluet\u003c/h3\u003e","text_columns":1,"text_size":4},"type":"text"},"text_yjBRXa":{"settings":{"text":"\u003ch4\u003eReal Women. Real Results.\u003c/h4\u003e","text_columns":1,"text_size":4},"type":"text"}},"name":"Rich text","settings":{"align_text":"text-center","bg":"palette--light bg--neutral","content_width":2000,"padding_bottom":0,"padding_top":36,"text_color":"text--neutral","width":"wrapper"},"type":"section-richtext"},"section_text_spotlight_XFbBCT":{"name":"Spotlight Text","settings":{"align_text":"text-left","bg":"palette--light bg--neutral","enable_scroll_animation":true,"font_family":"heading","padding_bottom":36,"padding_top":36,"text_color":"text--neutral","text_size":13,"width":"wrapper"},"type":"section-text-spotlight"}}}
+{
+  "order": [
+    "section_double_nqdtML",
+    "hero",
+    "logos",
+    "section_text_spotlight_XFbBCT",
+    "section_image_hxHTD6",
+    "section_gallery_text_x4gPTi",
+    "section_icons_Bdjdfd",
+    "section_collection_3WBxBb",
+    "1754199027eb9d83c3",
+    "section_blog_h8XWnm",
+    "section_image_Mx4nbC",
+    "section_richtext_wcanFf",
+    "section_gallery_r8eJzX",
+    "section_pair_before_after_HCbaKp",
+    "section_faq_y38K36",
+    "section_hero_mkbMhd",
+    "1758013167f3644696"
+  ],
+  "sections": {
+    "1754199027eb9d83c3": {
+      "block_order": [
+        "loox_reviews_loox_dynamic_carousel_TVWNnt"
+      ],
+      "blocks": {
+        "loox_reviews_loox_dynamic_carousel_TVWNnt": {
+          "settings": {
+            "autoplay": false,
+            "autoplay-delay": 5,
+            "corner-radius": 8,
+            "items-per-view": 2,
+            "items-per-view-mobile": 3,
+            "main-color": "#1e1a1a",
+            "max-characters": 180,
+            "product-ids": "",
+            "quote-marks-icon": "style-1",
+            "quote-marks-icon-color": "",
+            "review-background-color": "",
+            "reviewer-name-color": "",
+            "show-review-text": true,
+            "stars-color": "#ffc107",
+            "text-color": "",
+            "verified-badge-color": "#66ceaa"
+          },
+          "type": "shopify:\/\/apps\/loox-reviews\/blocks\/loox-dynamic-carousel\/5c3b337f-fd14-4df5-b1d6-80ec13e6e28e"
+        }
+      },
+      "settings": {
+        "bg": "palette--light bg--neutral",
+        "padding_bottom": 36,
+        "padding_top": 36,
+        "text_color": "text--neutral",
+        "width": "wrapper"
+      },
+      "type": "apps"
+    },
+    "1758013167f3644696": {
+      "settings": {},
+      "type": "_blocks"
+    },
+    "hero": {
+      "block_order": [
+        "banner-kicker",
+        "banner-heading",
+        "banner-text",
+        "banner-button"
+      ],
+      "blocks": {
+        "banner-button": {
+          "settings": {
+            "button_color_1": "btn--white",
+            "button_color_2": "btn--neutral",
+            "button_color_3": "btn--white",
+            "button_size_1": "btn--long",
+            "button_size_2": "btn--long",
+            "button_size_3": "btn--long",
+            "button_style_1": "btn",
+            "button_style_2": "btn-text-thick-line",
+            "button_style_3": "btn-text-thick-line",
+            "link_1": "shopify:\/\/collections\/products",
+            "link_2": "shopify:\/\/pages\/contact",
+            "link_3": "",
+            "link_text_1": "Shop Wellness Staples",
+            "link_text_2": "",
+            "link_text_3": ""
+          },
+          "type": "button"
+        },
+        "banner-heading": {
+          "settings": {
+            "text_size": 11,
+            "title": "The Body You Crave. The Energy You Deserve."
+          },
+          "type": "heading"
+        },
+        "banner-kicker": {
+          "settings": {
+            "enable_line": true,
+            "kicker": "Siluet",
+            "text_size": 3
+          },
+          "type": "kicker"
+        },
+        "banner-text": {
+          "settings": {
+            "richtext": "<p><em>Luxury Wellness for women in motion<\/em><\/p>",
+            "text_size": 6
+          },
+          "type": "text"
+        }
+      },
+      "settings": {
+        "color_bg": "hero__content--transparent",
+        "content_width": 2000,
+        "enable_overlay_text": true,
+        "height": "use_screen_one_third",
+        "image": "shopify:\/\/shop_images\/Untitled_design_86_1.webp",
+        "overlay_color": "#ffffff",
+        "overlay_opacity": 100,
+        "padding_bottom": 0,
+        "padding_top": 0,
+        "preload_image": true,
+        "text_align": "align--middle-center",
+        "text_color": "text--neutral",
+        "width": "wrapper--none"
+      },
+      "type": "section-hero"
+    },
+    "logos": {
+      "block_order": [
+        "logo-0",
+        "logo-1",
+        "logo-2",
+        "logo-3",
+        "logo-4"
+      ],
+      "blocks": {
+        "logo-0": {
+          "settings": {
+            "image": "shopify:\/\/shop_images\/5_1.webp",
+            "link": "",
+            "new_tab": false,
+            "spacing": 15,
+            "width": 50
+          },
+          "type": "logo_image"
+        },
+        "logo-1": {
+          "settings": {
+            "image": "shopify:\/\/shop_images\/2_4fa4fca5-1fb4-4a72-ba57-ff6f11187088.webp",
+            "link": "",
+            "new_tab": false,
+            "spacing": 15,
+            "width": 50
+          },
+          "type": "logo_image"
+        },
+        "logo-2": {
+          "settings": {
+            "image": "shopify:\/\/shop_images\/4_3e6916de-e61d-49d8-9972-f7b164d05980.webp",
+            "link": "",
+            "new_tab": false,
+            "spacing": 15,
+            "width": 50
+          },
+          "type": "logo_image"
+        },
+        "logo-3": {
+          "settings": {
+            "image": "shopify:\/\/shop_images\/gempages_567635487360025509-13578041-d466-4f3a-81df-13f46b718a47.png",
+            "link": "",
+            "new_tab": true,
+            "spacing": 15,
+            "width": 50
+          },
+          "type": "logo_image"
+        },
+        "logo-4": {
+          "settings": {
+            "image": "shopify:\/\/shop_images\/6_1.webp",
+            "link": "",
+            "new_tab": false,
+            "spacing": 15,
+            "width": 50
+          },
+          "type": "logo_image"
+        }
+      },
+      "name": "Scrolling logo marquee",
+      "settings": {
+        "bg": "palette--bright bg--bright--accent",
+        "enable_marquee": true,
+        "marquee_speed": 30,
+        "padding_bottom": 0,
+        "padding_top": 0,
+        "title": "",
+        "width": "wrapper--none"
+      },
+      "type": "section-logos"
+    },
+    "section_blog_h8XWnm": {
+      "name": "Blog posts",
+      "settings": {
+        "bg": "palette--light bg--neutral",
+        "button_style": "btn--outline",
+        "color": "text--white",
+        "grid_large": 3,
+        "grid_medium": 2,
+        "grid_mobile": 1.2,
+        "homepage_blog": "the-siluet-edit",
+        "homepage_blog_count": 6,
+        "padding_bottom": 36,
+        "padding_top": 36,
+        "progress_bar": "mobile",
+        "show_author": true,
+        "show_date": true,
+        "show_link": true,
+        "show_preview": false,
+        "show_tags": true,
+        "show_view_all": false,
+        "title": "The Siluet Edit",
+        "wh_ratio": 1.7,
+        "width": "wrapper"
+      },
+      "type": "section-blog"
+    },
+    "section_collection_3WBxBb": {
+      "name": "Product grid",
+      "settings": {
+        "bg": "palette--bright bg--bright--accent",
+        "collection": "products",
+        "grid": 3,
+        "grid_mobile": "2",
+        "padding_bottom": 36,
+        "padding_top": 36,
+        "rows": 1,
+        "show_view_all": false,
+        "title": "Wellness Staples",
+        "width": "wrapper"
+      },
+      "type": "section-collection"
+    },
+    "section_double_nqdtML": {
+      "block_order": [
+        "text_8LmCDQ",
+        "image_ENkPQR"
+      ],
+      "blocks": {
+        "image_ENkPQR": {
+          "settings": {
+            "button_color": "btn--white",
+            "button_style": "btn",
+            "enable_overlay_text": false,
+            "kicker": "",
+            "link": "",
+            "link_text": "Shop Now",
+            "overlay_color": "#000000",
+            "overlay_opacity": 15,
+            "richtext": "",
+            "text_align": "align--middle-center",
+            "text_color": "text--white",
+            "title": ""
+          },
+          "type": "image"
+        },
+        "text_8LmCDQ": {
+          "settings": {
+            "align_text": "text-left",
+            "bg_color": "",
+            "button_color": "btn--neutral",
+            "button_style": "btn-text-thick-line",
+            "button_text": "",
+            "button_url": "",
+            "font_size": 5,
+            "kicker": "",
+            "text": "<h3>The Pilates Studio ExperienceIn The Comfort Of Your Home<\/h3><p><br\/>Experience the benefits of pilates at home for a fraction of the cost. Say goodbye to expensive classes that fail to get you toned. Say hello to your new daily exercise routine and get in the best shape of your life.<\/p>",
+            "text_color": "text--neutral",
+            "text_columns": 1,
+            "title": ""
+          },
+          "type": "text"
+        }
+      },
+      "name": "Image with text",
+      "settings": {
+        "bg_color": "",
+        "borders": false,
+        "brick_gutter": 0,
+        "height": "use_screen_one_half",
+        "padding_bottom": 36,
+        "padding_top": 36,
+        "preload_image": false,
+        "width": "wrapper"
+      },
+      "type": "section-double"
+    },
+    "section_faq_y38K36": {
+      "block_order": [
+        "text_hdMwVm",
+        "text_jaLQ34",
+        "text_echjet"
+      ],
+      "blocks": {
+        "text_echjet": {
+          "settings": {
+            "content": "<p>Share details about your shipping policies, item returns, or customer service.<\/p>",
+            "title": "Frequently asked question"
+          },
+          "type": "text"
+        },
+        "text_hdMwVm": {
+          "settings": {
+            "content": "<p>Share details about your shipping policies, item returns, or customer service.<\/p>",
+            "title": "Frequently asked question"
+          },
+          "type": "text"
+        },
+        "text_jaLQ34": {
+          "settings": {
+            "content": "<p>Share details about your shipping policies, item returns, or customer service.<\/p>",
+            "title": "Frequently asked question"
+          },
+          "type": "text"
+        }
+      },
+      "name": "Accordion group",
+      "settings": {
+        "bg": "palette--dark bg--invert",
+        "heading_size": 5,
+        "padding_bottom": 36,
+        "padding_top": 36,
+        "text_color": "text--white",
+        "text_size": 5,
+        "title": "Frequently Asked Questions",
+        "title_align": "text-center",
+        "title_size": 7,
+        "width": "wrapper"
+      },
+      "type": "section-faq"
+    },
+    "section_gallery_r8eJzX": {
+      "block_order": [
+        "image_8i7wtK",
+        "image_iBVYAd",
+        "image_FxNRbM",
+        "image_P3tdtK"
+      ],
+      "blocks": {
+        "image_8i7wtK": {
+          "settings": {
+            "image": "shopify:\/\/shop_images\/image_10.png",
+            "link": ""
+          },
+          "type": "image"
+        },
+        "image_FxNRbM": {
+          "settings": {
+            "image": "shopify:\/\/shop_images\/image_9_1.png",
+            "link": ""
+          },
+          "type": "image"
+        },
+        "image_P3tdtK": {
+          "settings": {
+            "image": "shopify:\/\/shop_images\/image_7.png",
+            "link": ""
+          },
+          "type": "image"
+        },
+        "image_iBVYAd": {
+          "settings": {
+            "image": "shopify:\/\/shop_images\/image_8.png",
+            "link": ""
+          },
+          "type": "image"
+        }
+      },
+      "custom_css": [
+        "@media (max-width: 767px) {[data-grid][data-grid-small] [data-item] {width: calc( (100% - var(--outer)) \/ 2 - (var(--gutter) - 1px \/ 2 * (var(--grid-small-items) - 1)) ); margin-bottom: 20px; } .gallery.flickity-disabled-mobile.flickity-static {overflow: unset; flex-flow: wrap !important; scroll-behavior: smooth; } .custom-scrollbar {display: unset !important; }}"
+      ],
+      "name": "Gallery",
+      "settings": {
+        "add_gutters": true,
+        "bg": "palette--light bg--neutral",
+        "grid_large": 4,
+        "grid_medium": 4,
+        "grid_mobile": 4,
+        "padding_bottom": 0,
+        "padding_top": 36,
+        "progress_bar": "mobile",
+        "scale_image": false,
+        "wh_ratio": 1,
+        "width": "wrapper"
+      },
+      "type": "section-gallery"
+    },
+    "section_gallery_text_x4gPTi": {
+      "block_order": [
+        "text_CMC39J"
+      ],
+      "blocks": {
+        "text_CMC39J": {
+          "settings": {
+            "body_size": 6,
+            "text": "<p><strong>At Siluet, luxury is a journey.<\/strong> From <strong>Germany<\/strong>, <strong>Japan<\/strong>, and <strong>South<\/strong> <strong>Korea<\/strong>, we select only exceptional components. Our skilled artisans meticulously craft each piece by hand, delivering Pilates equipment that embodies <strong>quality, luxury, and care.<\/strong><\/p>",
+            "text_align": "text-left",
+            "title": "Sourced Globally, Refined by Hand",
+            "title_size": 8
+          },
+          "type": "text"
+        }
+      },
+      "name": "Gallery text",
+      "settings": {
+        "bg": "palette--light bg--neutral",
+        "grid_large": 1,
+        "grid_medium": 1,
+        "grid_mobile": 1,
+        "padding_bottom": 36,
+        "padding_top": 36,
+        "width": "wrapper"
+      },
+      "type": "section-gallery-text"
+    },
+    "section_hero_mkbMhd": {
+      "block_order": [
+        "heading_aYaBRV",
+        "button_7Ec3if"
+      ],
+      "blocks": {
+        "button_7Ec3if": {
+          "settings": {
+            "button_color_1": "btn--primary",
+            "button_color_2": "btn--white",
+            "button_color_3": "btn--white",
+            "button_size_1": "btn--large",
+            "button_size_2": "btn--long",
+            "button_size_3": "btn--long",
+            "button_style_1": "btn",
+            "button_style_2": "btn-text-thick-line",
+            "button_style_3": "btn-text-thick-line",
+            "link_1": "",
+            "link_2": "",
+            "link_3": "",
+            "link_text_1": "Experience Siluet",
+            "link_text_2": "",
+            "link_text_3": ""
+          },
+          "type": "button"
+        },
+        "heading_aYaBRV": {
+          "settings": {
+            "text_size": 10,
+            "title": "Try It Risk-Free For 60 Days"
+          },
+          "type": "heading"
+        }
+      },
+      "name": "Image banner",
+      "settings": {
+        "color_bg": "hero__content--transparent",
+        "content_width": 2000,
+        "enable_overlay_text": false,
+        "height": "use_image",
+        "image": "shopify:\/\/shop_images\/image_12.png",
+        "overlay_color": "#000000",
+        "overlay_opacity": 0,
+        "padding_bottom": 0,
+        "padding_top": 0,
+        "preload_image": false,
+        "text_align": "align--middle-center",
+        "text_color": "text--white",
+        "width": "wrapper--none"
+      },
+      "type": "section-hero"
+    },
+    "section_icons_Bdjdfd": {
+      "block_order": [
+        "icon_block_xrJ6YA",
+        "icon_block_gMR4p7",
+        "icon_block_Yjch64"
+      ],
+      "blocks": {
+        "icon_block_Yjch64": {
+          "settings": {
+            "icon_color": "#aaaaaa",
+            "icon_name": "icon-phone",
+            "link_text": "",
+            "link_url": "",
+            "text": "<p>Call us anytime at 1(800) 555-1234.<\/p>",
+            "title": "24\/7 support"
+          },
+          "type": "icon_block"
+        },
+        "icon_block_gMR4p7": {
+          "settings": {
+            "icon_color": "#aaaaaa",
+            "icon_name": "icon-shipment-world",
+            "link_text": "",
+            "link_url": "",
+            "text": "<p>Ship anywhere, rates available at checkout.<\/p>",
+            "title": "Worldwide shipping"
+          },
+          "type": "icon_block"
+        },
+        "icon_block_xrJ6YA": {
+          "settings": {
+            "icon_color": "#aaaaaa",
+            "icon_name": "icon-basket-return",
+            "link_text": "",
+            "link_url": "",
+            "text": "<p>Returns within 30 days receive a full refund.<\/p>",
+            "title": "Free returns"
+          },
+          "type": "icon_block"
+        }
+      },
+      "disabled": true,
+      "name": "Icon columns",
+      "settings": {
+        "align_text": "text-center",
+        "bg": "palette--light bg--neutral",
+        "icon_alignment": "icon--top",
+        "icons_size": 30,
+        "layout": "grid--stacked",
+        "padding_bottom": 36,
+        "padding_top": 36,
+        "title": "",
+        "width": "wrapper"
+      },
+      "type": "section-icons"
+    },
+    "section_image_Mx4nbC": {
+      "name": "Image",
+      "settings": {
+        "color_bg": "palette--light bg--neutral",
+        "image": "shopify:\/\/shop_images\/Easily_folded_1.png",
+        "max_width": 100,
+        "padding_bottom": 0,
+        "padding_top": 0,
+        "width": "wrapper--none",
+        "x_align": "center"
+      },
+      "type": "section-image"
+    },
+    "section_image_hxHTD6": {
+      "name": "Image",
+      "settings": {
+        "color_bg": "palette--light bg--neutral",
+        "image": "shopify:\/\/shop_images\/Untitled_design_86.webp",
+        "max_width": 100,
+        "padding_bottom": 0,
+        "padding_top": 0,
+        "width": "wrapper",
+        "x_align": "center"
+      },
+      "type": "section-image"
+    },
+    "section_pair_before_after_HCbaKp": {
+      "blocks": {
+        "before-after": {
+          "blocks": {},
+          "settings": {
+            "after_image": "shopify:\/\/shop_images\/8d2c526b-26db-4b25-863e-5fae85b57f90.png",
+            "before_image": "shopify:\/\/shop_images\/8d2c526b-26db-4b25-863e-5fae85b57f90.png",
+            "handle_color": "#ffffff",
+            "orientation": "horizontal",
+            "start_position": 50
+          },
+          "static": true,
+          "type": "_pair-before-after"
+        },
+        "text": {
+          "block_order": [
+            "theme_group_rBTgRm"
+          ],
+          "blocks": {
+            "theme_group_rBTgRm": {
+              "block_order": [
+                "theme_text_richtext_eiCnpG"
+              ],
+              "blocks": {
+                "theme_text_richtext_eiCnpG": {
+                  "blocks": {},
+                  "name": "Text: Rich text",
+                  "settings": {
+                    "font_family": "body",
+                    "max_width": 550,
+                    "text": "<h4>How<strong> Busy Mom’s<\/strong> Are Getting In The <strong>Best Shape Of Their Lives <\/strong>With The Elevé Reformer<\/h4>",
+                    "text_size": 5
+                  },
+                  "type": "theme-text-richtext"
+                }
+              },
+              "settings": {
+                "alignment": "start",
+                "flow": "row",
+                "gap": "sm"
+              },
+              "type": "theme-group"
+            }
+          },
+          "settings": {
+            "bg_color": "",
+            "gap": "sm",
+            "horizontal_placement": "center",
+            "text_color": "text--neutral",
+            "vertical_placement": "center"
+          },
+          "static": true,
+          "type": "_pair-content"
+        }
+      },
+      "name": "Pair: Before\/After & Text",
+      "settings": {
+        "bg_color": "",
+        "borders": false,
+        "brick_gutter": 0,
+        "height": "use_screen_one_half",
+        "order": "text-first",
+        "padding_bottom": 36,
+        "padding_top": 36,
+        "width": "wrapper"
+      },
+      "type": "section-pair-before-after"
+    },
+    "section_richtext_wcanFf": {
+      "block_order": [
+        "text_yjBRXa",
+        "text_QqC8Tg"
+      ],
+      "blocks": {
+        "text_QqC8Tg": {
+          "settings": {
+            "text": "<h3>See How Women 30+ Changed Their Lives With Siluet<\/h3>",
+            "text_columns": 1,
+            "text_size": 4
+          },
+          "type": "text"
+        },
+        "text_yjBRXa": {
+          "settings": {
+            "text": "<h4>Real Women. Real Results.<\/h4>",
+            "text_columns": 1,
+            "text_size": 4
+          },
+          "type": "text"
+        }
+      },
+      "name": "Rich text",
+      "settings": {
+        "align_text": "text-center",
+        "bg": "palette--light bg--neutral",
+        "content_width": 2000,
+        "padding_bottom": 0,
+        "padding_top": 36,
+        "text_color": "text--neutral",
+        "width": "wrapper"
+      },
+      "type": "section-richtext"
+    },
+    "section_text_spotlight_XFbBCT": {
+      "name": "Spotlight Text",
+      "settings": {
+        "align_text": "text-left",
+        "bg": "palette--light bg--neutral",
+        "enable_scroll_animation": true,
+        "font_family": "heading",
+        "padding_bottom": 36,
+        "padding_top": 36,
+        "text_color": "text--neutral",
+        "text_size": 13,
+        "width": "wrapper"
+      },
+      "type": "section-text-spotlight"
+    }
+  }
+}

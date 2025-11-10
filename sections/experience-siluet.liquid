@@ -1,5 +1,5 @@
-<section id="pilates-{{ section.id }}" class="pilates-hero ph--split ph--{{ section.settings.image_side }}">
-  <div class="ph__inner">
+<section id="pilates-{{ section.id }}" {%comment %}class="pilates-hero ph--split ph--{{ section.settings.image_side }}"{% endcomment %}>
+  {% comment %} <div class="ph__inner">
 
     <!-- TEXT COLUMN -->
     <div class="ph__textcol">
@@ -53,8 +53,14 @@
         <div class="ph__guarantee-line">{{ section.settings.guarantee_text }}</div>
       </div>
     </div>
+  </div> {% endcomment %}
+  <div class="hero-block">
+    <div class="heading-html-block">
+    <div class="heading-html">
+      {{ section.settings.heading_html }}
+    </div>
+    </div>
   </div>
-
 <style>
   @media (max-width: 749px) {
     .ph__inner {
@@ -165,18 +171,53 @@ h2.ph__heading{ margin:15px 0 0; }
 {
   "name": "Pilates Hero Split",
   "settings": [
-    { "id": "heading_html", "type": "richtext", "label": "Heading", "default": "<p>The Pilates Studio <em>Experience</em><br>In The <em>Comfort</em> Of Your <strong>Home</strong></p>" },
-    { "id": "heading_italic_color", "type": "color", "label": "Italic Text Color", "default": "#CDA07A" },
-    { "id": "heading_bold_color",   "type": "color", "label": "Bold Text Color",   "default": "#111111" },
+    { "id": "heading_html", 
+      "type": "richtext", 
+      "label": "Heading", 
+      "default": "<p>The Pilates Studio <em>Experience</em><br>In The <em>Comfort</em> Of Your <strong>Home</strong></p>" 
+    },
+    { 
+      "id": "heading_italic_color", 
+      "type": "color", 
+      "label": "Italic Text Color", 
+      "default": "#CDA07A" 
+    },
+    { 
+      "id": "heading_bold_color",  
+      "type": "color", 
+      "label": "Bold Text Color",   
+      "default": "#111111" 
+    },
 
-    { "id": "subheading", "type": "richtext", "label": "Subheading", "default": "<p></p>" },
+    { 
+      "id": "subheading", 
+      "type": "richtext", 
+      "label": "Subheading", 
+      "default": "<p></p>" 
+    },
 
-    { "id": "image", "type": "image_picker", "label": "Hero Image" },
+    { 
+      "id": "image", 
+      "type": "image_picker", 
+      "label": "Hero Image" 
+    },
 
-    { "id": "cta_chip_left_label", "type": "text", "label": "Left Chip", "default": "Only $97/Month" },
-    { "id": "cta_chip_left_url", "type": "url", "label": "Left Chip Link" },
+    { "id": "cta_chip_left_label", 
+      "type": "text", "label": "Left Chip", 
+      "default": "Only $97/Month" 
+    },
+    { 
+      "id": "cta_chip_left_url", 
+      "type": "url", "label": 
+      "Left Chip Link" 
+    },
 
-    { "id": "cta_chip_right_label", "type": "text", "label": "Right Chip", "default": "Workout How You Want" },
+    { 
+      "id": "cta_chip_right_label", 
+      "type": "text", 
+      "label": "Right Chip", 
+      "default": "Workout How You Want" 
+    },
     { "id": "cta_chip_right_url", "type": "url", "label": "Right Chip Link" },
 
     { "id": "big_cta_label", "type": "text", "label": "CTA Button", "default": "Try Elevé" },
