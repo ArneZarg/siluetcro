@@ -74,6 +74,18 @@
         </div>
       </div>
     </div>
+    <div class="bottom-portion">
+      <div class="black-fade">
+        <div class="cta-guarantee">
+          <a class="btn main-cta" title="{{ section.settings.big_cta_label }}" href="{{ section.settings.big_cta_url }}">
+            {{ section.settings.big_cta_label }}
+          </a>
+          <div class="guarantee-txt">
+            {{ section.settings.guarantee_text }}
+          </div>
+        </div>
+      </div>
+    </div>
   </div>
 
   <style>
@@ -127,6 +139,8 @@
       display:flex;
       flex-direction:row;
       column-gap:20px;
+      justify-content:center;
+      margin-top:20px;
     }
     #pilates-{{ section.id }} .ph_chip{
       background:#000;
@@ -134,8 +148,27 @@
       font-weight:700; 
       padding:6px 16px; 
       border-radius:100px; 
-      font-size:15px;
+      font-size:0.78rem;
       box-shadow:0 10px 24px rgba(0,0,0,.18);
+    }
+    #pilates-{{ section.id }} .bottom-portion{
+      position:absolute;
+      bottom:0;
+      left:0;
+      width:100%;
+    }
+    #pilates-{{ section.id }} .cta-guarantee{
+      display:flex;
+      flex-direction:column;
+      justify-content:center;
+      align-items:center;
+      width:100%;
+    }
+    #pilates-{{ section.id }} .main-cta{
+      border-radius:100px;
+      background:#C28B66;
+      color:#fff;
+      
     }
   </style>
 {% comment %} <style>
