@@ -38,6 +38,8 @@
       ],
       "name": "Experience Siluet Hero",
       "settings": {
+        "trusted_pic": "shopify:\/\/shop_images\/moms.png",
+        "trusted_txt": "Trusted Daily By 1000+ Moms",
         "heading_html": "<p>The Pilates Studio <em>Experience<\/em><br\/>In The <em>Comfort<\/em> Of Your <em>Home<\/em><\/p>",
         "heading_italic_color": "#cda07a",
         "heading_bold_color": "#111111",

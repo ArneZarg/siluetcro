@@ -60,17 +60,28 @@
     </picture>
     <div class="top-portion">
       <div class="heading-html-block">
-        <div class="trusted"></div>
+        <div class="trusted-container">
+          <div class="trusted">
+            <div class="trusted-pic">
+              <img src="{{ section.settings.trusted_pic | img_url:'medium' }}">
+            </div>
+            <div class="trusted-txt">
+              {{ section.settings.trusted_txt }}
+            </div>
+          </div>
+        </div>
         <div class="heading-html">
           {{ section.settings.heading_html }}
         </div>
-        <div class="chips-row">
-          <a class="ph_chip" href="{{ section.settings.cta_chip_left_url }}">
-            {{ section.settings.cta_chip_left_label }}
-          </a>
-          <a class="ph_chip" href="{{ section.settings.cta_chip_right_url }}">
-            {{ section.settings.cta_chip_right_label }}
-          </a>
+        <div class="white-fade">
+          <div class="chips-row">
+            <a class="ph_chip" href="{{ section.settings.cta_chip_left_url }}">
+              {{ section.settings.cta_chip_left_label }}
+            </a>
+            <a class="ph_chip" href="{{ section.settings.cta_chip_right_url }}">
+              {{ section.settings.cta_chip_right_label }}
+            </a>
+          </div>
         </div>
       </div>
     </div>
@@ -107,6 +118,9 @@
       display:flex;
       flex-direction:column;
       position:relative;
+      *{
+        font-family:"Playfair Display";
+      }
     }
     #pilates-{{ section.id }} picture{
       object-fit:cover;
@@ -124,18 +138,22 @@
       width:100%;
       
     }
+    #pilates-{{ section.id }} .white-fade{
+      background: linear-gradient(180deg,rgba(255, 255, 255, 1) 0%, rgba(255, 255, 255, 0) 100%);
+      padding:0 40px;
+    }
     #pilates-{{ section.id }} .heading-html-block{
       width:100%;
       display:flex;
       flex-direction:row;
       justify-content:center;
-      background: linear-gradient(180deg,rgba(255, 255, 255, 1) 0%, rgba(255, 255, 255, 0) 100%);
+      {% comment %}  {% endcomment %}
       display:block;
       width:100vw;
       left:0;
       position:absolute;
       top:0;
-      padding:5px 40px;
+      {% comment %} padding:5px 40px; {% endcomment %}
       p{
         font-size:24px;
         em{
@@ -148,13 +166,15 @@
     }
     #pilates-{{ section.id }} .heading-html{
       text-align:center;
+      background:#fff;
+      padding-top:10px;
     }
     #pilates-{{ section.id }} .chips-row{
       display:flex;
       flex-direction:row;
       column-gap:20px;
       justify-content:center;
-      margin-top:20px;
+      padding-top:10px;
     }
     #pilates-{{ section.id }} .ph_chip{
       background:#000;
@@ -177,11 +197,14 @@
       justify-content:center;
       align-items:center;
       width:100%;
+      padding-bottom:15px;
     }
     #pilates-{{ section.id }} .main-cta{
       border-radius:100px;
       background:#C28B66;
       color:#fff;
+      display:block;
+      width:240px;
     }
     #pilates-{{ section.id }} .guarantee-txt{
       color:#fff;
@@ -189,6 +212,7 @@
     #pilates-{{ section.id }} .black-fade{
       background: linear-gradient(180deg,rgba(255, 255, 255, 0) 0%, rgba(0, 0, 0, 1) 100%);
       width:100%;
+      padding:0px 15px {{section.settings.padding_bottom}}px;
     }
     #pilates-{{ section.id }} .bullet-points{
       display:flex;
@@ -207,12 +231,34 @@
       width:20px;
     }
     #pilates-{{ section.id }} .bullet-text{
-      font-size:1rem;
+      font-size:0.95rem;
       color:#fff;
     }
     #pilates-{{ section.id }} svg{
       display:block;
       width:100%;
+    }
+    #pilates-{{ section.id }} .trusted{
+      display:flex;
+      border:1px solid #000;
+      border-radius:100px;
+      padding:5px 8px;
+      align-items:center;
+      justify-content:center;
+      gap:7px;
+      width:fit-content;
+      margin:auto;
+    }
+    #pilates-{{ section.id }} .trusted-txt{
+      font-style:italic;
+      font-size:13px;
+    }
+    #pilates-{{ section.id }} .trusted-pic{
+      width:50px;
+    }
+    #pilates-{{ section.id }} .trusted-container {
+      padding: {{section.settings.padding_top}}px 40px 0;
+      background: #fff;
     }
   </style>
 {% comment %} <style>
@@ -325,6 +371,39 @@ h2.ph__heading{ margin:15px 0 0; }
 {
   "name": "Pilates Hero Split",
   "settings": [
+    {
+      "id":"padding_top",
+      "type":"range",
+      "unit": "px",
+      "label": "Padding Top",
+      "min": 5,
+      "max":100,
+      "step":5,
+      "default":10
+    },
+    {
+      "id":"padding_bottom",
+      "type":"range",
+      "unit":"px",
+      "label": "Padding Bottom",
+      "min":5,
+      "max":100,
+      "step":5,
+      "default":20
+    },
+    {
+      "id":"trusted_pic",
+      "type": "image_picker",
+      "label": "Top Image",
+      "info": "Small Image above the Heading"
+    },
+    {
+      "id":"trusted_txt",
+      "type": "text",
+      "label":"Top Text",
+      "info":"Text on top of the heading",
+      "default":"Trusted Daily By 1000+ Moms"
+    },
     { "id": "heading_html", 
       "type": "richtext", 
       "label": "Heading", 
