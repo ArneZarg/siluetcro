@@ -1,0 +1,207 @@
+<section id="pilates-{{ section.id }}" class="pilates-hero ph--split ph--{{ section.settings.image_side }}">
+  <div class="ph__inner">
+
+    <!-- TEXT COLUMN -->
+    <div class="ph__textcol">
+      {% if section.settings.heading_html != blank %}
+        <h2 class="ph__heading">{{ section.settings.heading_html }}</h2>
+      {% endif %}
+
+      {% if section.settings.subheading != blank %}
+        <div class="ph__sub rte">
+          {{ section.settings.subheading }}
+        </div>
+      {% endif %}
+    </div>
+
+    <!-- IMAGE COLUMN -->
+    <div class="ph__imgcol">
+      <div class="ph__image-wrap">
+
+        {% if section.settings.image %}
+          <img class="ph__image" src="{{ section.settings.image | img_url: '1800x' }}" alt="{{ section.settings.image.alt | escape }}" loading="lazy">
+        {% endif %}
+
+        {% if section.settings.cta_chip_left_label != blank %}
+          <a class="ph__chip ph__chip--left" href="{{ section.settings.cta_chip_left_url }}">{{ section.settings.cta_chip_left_label }}</a>
+        {% endif %}
+
+        {% if section.settings.cta_chip_right_label != blank %}
+          <a class="ph__chip ph__chip--right" href="{{ section.settings.cta_chip_right_url }}">{{ section.settings.cta_chip_right_label }}</a>
+        {% endif %}
+
+        {% if section.settings.big_cta_label != blank %}
+          <a class="ph__bigcta" href="{{ section.settings.big_cta_url }}">{{ section.settings.big_cta_label }}</a>
+        {% endif %}
+
+        {% if section.blocks.size > 0 %}
+          <!-- Bullets sit directly beneath CTA -->
+          <div class="ph__bullets">
+            {% for block in section.blocks %}
+              {% if block.type == 'bullet' %}
+                <div class="ph__bullet" {{ block.shopify_attributes }}>
+                  <svg class="ph__tick" viewBox="0 0 24 24" fill="none" aria-hidden="true">
+                    <path d="M6 12.5l3.8 3.6L18 8.8" stroke="white" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/>
+                  </svg>
+                  {{ block.settings.text }}
+                </div>
+              {% endif %}
+            {% endfor %}
+          </div>
+        {% endif %}
+
+        <div class="ph__guarantee-line">{{ section.settings.guarantee_text }}</div>
+      </div>
+    </div>
+  </div>
+
+<style>
+  @media (max-width: 749px) {
+    .ph__inner {
+        padding: 24px 0px!important;
+    }
+}
+/* -------- Base layout (desktop-first with mobile overrides) -------- */
+#pilates-{{ section.id }}{ --italic: {{ section.settings.heading_italic_color }}; --bold: {{ section.settings.heading_bold_color }}; }
+.ph__inner{ max-width:1200px; margin:0 auto; display:grid; gap:48px; padding:40px 16px; }
+@media(min-width:990px){
+  .ph__textcol {
+    display: flex;
+    text-align:left;
+    align-items: center;
+}
+#pilates-{{ section.id }} .ph__heading p{
+ text-align:left!important;
+}
+
+.ph__inner{ grid-template-columns:1.1fr 0.9fr; } }
+
+/* Heading */
+#pilates-{{ section.id }} .ph__heading p{
+  font-size:clamp(28px,3vw,48px); font-weight:600; color:#111;
+  line-height:1.2; text-align:center; margin:0 0 16px;
+}
+#pilates-{{ section.id }} .ph__heading em{ font-style:italic; color:var(--italic); font-weight:700; }
+#pilates-{{ section.id }} .ph__heading strong{ color:var(--bold); font-weight:800; }
+h2.ph__heading{ margin:15px 0 0; }
+
+/* Subheading */
+#pilates-{{ section.id }} .ph__sub p{ text-align:center; font-size:17px; margin:0 0 26px; }
+
+/* Image */
+.ph__imgcol{ position:relative; }
+.ph__image-wrap{ position:relative; overflow:hidden;  }
+.ph__image{ width:100%; display:block; }
+
+/* Top Chips */
+.ph__chip{
+  position:absolute; top:14px; background:#CDA07A; color:#fff;
+  font-weight:700; padding:6px 16px; border-radius:999px; font-size:15px;
+  box-shadow:0 10px 24px rgba(0,0,0,.18);
+}
+.ph__chip--left{ left:14px; }
+.ph__chip--right{ right:14px; }
+
+/* CTA */
+.ph__bigcta {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: 15%;
+    background: #CDA07A;
+    color: #fff;
+    padding: 6px 42px;
+    font-weight: 800;
+    border-radius: 14px;
+    font-size: 20px;
+    box-shadow: 0 12px 26px rgba(0, 0, 0, .22);
+}
+
+/* Bullets under CTA (still overlay) */
+.ph__bullets{
+  position:absolute; left:50%; transform:translateX(-50%);
+  bottom:42px; display:flex; justify-content:center; flex-wrap:wrap;
+  gap:28px; width:96%; color:#fff; text-shadow:0 1px 2px rgba(0,0,0,.35);
+}
+.ph__bullet{ display:flex; align-items:center; font-size:17px; font-weight:600; }
+.ph__tick{ width:18px; height:18px; margin-right:6px; }
+
+/* Guarantee line (final row) */
+.ph__guarantee-line{
+  position:absolute; left:50%; transform:translateX(-50%);
+  bottom:16px; width:max-content; max-width:96%;
+  font-size:15px; color:#fff; font-weight:600; text-align:center;
+  line-height:22px; text-shadow:0 1px 2px rgba(0,0,0,.35);
+}
+
+/* ---------------- Mobile tweaks (≤ 749px) ---------------- */
+@media(max-width:749px){
+  .ph__inner{ gap:28px; padding:24px 12px; }
+  #pilates-{{ section.id }} .ph__heading p{ font-size:clamp(24px,6.2vw,30px); margin-bottom:10px; }
+  #pilates-{{ section.id }} .ph__sub p{ font-size:15px; margin-bottom:18px; }
+
+  .ph__chip{ font-size:12px; padding:6px 12px; top:10px; }
+  .ph__chip--left{ left:10px; } .ph__chip--right{ right:10px; }
+
+  .ph__bigcta{ bottom:110px; font-size:16px; padding:10px 28px; }
+
+  .ph__bullets{
+    bottom:66px; width:92%; gap:12px;
+  }
+  .ph__bullet{ font-size:14px; }
+  .ph__tick{ width:16px; height:16px; margin-right:5px; }
+
+    .ph__guarantee-line {
+        bottom: 24px;
+        font-size: 15px;
+        line-height: 24px;
+        max-width: 92%;
+    }
+}
+</style>
+</section>
+
+{% schema %}
+{
+  "name": "Pilates Hero Split",
+  "settings": [
+    { "id": "heading_html", "type": "richtext", "label": "Heading", "default": "<p>The Pilates Studio <em>Experience</em><br>In The <em>Comfort</em> Of Your <strong>Home</strong></p>" },
+    { "id": "heading_italic_color", "type": "color", "label": "Italic Text Color", "default": "#CDA07A" },
+    { "id": "heading_bold_color",   "type": "color", "label": "Bold Text Color",   "default": "#111111" },
+
+    { "id": "subheading", "type": "richtext", "label": "Subheading", "default": "<p></p>" },
+
+    { "id": "image", "type": "image_picker", "label": "Hero Image" },
+
+    { "id": "cta_chip_left_label", "type": "text", "label": "Left Chip", "default": "Only $97/Month" },
+    { "id": "cta_chip_left_url", "type": "url", "label": "Left Chip Link" },
+
+    { "id": "cta_chip_right_label", "type": "text", "label": "Right Chip", "default": "Workout How You Want" },
+    { "id": "cta_chip_right_url", "type": "url", "label": "Right Chip Link" },
+
+    { "id": "big_cta_label", "type": "text", "label": "CTA Button", "default": "Try Elevé" },
+    { "id": "big_cta_url", "type": "url", "label": "CTA Link" },
+
+    { "id": "guarantee_text", "type": "textarea", "label": "Guarantee Text", "default": "60-Day Money Back Guarantee | HSA/FSA" }
+  ],
+  "blocks": [
+    {
+      "type": "bullet",
+      "name": "Check Bullet",
+      "settings": [
+        { "id": "text", "type": "textarea", "label": "Bullet Text", "default": "Studio-Grade Equipment" }
+      ]
+    }
+  ],
+  "presets": [
+    {
+      "name": "Pilates Hero Split",
+      "blocks": [
+        { "type": "bullet", "settings": { "text": "Studio-Grade Equipment" } },
+        { "type": "bullet", "settings": { "text": "Save Thousands On Classes" } },
+        { "type": "bullet", "settings": { "text": "Setup In 60 Seconds" } }
+      ]
+    }
+  ]
+}
+{% endschema %}

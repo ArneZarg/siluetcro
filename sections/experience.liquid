@@ -1,0 +1,217 @@
+{% comment %}
+  HERO – Studio Level (exact like screenshot with 6 chips over image)
+  - Theme-agnostic (Dawn/Impact/Kalles/Motion/etc.)
+  - All styles scoped to this section id.
+{% endcomment %}
+
+
+<section id="studio-{{ section.id }}" class="studio-hero">
+  <div class="sh__wrap{% unless section.settings.full_width %} sh__page{% endunless %}">
+    {%- if section.settings.heading_html != blank -%}
+      <h2 class="sh__heading">{{ section.settings.heading_html }}</h2>
+    {%- endif -%}
+
+    <div class="sh__media">
+      {%- assign img = section.settings.image -%}
+      {%- if img -%}
+        <img
+          class="sh__img"
+          src="{{ img | img_url: '1200x' }}"
+          srcset="
+            {{ img | img_url: '800x' }} 800w,
+            {{ img | img_url: '1200x' }} 1200w,
+            {{ img | img_url: '1600x' }} 1600w,
+            {{ img | img_url: '2000x' }} 2000w"
+          sizes="(max-width: 990px) 100vw, 1100px"
+          alt="{{ img.alt | escape }}"
+          width="{{ img.width }}"
+          height="{{ img.height }}"
+          loading="lazy">
+      {%- else -%}
+        <div class="sh__placeholder">{{ 'image' | placeholder_svg_tag }}</div>
+      {%- endif -%}
+
+      <!-- overlay content on the image -->
+      <div class="sh__overlay">
+        <div class="sh__chips">
+          <!-- left column -->
+          {%- if section.settings.chip_l1 != blank -%}
+            <a class="sh__chip" href="{{ section.settings.chip_l1_url }}">{{ section.settings.chip_l1 }}</a>
+          {%- endif -%}
+          {%- if section.settings.chip_r1 != blank -%}
+            <a class="sh__chip" href="{{ section.settings.chip_r1_url }}">{{ section.settings.chip_r1 }}</a>
+          {%- endif -%}
+          {%- if section.settings.chip_l2 != blank -%}
+            <a class="sh__chip" href="{{ section.settings.chip_l2_url }}">{{ section.settings.chip_l2 }}</a>
+          {%- endif -%}
+          {%- if section.settings.chip_r2 != blank -%}
+            <a class="sh__chip" href="{{ section.settings.chip_r2_url }}">{{ section.settings.chip_r2 }}</a>
+          {%- endif -%}
+          {%- if section.settings.chip_l3 != blank -%}
+            <a class="sh__chip" href="{{ section.settings.chip_l3_url }}">{{ section.settings.chip_l3 }}</a>
+          {%- endif -%}
+          {%- if section.settings.chip_r3 != blank -%}
+            <a class="sh__chip" href="{{ section.settings.chip_r3_url }}">{{ section.settings.chip_r3 }}</a>
+          {%- endif -%}
+        </div>
+
+<div>
+
+        {%- if section.settings.big_cta_label != blank -%}
+          <a class="sh__bigcta" href="{{ section.settings.big_cta_url }}">{{ section.settings.big_cta_label }}</a>
+        {%- endif -%}
+
+        <div class="sh__meta">
+          {%- if section.settings.show_stars -%}
+            <div class="sh__stars" role="img" aria-label="{{ section.settings.star_count }} out of 5 stars">
+              {%- for i in (1..section.settings.star_count) -%}<span>★</span>{%- endfor -%}
+              {%- if section.settings.review_text != blank -%}
+                <span class="sh__reviews">{{ section.settings.review_text }}</span>
+              {%- endif -%}
+            </div>
+          {%- endif -%}
+        </div>
+
+      </div>
+        
+      </div>
+    </div>
+  </div>
+
+  <style>
+    @media (min-width: 768px){
+    
+.studio-hero{
+    width: 100%;
+    max-width: var(--LAYOUT-WIDTH);
+    margin: 0 auto;
+    padding-left: var(--outer);
+    padding-right: var(--outer);
+}
+}
+    #studio-{{ section.id }}{
+      --sh-max: 1100px;
+      --sh-pad: clamp(16px,3vw,28px);
+      --sh-chip-bg: {{ section.settings.chip_bg }};
+      --sh-chip-fg: {{ section.settings.chip_fg }};
+      --sh-cta-bg: {{ section.settings.cta_bg }};
+      --sh-cta-fg: {{ section.settings.cta_fg }};
+      --sh-heading: {{ section.settings.heading_color }};
+      --sh-star: {{ section.settings.star_color }};
+      --sh-radius-pill: 999px;
+      --sh-radius-card: 18px;
+    }
+     #studio-{{ section.id }} .sh__page{ max-width: var(--sh-max); margin: 0 auto; }
+
+    /* heading */
+    #studio-{{ section.id }} .sh__heading p{
+     font-size: 24px;
+    }
+    #studio-{{ section.id }} .sh__heading{
+      text-align:center;
+      color: var(--sh-heading);
+      margin: 0 0 12px;
+      font-size: clamp(30px,4.2vw,44px);
+      line-height: 1.18;
+      letter-spacing: .2px;
+    }
+    #studio-{{ section.id }} .sh__heading em{ font-style: italic; font-weight: 800; }
+    #studio-{{ section.id }} .sh__heading strong{ font-weight: 800; }
+
+    /* media */
+    #studio-{{ section.id }} .sh__media{ position: relative; }
+    #studio-{{ section.id }} .sh__img{ display:block; width:100%;   }
+    #studio-{{ section.id }} .sh__placeholder svg{ width:100%; height:auto; border-radius: var(--sh-radius-card); }
+
+    /* overlay */
+    #studio-{{ section.id }} .sh__overlay{
+      position:absolute; inset: 0;
+      display:flex; flex-direction:column; align-items:center; justify-content:center;
+      gap:30px; padding: 8px;
+    }
+
+    /* chip grid (2 columns, 3 rows) */
+    #studio-{{ section.id }} .sh__chips{
+      display:grid; grid-template-columns: 1fr 1fr; gap: 12px 28px;
+      width: min(92%, 680px);
+    }
+    #studio-{{ section.id }} .sh__chip{
+      background: var(--sh-chip-bg); color: var(--sh-chip-fg);
+      padding: 10px 18px; border-radius: var(--sh-radius-pill);
+      text-decoration: none; font-weight: 700; font-size: 13px;
+      text-align:center; white-space: nowrap;
+      filter: drop-shadow(0 3px 8px rgba(0,0,0,.2));
+    }
+
+    /* big CTA on image */
+    #studio-{{ section.id }} .sh__bigcta{
+      display:flex; align-items:center; justify-content:center;
+      background: var(--sh-cta-bg); color: var(--sh-cta-fg);
+      border-radius: 14px; padding: 12px 20px;
+      font-weight: 800; text-decoration:none; font-size: 16px;
+      width: min(92%, 480px);
+    }
+
+    /* stars + reviews */
+    #studio-{{ section.id }} .sh__meta{ text-align:center; }
+    #studio-{{ section.id }} .sh__stars{ color: var(--sh-star); display:flex; gap:6px; justify-content:center; margin-top: 2px; font-size: 14px; }
+    #studio-{{ section.id }} .sh__reviews{color: var(--sh-star); margin-left: 6px; font-weight:700; font-size:12px; }
+
+    /* mobile */
+    @media (max-width: 768px){
+      #studio-{{ section.id }} .sh__chips{ gap: 10px 12px; width: 96%; }
+      #studio-{{ section.id }} .sh__chip{ padding: 9px 14px; font-size: 12px; }
+      #studio-{{ section.id }} .sh__bigcta{ width: 96%; }
+    }
+  </style>
+</section>
+
+{% schema %}
+{
+  "name": "Hero Studio",
+  "settings": [
+    { "type": "checkbox", "id": "full_width", "label": "Full width", "default": false },
+
+    { "type": "richtext", "id": "heading_html", "label": "Heading (use <em> and <strong>)",
+      "default": "<p>Experience <strong>Studio Level</strong><br><strong>Equipment</strong> In The <em>Comfort</em><br>Of Your Home</p>" },
+
+    { "type": "color", "id": "heading_color", "label": "Heading color", "default": "#111111" },
+
+    { "type": "image_picker", "id": "image", "label": "Hero image" },
+
+    { "type": "text", "id": "chip_l1", "label": "Left chip 1", "default": "Only $3/Day" },
+    { "type": "url",  "id": "chip_l1_url", "label": "Left chip 1 link" },
+
+    { "type": "text", "id": "chip_r1", "label": "Right chip 1", "default": "Used By 10,000+ Moms" },
+    { "type": "url",  "id": "chip_r1_url", "label": "Right chip 1 link" },
+
+    { "type": "text", "id": "chip_l2", "label": "Left chip 2", "default": "Trusted For Daily Use" },
+    { "type": "url",  "id": "chip_l2_url", "label": "Left chip 2 link" },
+
+    { "type": "text", "id": "chip_r2", "label": "Right chip 2", "default": "Studio Quality Equipment" },
+    { "type": "url",  "id": "chip_r2_url", "label": "Right chip 2 link" },
+
+    { "type": "text", "id": "chip_l3", "label": "Left chip 3", "default": "Get Real Results" },
+    { "type": "url",  "id": "chip_l3_url", "label": "Left chip 3 link" },
+
+    { "type": "text", "id": "chip_r3", "label": "Right chip 3", "default": "60-Day Guarantee" },
+    { "type": "url",  "id": "chip_r3_url", "label": "Right chip 3 link" },
+
+    { "type": "text", "id": "big_cta_label", "label": "Big CTA label", "default": "Experience Siluet" },
+    { "type": "url",  "id": "big_cta_url", "label": "Big CTA link" },
+
+    { "type": "checkbox", "id": "show_stars", "label": "Show stars row", "default": true },
+    { "type": "range", "id": "star_count", "label": "Star count", "min": 1, "max": 5, "step": 1, "default": 5 },
+    { "type": "text", "id": "review_text", "label": "Reviews text", "default": "10,000+ Reviews" },
+
+    { "type": "color", "id": "chip_bg", "label": "Chip background", "default": "#111111" },
+    { "type": "color", "id": "chip_fg", "label": "Chip text color", "default": "#ffffff" },
+
+    { "type": "color", "id": "cta_bg", "label": "CTA background", "default": "#f6b5d6" },
+    { "type": "color", "id": "cta_fg", "label": "CTA text color", "default": "#22121b" },
+
+    { "type": "color", "id": "star_color", "label": "Star color", "default": "#000000" }
+  ],
+  "presets": [{ "name": "Hero Studio" }]
+}
+{% endschema %}

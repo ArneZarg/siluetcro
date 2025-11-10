@@ -1,0 +1,82 @@
+
+
+
+@font-face {
+  font-family: "Playfair Display";
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+  src: url("//shopsiluet.com/cdn/fonts/playfair_display/playfairdisplay_n5.6d96c6c4ac11fa0f6466bea3ceb706b13b60121f.woff2") format("woff2"),
+       url("//shopsiluet.com/cdn/fonts/playfair_display/playfairdisplay_n5.243754f603c104a858dcf4ebe73445104040a1bf.woff") format("woff");
+}
+
+@font-face {
+  font-family: Cardo;
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+  src: url("//shopsiluet.com/cdn/fonts/cardo/cardo_n4.8d7bdd0369840597cbb62dc8a447619701d8d34a.woff2") format("woff2"),
+       url("//shopsiluet.com/cdn/fonts/cardo/cardo_n4.23b63d1eff80cb5da813c4cccb6427058253ce24.woff") format("woff");
+}
+
+@font-face {
+  font-family: Cardo;
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+  src: url("//shopsiluet.com/cdn/fonts/cardo/cardo_n4.8d7bdd0369840597cbb62dc8a447619701d8d34a.woff2") format("woff2"),
+       url("//shopsiluet.com/cdn/fonts/cardo/cardo_n4.23b63d1eff80cb5da813c4cccb6427058253ce24.woff") format("woff");
+}
+
+
+
+  @font-face {
+  font-family: "Playfair Display";
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+  src: url("//shopsiluet.com/cdn/fonts/playfair_display/playfairdisplay_n6.41e9dda2e7301ca861c0ec25a53c1bdf16b6624d.woff2") format("woff2"),
+       url("//shopsiluet.com/cdn/fonts/playfair_display/playfairdisplay_n6.3fecbbfefcd2c3e39326078af5db97c0302e18b5.woff") format("woff");
+}
+
+
+
+
+  @font-face {
+  font-family: Cardo;
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+  src: url("//shopsiluet.com/cdn/fonts/cardo/cardo_n7.d1764502b55968f897125797ed59f6abd5dc8593.woff2") format("woff2"),
+       url("//shopsiluet.com/cdn/fonts/cardo/cardo_n7.b5d64d4147ade913d679fed9918dc44cbe8121d2.woff") format("woff");
+}
+
+
+
+
+  @font-face {
+  font-family: Cardo;
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+  src: url("//shopsiluet.com/cdn/fonts/cardo/cardo_n7.d1764502b55968f897125797ed59f6abd5dc8593.woff2") format("woff2"),
+       url("//shopsiluet.com/cdn/fonts/cardo/cardo_n7.b5d64d4147ade913d679fed9918dc44cbe8121d2.woff") format("woff");
+}
+
+
+
+
+
+
+
+  @font-face {
+  font-family: Cardo;
+  font-weight: 400;
+  font-style: italic;
+  font-display: swap;
+  src: url("//shopsiluet.com/cdn/fonts/cardo/cardo_i4.0e32d2e32a36e77888e9a063b238f6034ace33a8.woff2") format("woff2"),
+       url("//shopsiluet.com/cdn/fonts/cardo/cardo_i4.40eb4278c959c5ae2eecf636849faa186b42d298.woff") format("woff");
+}
+
+
+

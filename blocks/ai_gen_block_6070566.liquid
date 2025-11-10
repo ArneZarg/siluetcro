@@ -1,0 +1,415 @@
+{% doc %}
+  @prompt
+    Make a holographic product card that glows a golden gradient and only shows the product image. Make it so once it is clicked it redirects to that product
+{% enddoc %}
+{% assign ai_gen_id = block.id | replace: '_', '' | downcase %}
+
+{% style %}
+  .ai-holographic-card-{{ ai_gen_id }} {
+    position: relative;
+    width: 100%;
+    max-width: {{ block.settings.card_width }}px;
+    aspect-ratio: {{ block.settings.card_aspect_ratio }};
+    margin: 0 auto;
+    cursor: pointer;
+    perspective: 1000px;
+    transform-style: preserve-3d;
+    transition: transform 0.3s ease;
+  }
+
+  .ai-holographic-card-{{ ai_gen_id }}:hover {
+    transform: rotateY({{ block.settings.hover_rotation }}deg) rotateX({{ block.settings.hover_tilt }}deg);
+  }
+
+  .ai-holographic-card-inner-{{ ai_gen_id }} {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    border-radius: {{ block.settings.border_radius }}px;
+    overflow: hidden;
+    background: linear-gradient(
+      135deg,
+      {{ block.settings.gradient_color_1 }},
+      {{ block.settings.gradient_color_2 }},
+      {{ block.settings.gradient_color_3 }},
+      {{ block.settings.gradient_color_4 }}
+    );
+    box-shadow: 
+      0 0 {{ block.settings.glow_size }}px {{ block.settings.glow_color }},
+      0 0 {{ block.settings.glow_size | times: 2 }}px {{ block.settings.glow_color | color_modify: 'alpha', 0.5 }},
+      inset 0 0 {{ block.settings.inner_glow }}px {{ block.settings.inner_glow_color | color_modify: 'alpha', 0.3 }};
+    animation: ai-holographic-pulse-{{ ai_gen_id }} {{ block.settings.pulse_duration }}s ease-in-out infinite alternate;
+  }
+
+  .ai-holographic-card-inner-{{ ai_gen_id }}::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: linear-gradient(
+      45deg,
+      transparent 30%,
+      rgba(255, 255, 255, 0.1) 50%,
+      transparent 70%
+    );
+    transform: translateX(-100%);
+    transition: transform 0.6s ease;
+  }
+
+  .ai-holographic-card-{{ ai_gen_id }}:hover .ai-holographic-card-inner-{{ ai_gen_id }}::before {
+    transform: translateX(100%);
+  }
+
+  .ai-holographic-card-image-{{ ai_gen_id }} {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: {{ block.settings.image_size }}%;
+    height: {{ block.settings.image_size }}%;
+    object-fit: cover;
+    border-radius: {{ block.settings.image_border_radius }}px;
+    filter: drop-shadow(0 0 {{ block.settings.image_glow }}px {{ block.settings.image_glow_color }});
+    transition: all 0.3s ease;
+  }
+
+  .ai-holographic-card-{{ ai_gen_id }}:hover .ai-holographic-card-image-{{ ai_gen_id }} {
+    transform: translate(-50%, -50%) scale({{ block.settings.hover_scale | divided_by: 10.0 }});
+    filter: drop-shadow(0 0 {{ block.settings.image_glow | times: 1.5 }}px {{ block.settings.image_glow_color }});
+  }
+
+  .ai-holographic-card-placeholder-{{ ai_gen_id }} {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: {{ block.settings.image_size }}%;
+    height: {{ block.settings.image_size }}%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: {{ block.settings.image_border_radius }}px;
+    backdrop-filter: blur(10px);
+  }
+
+  .ai-holographic-card-placeholder-{{ ai_gen_id }} svg {
+    width: 60%;
+    height: 60%;
+    opacity: 0.3;
+    color: #ffffff;
+  }
+
+  .ai-holographic-empty-state-{{ ai_gen_id }} {
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    color: rgba(255, 255, 255, 0.8);
+    font-size: 14px;
+    text-align: center;
+    pointer-events: none;
+    text-shadow: 0 0 10px rgba(255, 255, 255, 0.5);
+  }
+
+  @keyframes ai-holographic-pulse-{{ ai_gen_id }} {
+    0% {
+      box-shadow: 
+        0 0 {{ block.settings.glow_size }}px {{ block.settings.glow_color }},
+        0 0 {{ block.settings.glow_size | times: 2 }}px {{ block.settings.glow_color | color_modify: 'alpha', 0.5 }},
+        inset 0 0 {{ block.settings.inner_glow }}px {{ block.settings.inner_glow_color | color_modify: 'alpha', 0.3 }};
+    }
+    100% {
+      box-shadow: 
+        0 0 {{ block.settings.glow_size | times: 1.5 }}px {{ block.settings.glow_color }},
+        0 0 {{ block.settings.glow_size | times: 3 }}px {{ block.settings.glow_color | color_modify: 'alpha', 0.7 }},
+        inset 0 0 {{ block.settings.inner_glow | times: 1.5 }}px {{ block.settings.inner_glow_color | color_modify: 'alpha', 0.5 }};
+    }
+  }
+
+  @media screen and (max-width: 749px) {
+    .ai-holographic-card-{{ ai_gen_id }} {
+      max-width: {{ block.settings.card_width | times: 0.8 }}px;
+    }
+  }
+{% endstyle %}
+
+<holographic-product-card-{{ ai_gen_id }}
+  class="ai-holographic-card-{{ ai_gen_id }}"
+  {{ block.shopify_attributes }}
+  data-product-url="{% if block.settings.product %}{{ block.settings.product.url }}{% endif %}"
+>
+  <div class="ai-holographic-card-inner-{{ ai_gen_id }}">
+    {% if block.settings.product and block.settings.product.featured_image %}
+      <img
+        src="{{ block.settings.product.featured_image | image_url: width: 800 }}"
+        alt="{{ block.settings.product.featured_image.alt | escape }}"
+        class="ai-holographic-card-image-{{ ai_gen_id }}"
+        loading="lazy"
+        width="{{ block.settings.product.featured_image.width }}"
+        height="{{ block.settings.product.featured_image.height }}"
+      >
+    {% else %}
+      <div class="ai-holographic-card-placeholder-{{ ai_gen_id }}">
+        {{ 'product-1' | placeholder_svg_tag }}
+        {% unless block.settings.product %}
+          <div class="ai-holographic-empty-state-{{ ai_gen_id }}">
+            Select a product to display
+          </div>
+        {% endunless %}
+      </div>
+    {% endif %}
+  </div>
+</holographic-product-card-{{ ai_gen_id }}>
+
+<script>
+  (function() {
+    class HolographicProductCard{{ ai_gen_id }} extends HTMLElement {
+      constructor() {
+        super();
+      }
+
+      connectedCallback() {
+        this.setupEventListeners();
+      }
+
+      setupEventListeners() {
+        this.addEventListener('click', this.handleClick.bind(this));
+        this.addEventListener('mousemove', this.handleMouseMove.bind(this));
+        this.addEventListener('mouseleave', this.handleMouseLeave.bind(this));
+      }
+
+      handleClick() {
+        const productUrl = this.dataset.productUrl;
+        if (productUrl) {
+          window.location.href = productUrl;
+        }
+      }
+
+      handleMouseMove(event) {
+        const rect = this.getBoundingClientRect();
+        const x = event.clientX - rect.left;
+        const y = event.clientY - rect.top;
+        
+        const centerX = rect.width / 2;
+        const centerY = rect.height / 2;
+        
+        const rotateX = (y - centerY) / centerY * -10;
+        const rotateY = (x - centerX) / centerX * 10;
+        
+        this.style.transform = `rotateX(${rotateX}deg) rotateY(${rotateY}deg)`;
+      }
+
+      handleMouseLeave() {
+        this.style.transform = '';
+      }
+    }
+
+    customElements.define('holographic-product-card-{{ ai_gen_id }}', HolographicProductCard{{ ai_gen_id }});
+  })();
+</script>
+
+{% schema %}
+{
+  "name": "Holographic product card",
+  "tag": null,
+  "settings": [
+    {
+      "type": "header",
+      "content": "Product"
+    },
+    {
+      "type": "product",
+      "id": "product",
+      "label": "Product"
+    },
+    {
+      "type": "header",
+      "content": "Card dimensions"
+    },
+    {
+      "type": "range",
+      "id": "card_width",
+      "min": 200,
+      "max": 600,
+      "step": 20,
+      "unit": "px",
+      "label": "Card width",
+      "default": 300
+    },
+    {
+      "type": "range",
+      "id": "card_aspect_ratio",
+      "min": 0.5,
+      "max": 2,
+      "step": 0.1,
+      "label": "Card aspect ratio",
+      "default": 1.2
+    },
+    {
+      "type": "range",
+      "id": "border_radius",
+      "min": 0,
+      "max": 50,
+      "step": 2,
+      "unit": "px",
+      "label": "Border radius",
+      "default": 20
+    },
+    {
+      "type": "header",
+      "content": "Golden gradient"
+    },
+    {
+      "type": "color",
+      "id": "gradient_color_1",
+      "label": "Gradient color 1",
+      "default": "#FFD700"
+    },
+    {
+      "type": "color",
+      "id": "gradient_color_2",
+      "label": "Gradient color 2",
+      "default": "#FFA500"
+    },
+    {
+      "type": "color",
+      "id": "gradient_color_3",
+      "label": "Gradient color 3",
+      "default": "#FF8C00"
+    },
+    {
+      "type": "color",
+      "id": "gradient_color_4",
+      "label": "Gradient color 4",
+      "default": "#DAA520"
+    },
+    {
+      "type": "header",
+      "content": "Glow effects"
+    },
+    {
+      "type": "range",
+      "id": "glow_size",
+      "min": 5,
+      "max": 50,
+      "step": 5,
+      "unit": "px",
+      "label": "Outer glow size",
+      "default": 20
+    },
+    {
+      "type": "color",
+      "id": "glow_color",
+      "label": "Outer glow color",
+      "default": "#FFD700"
+    },
+    {
+      "type": "range",
+      "id": "inner_glow",
+      "min": 10,
+      "max": 100,
+      "step": 10,
+      "unit": "px",
+      "label": "Inner glow size",
+      "default": 50
+    },
+    {
+      "type": "color",
+      "id": "inner_glow_color",
+      "label": "Inner glow color",
+      "default": "#FFFFFF"
+    },
+    {
+      "type": "range",
+      "id": "pulse_duration",
+      "min": 1,
+      "max": 5,
+      "step": 1,
+      "unit": "s",
+      "label": "Pulse duration",
+      "default": 2
+    },
+    {
+      "type": "header",
+      "content": "Product image"
+    },
+    {
+      "type": "range",
+      "id": "image_size",
+      "min": 50,
+      "max": 95,
+      "step": 5,
+      "unit": "%",
+      "label": "Image size",
+      "default": 80
+    },
+    {
+      "type": "range",
+      "id": "image_border_radius",
+      "min": 0,
+      "max": 30,
+      "step": 2,
+      "unit": "px",
+      "label": "Image border radius",
+      "default": 10
+    },
+    {
+      "type": "range",
+      "id": "image_glow",
+      "min": 0,
+      "max": 30,
+      "step": 2,
+      "unit": "px",
+      "label": "Image glow",
+      "default": 10
+    },
+    {
+      "type": "color",
+      "id": "image_glow_color",
+      "label": "Image glow color",
+      "default": "#FFFFFF"
+    },
+    {
+      "type": "header",
+      "content": "Hover effects"
+    },
+    {
+      "type": "range",
+      "id": "hover_rotation",
+      "min": -15,
+      "max": 15,
+      "step": 1,
+      "unit": "deg",
+      "label": "Hover rotation",
+      "default": 5
+    },
+    {
+      "type": "range",
+      "id": "hover_tilt",
+      "min": -10,
+      "max": 10,
+      "step": 1,
+      "unit": "deg",
+      "label": "Hover tilt",
+      "default": 2
+    },
+    {
+      "type": "range",
+      "id": "hover_scale",
+      "min": 10,
+      "max": 12,
+      "step": 1,
+      "label": "Image hover scale",
+      "default": 11
+    }
+  ],
+  "presets": [
+    {
+      "name": "Holographic product card"
+    }
+  ]
+}
+{% endschema %}

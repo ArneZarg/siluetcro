@@ -1,0 +1,152 @@
+<!-- /snippets/product-price.liquid -->
+{%- liquid
+  assign current_variant   = product.selected_or_first_available_variant
+  assign price             = current_variant.price
+  assign compare_at_price  = current_variant.compare_at_price
+
+  assign sale_type = settings.badge_sale_type
+
+  if block.settings.price_size
+    assign price_size_class  = block.settings.price_size | prepend: 'accent-size-'
+    assign price_small_class = block.settings.price_size | minus: 1 | prepend: 'accent-size-'
+  endif
+
+  # Select current selling plan if it's specified in the URL
+  assign selected_selling_plan = product.selected_selling_plan
+  if product.requires_selling_plan
+    # Fallback to the first available selling plan
+    assign selected_selling_plan = product.selected_or_first_available_selling_plan_allocation.selling_plan | default: product.selling_plan_groups[0].selling_plans[0]
+  endif
+
+  assign sale_text = 'products.product.sale' | t
+
+  # Subscription price (adjust price/compare_at_price to reflect selling plan)
+  if selected_selling_plan and current_variant
+    assign price_adjustment = selected_selling_plan.price_adjustments[0]
+
+    case price_adjustment.value_type
+      when 'percentage'
+        assign sale_type = 'percentage'
+        assign plan_discount_amount = price | times: price_adjustment.value | divided_by: 100
+        assign compare_at_price = price
+        assign price = compare_at_price | minus: plan_discount_amount
+      when 'fixed_amount'
+        assign sale_type = 'dollar'
+        assign compare_at_price = price
+        assign price = compare_at_price | minus: price_adjustment.value
+      when 'price'
+        assign sale_type = 'dollar'
+        assign compare_at_price = price
+        assign price = price_adjustment.value
+    endcase
+  endif
+-%}
+
+{%- comment -%}
+  Styles for the compact price row. You can move this to your theme stylesheet.
+{%- endcomment -%}
+<style>
+  .price-row{display:flex;align-items:center;gap:.75rem;line-height:1;flex-wrap:wrap}
+  .price-row__compare{color:#bfbfbf;text-decoration:line-through;font-weight:600;opacity:.9;font-size: 18px;
+}
+  .price-row__current{color:#111;font-weight:800;  font-size:1.6rem;  font-family: inherit !important;
+}
+  .price-row__pill{    background-color: #c28b66;
+    color: #fdfbf7;
+    padding: 4px 11px;
+    border-radius: 9999px;
+    font-size: 14px;
+    font-weight: 625;
+}}
+  .accent-size-1 .price-row__current{font-size:1rem;    font-family: inherit !important;
+}
+  .accent-size-2 .price-row__current{font-size:1.125rem;}
+  .accent-size-3 .price-row__current{font-size:1.25rem}
+  .accent-size-4 .price-row__current{font-size:1.375rem}
+  .accent-size-5 .price-row__current{font-size:1.6rem}
+</style>
+
+<div class="product__block__price" style="--PB: {{ block.settings.padding_bottom }}px;" {{ block.shopify_attributes }}>
+  <div class="product__price__wrap">
+
+    <!-- === Compact price row like the screenshot === -->
+    <div class="product__price__main" data-price-wrapper>
+      <div class="price-row">
+
+        {%- if compare_at_price > price -%}
+          <span class="price-row__compare" data-compare-price>
+            {%- if settings.currency_code_enable -%}
+              {{ compare_at_price | money_with_currency }}
+            {%- else -%}
+              {{ compare_at_price | money }}
+            {%- endif -%}
+          </span>
+        {%- endif -%}
+
+        <span class="price-row__current {{ price_size_class }}">
+          <span data-product-price {% if compare_at_price > price %} class="product__price--sale"{% endif %}>
+            {%- if settings.currency_code_enable -%}
+              {{ price | money_with_currency }}
+            {%- else -%}
+              {{ price | money }}
+            {%- endif -%}
+          </span>
+        </span>
+
+        {%- if compare_at_price > price -%}
+          {%- assign amount_off = compare_at_price | minus: price -%}
+          <span class="price-row__pill">
+            {%- if settings.currency_code_enable -%}
+              {{ amount_off | money_with_currency }} off
+            {%- else -%}
+              {{ amount_off | money_without_trailing_zeros }} off
+            {%- endif -%}
+          </span>
+        {%- endif -%}
+
+      </div>
+    </div>
+    <!-- === /Compact price row === -->
+
+    {%- comment -%}
+      Unit price block (unchanged from your snippet, still respects accent size).
+    {%- endcomment -%}
+    {%- if current_variant.unit_price != blank -%}
+      {%- capture show_units -%}
+        {%- unless current_variant.unit_price -%}style="display: none;"{%- endunless -%}
+      {%- endcapture -%}
+      {%- capture unit_price_separator -%}
+        <span aria-hidden="true">/</span><span class="visually-hidden">{{ 'general.accessibility.unit_price_separator' | t }}&nbsp;</span>
+      {%- endcapture -%}
+      {%- capture unit_price_base_unit -%}
+        <span>
+          {%- if current_variant.unit_price_measurement -%}
+            {%- if current_variant.unit_price_measurement.reference_value != 1 -%}
+              {{ current_variant.unit_price_measurement.reference_value }}
+            {%- endif -%}
+            {{ current_variant.unit_price_measurement.reference_unit }}
+          {%- endif -%}
+        </span>
+      {%- endcapture -%}
+      <div class="product__price--unit {{ price_small_class }}">
+        <span data-product-unit {{ show_units }}>
+          <span class="visually-hidden visually-hidden--inline">{{ 'products.product.unit_price_label' | t }}</span>
+          <span data-product-unit-price id="unit-price-{{ block.id }}">
+            {%- if settings.currency_code_enable -%}
+              {{ current_variant.unit_price | money_with_currency }}
+            {%- else -%}
+              {{ current_variant.unit_price | money }}
+            {%- endif -%}
+          </span>
+          {{ unit_price_separator }}
+          <span data-product-base id="unit-price-base-{{ block.id }}">{{ unit_price_base_unit }}</span>
+        </span>
+        <span class="hide">
+          {{ 'products.product.each' | t }}
+          <span></span>
+        </span>
+      </div>
+    {%- endif -%}
+
+  </div>
+</div>

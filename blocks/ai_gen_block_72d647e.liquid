@@ -1,0 +1,160 @@
+{% doc %}
+  @prompt
+    a simple dividing line
+{% enddoc %}
+{% assign ai_gen_id = block.id | replace: '_', '' | downcase %}
+
+{% style %}
+  .ai-divider-{{ ai_gen_id }} {
+    width: 100%;
+    padding: {{ block.settings.spacing_top }}px 0 {{ block.settings.spacing_bottom }}px;
+  }
+
+  .ai-divider-line-{{ ai_gen_id }} {
+    width: {{ block.settings.line_width }}%;
+    height: {{ block.settings.line_thickness }}px;
+    background-color: {{ block.settings.line_color }};
+    margin: 0 auto;
+    border: none;
+    {% if block.settings.line_style == 'dashed' %}
+      background: repeating-linear-gradient(
+        to right,
+        {{ block.settings.line_color }} 0px,
+        {{ block.settings.line_color }} 8px,
+        transparent 8px,
+        transparent 16px
+      );
+    {% elsif block.settings.line_style == 'dotted' %}
+      background: repeating-linear-gradient(
+        to right,
+        {{ block.settings.line_color }} 0px,
+        {{ block.settings.line_color }} 4px,
+        transparent 4px,
+        transparent 8px
+      );
+    {% endif %}
+  }
+
+  {% if block.settings.alignment == 'left' %}
+    .ai-divider-line-{{ ai_gen_id }} {
+      margin-left: 0;
+      margin-right: auto;
+    }
+  {% elsif block.settings.alignment == 'right' %}
+    .ai-divider-line-{{ ai_gen_id }} {
+      margin-left: auto;
+      margin-right: 0;
+    }
+  {% endif %}
+{% endstyle %}
+
+<div class="ai-divider-{{ ai_gen_id }}" {{ block.shopify_attributes }}>
+  <div class="ai-divider-line-{{ ai_gen_id }}"></div>
+</div>
+
+{% schema %}
+{
+  "name": "Dividing line",
+  "settings": [
+    {
+      "type": "header",
+      "content": "Line style"
+    },
+    {
+      "type": "select",
+      "id": "line_style",
+      "label": "Line style",
+      "options": [
+        {
+          "value": "solid",
+          "label": "Solid"
+        },
+        {
+          "value": "dashed",
+          "label": "Dashed"
+        },
+        {
+          "value": "dotted",
+          "label": "Dotted"
+        }
+      ],
+      "default": "solid"
+    },
+    {
+      "type": "range",
+      "id": "line_thickness",
+      "min": 1,
+      "max": 10,
+      "step": 1,
+      "unit": "px",
+      "label": "Line thickness",
+      "default": 1
+    },
+    {
+      "type": "range",
+      "id": "line_width",
+      "min": 10,
+      "max": 100,
+      "step": 5,
+      "unit": "%",
+      "label": "Line width",
+      "default": 100
+    },
+    {
+      "type": "color",
+      "id": "line_color",
+      "label": "Line color",
+      "default": "#d7d7d7"
+    },
+    {
+      "type": "select",
+      "id": "alignment",
+      "label": "Alignment",
+      "options": [
+        {
+          "value": "left",
+          "label": "Left"
+        },
+        {
+          "value": "center",
+          "label": "Center"
+        },
+        {
+          "value": "right",
+          "label": "Right"
+        }
+      ],
+      "default": "center"
+    },
+    {
+      "type": "header",
+      "content": "Spacing"
+    },
+    {
+      "type": "range",
+      "id": "spacing_top",
+      "min": 0,
+      "max": 100,
+      "step": 5,
+      "unit": "px",
+      "label": "Top spacing",
+      "default": 20
+    },
+    {
+      "type": "range",
+      "id": "spacing_bottom",
+      "min": 0,
+      "max": 100,
+      "step": 5,
+      "unit": "px",
+      "label": "Bottom spacing",
+      "default": 20
+    }
+  ],
+  "presets": [
+    {
+      "name": "Dividing line"
+    }
+  ]
+}
+{% endschema %}

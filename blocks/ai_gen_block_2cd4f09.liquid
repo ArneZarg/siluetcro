@@ -1,0 +1,483 @@
+{% doc %}
+  @prompt
+    Layout and content blocks
+    Build the section with the following order.All visible copy is provided below.
+    
+    Hero Confirmation
+    
+    Heading: “You are booked”
+    
+    subtext line:
+    “We hold a build slot from this month’s limited run for 48 hours so you can decide with calm.”
+    
+    What We Will Cover
+    
+    Three bullets, large type:
+    • Your questions answered specs, delivery, trial
+    • Payment and financing pay in full or monthly plan
+    • Your build slot if it is a fit we assign one of this month’s 50
+    
+    Small line below: “No pressure. If Elevé Studio is not an exact fit we will say so and point you to the right next step.”
+    
+    Fit Your Space
+    
+    Two column on desktop, stacked on mobile
+    
+    Checklist:
+    • Tower height 83.5 in works with 7 to 7.5 ft ceilings
+    • Frame length 91 in
+    • Width 25.5 in
+    • Carriage height 14 in
+    • Furniture level German beech wood with premium upholstery
+    • Ultra quiet glide on Japanese NMB bearings
+    
+    Included items grid with icons: Jumpboard and Box, Platform Extender, Padded Studio Mat
+    
+    
+    
+    
+    Payment Options
+    
+    Subheading: “Two simple paths”
+    
+    Columns:
+    Pay in Full One and done. We assign your slot on the call and schedule premium delivery.
+    Monthly Plan Mo
+{% enddoc %}
+{% assign ai_gen_id = block.id | replace: '_', '' | downcase %}
+
+{% style %}
+  .ai-payment-options-{{ ai_gen_id }} {
+    padding: {{ block.settings.section_padding_top }}px 0 {{ block.settings.section_padding_bottom }}px;
+    background-color: {{ block.settings.background_color }};
+  }
+
+  .ai-payment-options-container-{{ ai_gen_id }} {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 0 20px;
+  }
+
+  .ai-payment-options-heading-{{ ai_gen_id }} {
+    font-size: {{ block.settings.heading_size }}px;
+    color: {{ block.settings.heading_color }};
+    margin: 0 0 {{ block.settings.spacing_after_heading }}px;
+    text-align: {{ block.settings.text_alignment }};
+    font-weight: 600;
+    line-height: 1.2;
+  }
+
+  .ai-payment-options-subheading-{{ ai_gen_id }} {
+    font-size: {{ block.settings.subheading_size }}px;
+    color: {{ block.settings.subheading_color }};
+    margin: 0 0 {{ block.settings.spacing_after_subheading }}px;
+    text-align: {{ block.settings.text_alignment }};
+    font-weight: 500;
+  }
+
+  .ai-payment-options-columns-{{ ai_gen_id }} {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: {{ block.settings.column_gap }}px;
+  }
+
+  .ai-payment-option-{{ ai_gen_id }} {
+    background-color: {{ block.settings.option_bg_color }};
+    padding: {{ block.settings.option_padding }}px;
+    border-radius: {{ block.settings.option_border_radius }}px;
+    border: {{ block.settings.option_border_width }}px solid {{ block.settings.option_border_color }};
+    text-align: {{ block.settings.option_text_alignment }};
+  }
+
+  .ai-payment-option-title-{{ ai_gen_id }} {
+    font-size: {{ block.settings.option_title_size }}px;
+    color: {{ block.settings.option_title_color }};
+    margin: 0 0 {{ block.settings.spacing_after_option_title }}px;
+    font-weight: 600;
+    line-height: 1.2;
+  }
+
+  .ai-payment-option-description-{{ ai_gen_id }} {
+    font-size: {{ block.settings.option_description_size }}px;
+    color: {{ block.settings.option_description_color }};
+    line-height: 1.5;
+    margin: 0;
+  }
+
+  .ai-payment-option-highlight-{{ ai_gen_id }} {
+    background-color: {{ block.settings.highlight_bg_color }};
+    border-color: {{ block.settings.highlight_border_color }};
+  }
+
+  .ai-payment-option-highlight-{{ ai_gen_id }} .ai-payment-option-title-{{ ai_gen_id }} {
+    color: {{ block.settings.highlight_title_color }};
+  }
+
+  .ai-payment-option-highlight-{{ ai_gen_id }} .ai-payment-option-description-{{ ai_gen_id }} {
+    color: {{ block.settings.highlight_description_color }};
+  }
+
+  @media screen and (max-width: 749px) {
+    .ai-payment-options-{{ ai_gen_id }} {
+      padding: {{ block.settings.section_padding_top | times: 0.7 }}px 0 {{ block.settings.section_padding_bottom | times: 0.7 }}px;
+    }
+
+    .ai-payment-options-columns-{{ ai_gen_id }} {
+      grid-template-columns: 1fr;
+      gap: {{ block.settings.column_gap | times: 0.7 }}px;
+    }
+
+    .ai-payment-options-heading-{{ ai_gen_id }} {
+      font-size: {{ block.settings.heading_size | times: 0.8 }}px;
+    }
+
+    .ai-payment-option-title-{{ ai_gen_id }} {
+      font-size: {{ block.settings.option_title_size | times: 0.9 }}px;
+    }
+
+    .ai-payment-option-description-{{ ai_gen_id }} {
+      font-size: {{ block.settings.option_description_size | times: 0.9 }}px;
+    }
+  }
+{% endstyle %}
+
+<div class="ai-payment-options-{{ ai_gen_id }}" {{ block.shopify_attributes }}>
+  <div class="ai-payment-options-container-{{ ai_gen_id }}">
+    {% if block.settings.heading != blank %}
+      <h2 class="ai-payment-options-heading-{{ ai_gen_id }}">
+        {{ block.settings.heading }}
+      </h2>
+    {% endif %}
+
+    {% if block.settings.subheading != blank %}
+      <h3 class="ai-payment-options-subheading-{{ ai_gen_id }}">
+        {{ block.settings.subheading }}
+      </h3>
+    {% endif %}
+
+    <div class="ai-payment-options-columns-{{ ai_gen_id }}">
+      <div class="ai-payment-option-{{ ai_gen_id }} {% if block.settings.highlight_option_1 %}ai-payment-option-highlight-{{ ai_gen_id }}{% endif %}">
+        {% if block.settings.option_1_title != blank %}
+          <h4 class="ai-payment-option-title-{{ ai_gen_id }}">
+            {{ block.settings.option_1_title }}
+          </h4>
+        {% endif %}
+
+        {% if block.settings.option_1_description != blank %}
+          <p class="ai-payment-option-description-{{ ai_gen_id }}">
+            {{ block.settings.option_1_description }}
+          </p>
+        {% endif %}
+      </div>
+
+      <div class="ai-payment-option-{{ ai_gen_id }} {% if block.settings.highlight_option_2 %}ai-payment-option-highlight-{{ ai_gen_id }}{% endif %}">
+        {% if block.settings.option_2_title != blank %}
+          <h4 class="ai-payment-option-title-{{ ai_gen_id }}">
+            {{ block.settings.option_2_title }}
+          </h4>
+        {% endif %}
+
+        {% if block.settings.option_2_description != blank %}
+          <p class="ai-payment-option-description-{{ ai_gen_id }}">
+            {{ block.settings.option_2_description }}
+          </p>
+        {% endif %}
+      </div>
+    </div>
+  </div>
+</div>
+
+{% schema %}
+{
+  "name": "Payment options",
+  "settings": [
+    {
+      "type": "header",
+      "content": "Content"
+    },
+    {
+      "type": "text",
+      "id": "heading",
+      "label": "Heading",
+      "default": "Payment Options"
+    },
+    {
+      "type": "text",
+      "id": "subheading",
+      "label": "Subheading",
+      "default": "Two simple paths"
+    },
+    {
+      "type": "text",
+      "id": "option_1_title",
+      "label": "Option 1 title",
+      "default": "Pay in Full"
+    },
+    {
+      "type": "textarea",
+      "id": "option_1_description",
+      "label": "Option 1 description",
+      "default": "One and done. We assign your slot on the call and schedule premium delivery."
+    },
+    {
+      "type": "checkbox",
+      "id": "highlight_option_1",
+      "label": "Highlight option 1",
+      "default": false
+    },
+    {
+      "type": "text",
+      "id": "option_2_title",
+      "label": "Option 2 title",
+      "default": "Monthly Plan"
+    },
+    {
+      "type": "textarea",
+      "id": "option_2_description",
+      "label": "Option 2 description",
+      "default": "Monthly payments with flexible terms. Perfect for spreading the investment over time."
+    },
+    {
+      "type": "checkbox",
+      "id": "highlight_option_2",
+      "label": "Highlight option 2",
+      "default": false
+    },
+    {
+      "type": "header",
+      "content": "Style"
+    },
+    {
+      "type": "select",
+      "id": "text_alignment",
+      "label": "Text alignment",
+      "options": [
+        {"value": "left", "label": "Left"},
+        {"value": "center", "label": "Center"},
+        {"value": "right", "label": "Right"}
+      ],
+      "default": "center"
+    },
+    {
+      "type": "select",
+      "id": "option_text_alignment",
+      "label": "Option text alignment",
+      "options": [
+        {"value": "left", "label": "Left"},
+        {"value": "center", "label": "Center"},
+        {"value": "right", "label": "Right"}
+      ],
+      "default": "left"
+    },
+    {
+      "type": "range",
+      "id": "heading_size",
+      "min": 20,
+      "max": 48,
+      "step": 2,
+      "unit": "px",
+      "label": "Heading size",
+      "default": 32
+    },
+    {
+      "type": "range",
+      "id": "subheading_size",
+      "min": 16,
+      "max": 28,
+      "step": 1,
+      "unit": "px",
+      "label": "Subheading size",
+      "default": 20
+    },
+    {
+      "type": "range",
+      "id": "option_title_size",
+      "min": 18,
+      "max": 32,
+      "step": 1,
+      "unit": "px",
+      "label": "Option title size",
+      "default": 24
+    },
+    {
+      "type": "range",
+      "id": "option_description_size",
+      "min": 14,
+      "max": 20,
+      "step": 1,
+      "unit": "px",
+      "label": "Option description size",
+      "default": 16
+    },
+    {
+      "type": "color",
+      "id": "background_color",
+      "label": "Background color",
+      "default": "#fdfbf7"
+    },
+    {
+      "type": "color",
+      "id": "heading_color",
+      "label": "Heading color",
+      "default": "#1e1a1a"
+    },
+    {
+      "type": "color",
+      "id": "subheading_color",
+      "label": "Subheading color",
+      "default": "#1e1a1a"
+    },
+    {
+      "type": "color",
+      "id": "option_bg_color",
+      "label": "Option background color",
+      "default": "#ffffff"
+    },
+    {
+      "type": "color",
+      "id": "option_border_color",
+      "label": "Option border color",
+      "default": "#edeef0"
+    },
+    {
+      "type": "color",
+      "id": "option_title_color",
+      "label": "Option title color",
+      "default": "#1e1a1a"
+    },
+    {
+      "type": "color",
+      "id": "option_description_color",
+      "label": "Option description color",
+      "default": "#1e1a1a"
+    },
+    {
+      "type": "header",
+      "content": "Highlight style"
+    },
+    {
+      "type": "color",
+      "id": "highlight_bg_color",
+      "label": "Highlight background color",
+      "default": "#c28b66"
+    },
+    {
+      "type": "color",
+      "id": "highlight_border_color",
+      "label": "Highlight border color",
+      "default": "#c28b66"
+    },
+    {
+      "type": "color",
+      "id": "highlight_title_color",
+      "label": "Highlight title color",
+      "default": "#ffffff"
+    },
+    {
+      "type": "color",
+      "id": "highlight_description_color",
+      "label": "Highlight description color",
+      "default": "#ffffff"
+    },
+    {
+      "type": "header",
+      "content": "Spacing"
+    },
+    {
+      "type": "range",
+      "id": "section_padding_top",
+      "min": 0,
+      "max": 120,
+      "step": 4,
+      "unit": "px",
+      "label": "Top padding",
+      "default": 80
+    },
+    {
+      "type": "range",
+      "id": "section_padding_bottom",
+      "min": 0,
+      "max": 120,
+      "step": 4,
+      "unit": "px",
+      "label": "Bottom padding",
+      "default": 80
+    },
+    {
+      "type": "range",
+      "id": "spacing_after_heading",
+      "min": 8,
+      "max": 40,
+      "step": 2,
+      "unit": "px",
+      "label": "Space after heading",
+      "default": 16
+    },
+    {
+      "type": "range",
+      "id": "spacing_after_subheading",
+      "min": 16,
+      "max": 60,
+      "step": 4,
+      "unit": "px",
+      "label": "Space after subheading",
+      "default": 40
+    },
+    {
+      "type": "range",
+      "id": "column_gap",
+      "min": 16,
+      "max": 60,
+      "step": 4,
+      "unit": "px",
+      "label": "Column gap",
+      "default": 32
+    },
+    {
+      "type": "range",
+      "id": "option_padding",
+      "min": 16,
+      "max": 48,
+      "step": 2,
+      "unit": "px",
+      "label": "Option padding",
+      "default": 32
+    },
+    {
+      "type": "range",
+      "id": "option_border_radius",
+      "min": 0,
+      "max": 20,
+      "step": 2,
+      "unit": "px",
+      "label": "Option border radius",
+      "default": 8
+    },
+    {
+      "type": "range",
+      "id": "option_border_width",
+      "min": 0,
+      "max": 4,
+      "step": 1,
+      "unit": "px",
+      "label": "Option border width",
+      "default": 1
+    },
+    {
+      "type": "range",
+      "id": "spacing_after_option_title",
+      "min": 8,
+      "max": 24,
+      "step": 2,
+      "unit": "px",
+      "label": "Space after option title",
+      "default": 12
+    }
+  ],
+  "presets": [
+    {
+      "name": "Payment options"
+    }
+  ]
+}
+{% endschema %}
