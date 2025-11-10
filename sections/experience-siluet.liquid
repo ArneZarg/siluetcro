@@ -56,14 +56,14 @@
   </div> {% endcomment %}
   <div class="hero-block">
     <picture>
-      <img src="{{ section.settings.image | img_url:'master' }}">
+      <img loading="lazy" alt="Hero Image Banner" src="{{ section.settings.image | img_url:'master' }}">
     </picture>
     <div class="top-portion">
       <div class="heading-html-block">
         <div class="trusted-container">
           <div class="trusted">
             <div class="trusted-pic">
-              <img src="{{ section.settings.trusted_pic | img_url:'medium' }}">
+              <img loading="lazy" alt="moms" src="{{ section.settings.trusted_pic | img_url:'medium' }}">
             </div>
             <div class="trusted-txt">
               {{ section.settings.trusted_txt }}
