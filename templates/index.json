@@ -6,6 +6,31 @@
     },
     "experience_siluet_VQLeef": {
       "type": "experience-siluet",
+      "blocks": {
+        "bullet_BmWn9V": {
+          "type": "bullet",
+          "settings": {
+            "text": "Studio-Grade Equipment"
+          }
+        },
+        "bullet_ADniVF": {
+          "type": "bullet",
+          "settings": {
+            "text": "Save Thousands On Classes"
+          }
+        },
+        "bullet_xAR4rT": {
+          "type": "bullet",
+          "settings": {
+            "text": "Setup In 60 Seconds"
+          }
+        }
+      },
+      "block_order": [
+        "bullet_BmWn9V",
+        "bullet_ADniVF",
+        "bullet_xAR4rT"
+      ],
       "custom_css": [
         ".ph__chip {border-radius: 10px; width: 225px; text-align: center;}",
         ".ph__bigcta {border-radius: 10px; padding: 10px 50px; width: 225px; text-align: center;}",

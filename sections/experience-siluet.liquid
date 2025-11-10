@@ -84,6 +84,20 @@
             {{ section.settings.guarantee_text }}
           </div>
         </div>
+        <div class="bullet-points">
+          {% for b in section.blocks %}
+            {% if b.type == 'bullet' %}
+            <div class="bullet-point">
+              <div class="check">
+                {%- render 'hero-check' -%}
+              </div>
+              <div class="bullet-text">
+                {{ b.settings.text }}
+              </div>
+            </div>
+            {% endif %}
+          {% endfor %}
+        </div>
       </div>
     </div>
   </div>
@@ -174,6 +188,30 @@
     }
     #pilates-{{ section.id }} .black-fade{
       background: linear-gradient(180deg,rgba(255, 255, 255, 0) 0%, rgba(0, 0, 0, 1) 100%);
+      width:100%;
+    }
+    #pilates-{{ section.id }} .bullet-points{
+      display:flex;
+      flex-direction:row;
+      gap:4px 20px;
+      flex-wrap:wrap;
+      justify-content:center;
+    }
+    #pilates-{{ section.id }} .bullet-point{
+      display:flex;
+      flex-direction:row;
+      align-items:center;
+      gap:4px;
+    }
+    #pilates-{{ section.id }} .check{
+      width:20px;
+    }
+    #pilates-{{ section.id }} .bullet-text{
+      font-size:1rem;
+      color:#fff;
+    }
+    #pilates-{{ section.id }} svg{
+      display:block;
       width:100%;
     }
   </style>
