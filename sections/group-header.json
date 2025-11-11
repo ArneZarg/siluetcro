@@ -1,1 +1,96 @@
-{"type":"header","name":"Header","sections":{"announcement":{"type":"announcement","blocks":{"announce_text":{"type":"text","settings":{"text":"<h1><strong>Offer Ends Today | Free U.S. Shipping<\/strong><\/h1>","target_url_enabled":false,"target_url":"","target_referrer_enabled":false,"target_referrer":"","target_device_enabled":false,"target_device":"mobile"}}},"block_order":["announce_text"],"settings":{"text_size":4,"layout":"slider","speed":5,"padding_top":16,"padding_bottom":16}},"header":{"type":"header","blocks":{"header-block-toolbar":{"type":"toolbar","disabled":true,"settings":{"announcement_text":"<p>This is announcement <em><strong>richtext<\/strong><\/em> from an announcement block<\/p>","secondary_linklist":"","show_menu_desktop":true,"show_menu_mobile":true,"show_locale_desktop":true,"show_locale_mobile":true,"show_currency_desktop":true,"show_currency_mobile":true}}},"block_order":["header-block-toolbar"],"custom_css":["a.sliderow__title {font-size: 14px;}"],"settings":{"header_style":"drawer","logo":"shopify:\/\/shop_images\/Siluet_4.png","logo_max_limit":50,"logo_padding":15,"logo_text_size":1,"main_menu_linklist":"main-menu","mobile_menu_linklist":"","full_width":true,"underline_current":true,"enable_search":false,"enable_account":true,"use_icons":true,"icons_type":"modern","cart_icon":"cart","header_sticky":"static","transparent_home":true,"transparent_collection":false,"transparent_blog":false,"transparent_article":false,"transparent_page":false,"transparent_text_color":"#ffffff","show_collection_images":true,"collection_wh_ratio":2.5}}},"order":["announcement","header"]}
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "type": "header",
+  "name": "Header",
+  "sections": {
+    "announcement": {
+      "type": "announcement",
+      "blocks": {
+        "announce_text": {
+          "type": "text",
+          "settings": {
+            "text": "<h1><strong>Black Friday Offer Available Today</strong></h1>",
+            "target_url_enabled": false,
+            "target_url": "",
+            "target_referrer_enabled": false,
+            "target_referrer": "",
+            "target_device_enabled": false,
+            "target_device": "mobile"
+          }
+        }
+      },
+      "block_order": [
+        "announce_text"
+      ],
+      "settings": {
+        "text_size": 4,
+        "layout": "slider",
+        "speed": 5,
+        "padding_top": 16,
+        "padding_bottom": 16
+      }
+    },
+    "header": {
+      "type": "header",
+      "blocks": {
+        "header-block-toolbar": {
+          "type": "toolbar",
+          "disabled": true,
+          "settings": {
+            "announcement_text": "<p>This is announcement <em><strong>richtext</strong></em> from an announcement block</p>",
+            "secondary_linklist": "",
+            "show_menu_desktop": true,
+            "show_menu_mobile": true,
+            "show_locale_desktop": true,
+            "show_locale_mobile": true,
+            "show_currency_desktop": true,
+            "show_currency_mobile": true
+          }
+        }
+      },
+      "block_order": [
+        "header-block-toolbar"
+      ],
+      "custom_css": [
+        "a.sliderow__title {font-size: 14px;}"
+      ],
+      "settings": {
+        "header_style": "drawer",
+        "logo": "shopify://shop_images/Siluet_4.png",
+        "logo_max_limit": 50,
+        "logo_padding": 15,
+        "logo_text_size": 1,
+        "main_menu_linklist": "main-menu",
+        "mobile_menu_linklist": "",
+        "full_width": true,
+        "underline_current": true,
+        "enable_search": false,
+        "enable_account": true,
+        "use_icons": true,
+        "icons_type": "modern",
+        "cart_icon": "cart",
+        "header_sticky": "static",
+        "transparent_home": true,
+        "transparent_collection": false,
+        "transparent_blog": false,
+        "transparent_article": false,
+        "transparent_page": false,
+        "transparent_text_color": "#ffffff",
+        "show_collection_images": true,
+        "collection_wh_ratio": 2.5
+      }
+    }
+  },
+  "order": [
+    "announcement",
+    "header"
+  ]
+}
