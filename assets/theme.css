@@ -11105,6 +11105,8 @@ button:hover .cta__dot {
   min-height: 54px;
   white-space: normal;
   line-height: normal;
+  font-size:22px;
+  font-weight:bold;
 }
 .variant--soldout .btn--add-to-cart,
 .variant--unavailable .btn--add-to-cart {
