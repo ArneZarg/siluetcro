@@ -37,11 +37,11 @@
         "title": {
           "type": "title",
           "settings": {
-            "text_size": 9,
+            "text_size": 8,
             "product_show_cutline": true,
             "show_rating": true,
             "show_rating_count": false,
-            "padding_bottom": 16
+            "padding_bottom": 0
           }
         },
         "liquid_3mHamf": {
@@ -55,8 +55,8 @@
         "price": {
           "type": "price",
           "settings": {
-            "price_size": 10,
-            "padding_bottom": 16
+            "price_size": 8,
+            "padding_bottom": 0
           }
         },
         "flex_pay_with_hsa_fsa_tiny_yjUXT3": {
