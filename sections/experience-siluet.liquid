@@ -116,6 +116,7 @@
     <div class="mobile-hide hero-banner-left">
       <div class="heading-html-block">
         <div class="trusted-container">
+          {% unless section.settings.remove_social_proof %}
           <div class="trusted">
             <div class="trusted-pic">
               <img loading="lazy" alt="moms" src="{{ section.settings.trusted_pic | img_url:'medium' }}">
@@ -124,6 +125,7 @@
               {{ section.settings.trusted_txt }}
             </div>
           </div>
+          {% endunless %}
         </div>
         <div class="heading-html">
           {{ section.settings.heading_html }}
@@ -203,6 +205,7 @@
       {% comment %} padding:5px 40px; {% endcomment %}
       p{
         font-size:24px;
+        line-height:1.3;
         em{
           color:{{ section.settings.heading_italic_color }};
         }
@@ -525,6 +528,13 @@
       "step":5,
       "default":20,
       "info": "mobile only"
+    },
+    {
+      "id":"remove_social_proof",
+      "type":"checkbox",
+      "label":"Remove Social Proof",
+      "default":false,
+      "info":"remove social proof at the top"
     },
     {
       "id":"trusted_pic",
