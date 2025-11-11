@@ -284,7 +284,7 @@
       "name": "Image",
       "settings": {
         "image": "shopify://shop_images/image_6.jpg",
-        "max_width": 90,
+        "max_width": 100,
         "x_align": "center",
         "color_bg": "palette--light bg--neutral",
         "width": "wrapper",
