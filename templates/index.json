@@ -67,7 +67,7 @@
         "cta_chip_left_url": "",
         "cta_chip_right_label": "Workout How You Want",
         "cta_chip_right_url": "",
-        "big_cta_label": "Try Elevé",
+        "big_cta_label": "Shop Now",
         "big_cta_url": "shopify://products/pro-reformer",
         "guarantee_text": "60-Day Money Back Guarantee | HSA/FSA"
       }
@@ -180,6 +180,7 @@
     },
     "experience_siluet_HgzcVF": {
       "type": "experience-siluet",
+      "disabled": true,
       "name": "Experience Siluet Hero",
       "settings": {
         "desktop_padding": 60,
