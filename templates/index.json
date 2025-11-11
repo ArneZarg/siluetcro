@@ -49,8 +49,8 @@
       "settings": {
         "desktop_padding": 60,
         "desktop_background_pos": "right",
-        "desktop_background_size": "contain",
-        "desktop_height": 75,
+        "desktop_background_size": "cover",
+        "desktop_height": 88,
         "padding_top": 10,
         "padding_bottom": 20,
         "trusted_pic": "shopify://shop_images/moms.png",
@@ -60,6 +60,7 @@
         "heading_bold_color": "#111111",
         "subheading": "<p> </p>",
         "image": "shopify://shop_images/f9952084cdf27d416e301019ca90cf0b542dd2a7.jpg",
+        "desk_hero": "shopify://shop_images/desk-bg.png",
         "cta_chip_left_label": "Only $97/Month",
         "cta_chip_left_url": "",
         "cta_chip_right_label": "Workout How You Want",
