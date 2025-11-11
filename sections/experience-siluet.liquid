@@ -183,8 +183,11 @@
       
     }
     #pilates-{{ section.id }} .white-fade{
+      {% unless section.settings.remove_gradient_mobile %}
       background: linear-gradient(180deg,rgba(255, 255, 255, 1) 0%, rgba(255, 255, 255, 0) 100%);
+      {% endunless %}
       padding:0 40px;
+      
     }
     #pilates-{{ section.id }} .heading-html-block{
       width:100%;
@@ -210,7 +213,9 @@
     }
     #pilates-{{ section.id }} .heading-html{
       text-align:center;
+      {% unless section.settings.remove_gradient_mobile %}
       background:#fff;
+      {% endunless %}
       padding-top:10px;
     }
     #pilates-{{ section.id }} .chips-row{
@@ -254,7 +259,9 @@
       color:#fff;
     }
     #pilates-{{ section.id }} .black-fade{
+      {% unless section.settings.remove_gradient_mobile %}
       background: linear-gradient(180deg,rgba(255, 255, 255, 0) 0%, rgba(0, 0, 0, 1) 100%);
+      {% endunless %}
       width:100%;
       padding:0px 15px {{section.settings.padding_bottom}}px;
     }
@@ -303,7 +310,9 @@
     }
     #pilates-{{ section.id }} .trusted-container {
       padding: {{section.settings.padding_top}}px 40px 0;
+      {% unless section.settings.remove_gradient_mobile %}
       background: #fff;
+      {% endunless %}
     }
     @media(min-width:1024px){
       #pilates-{{ section.id }} .trusted-container{
@@ -487,6 +496,13 @@
       "unit": "vh",
       "info": "adjust height of hero (desktop only)",
       "label": "Desktop Height"
+    },
+    {
+      "id":"remove_gradient_mobile",
+      "type": "checkbox",
+      "default":true,
+      "info": "removes gradient on mobile - useful if background has its own gradient",
+      "label": "Remove Gradient Mobile"
     },
     {
       "id":"padding_top",
