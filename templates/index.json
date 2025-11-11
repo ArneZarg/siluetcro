@@ -177,21 +177,6 @@
         "padding_bottom": 36
       }
     },
-    "section_image_cbjjwi": {
-      "type": "section-image",
-      "disabled": true,
-      "name": "Image",
-      "settings": {
-        "image": "shopify://shop_images/Group_18.jpg",
-        "mobile_image": "shopify://shop_images/Group_18.jpg",
-        "max_width": 100,
-        "x_align": "center",
-        "color_bg": "palette--light bg--neutral",
-        "width": "wrapper",
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
-    },
     "experience_9qfdTz": {
       "type": "experience",
       "disabled": true,
@@ -991,7 +976,6 @@
     "experience_siluet_VQLeef",
     "logos",
     "section_list_collections_products_YMtMea",
-    "section_image_cbjjwi",
     "experience_9qfdTz",
     "section_richtext_jdQCDA",
     "hero",
