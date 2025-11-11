@@ -177,6 +177,33 @@
         "padding_bottom": 36
       }
     },
+    "experience_siluet_HgzcVF": {
+      "type": "experience-siluet",
+      "name": "Experience Siluet Hero",
+      "settings": {
+        "desktop_padding": 60,
+        "desktop_background_pos": "right",
+        "desktop_background_size": "cover",
+        "desktop_height": 88,
+        "remove_gradient_mobile": false,
+        "padding_top": 5,
+        "padding_bottom": 10,
+        "trusted_txt": "",
+        "heading_html": "<p>The Pilates Studio <em>Experience</em><br/>In The <em>Comfort</em> Of Your <em>Home</em></p>",
+        "heading_italic_color": "#cda07a",
+        "heading_bold_color": "#111111",
+        "subheading": "<p> </p>",
+        "image": "shopify://shop_images/image_14_1.png",
+        "desk_hero": "shopify://shop_images/desk-bg.png",
+        "cta_chip_left_label": "Only $97/Month",
+        "cta_chip_left_url": "",
+        "cta_chip_right_label": "Workout How You Want",
+        "cta_chip_right_url": "",
+        "big_cta_label": "Try Elevé",
+        "big_cta_url": "shopify://products/pro-reformer",
+        "guarantee_text": "60-Day Money Back Guarantee | HSA/FSA"
+      }
+    },
     "experience_9qfdTz": {
       "type": "experience",
       "disabled": true,
@@ -976,6 +1003,7 @@
     "experience_siluet_VQLeef",
     "logos",
     "section_list_collections_products_YMtMea",
+    "experience_siluet_HgzcVF",
     "experience_9qfdTz",
     "section_richtext_jdQCDA",
     "hero",
