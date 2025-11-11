@@ -1,3 +1,12 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "sections": {
     "1762628567d08fd438": {
@@ -38,20 +47,26 @@
       ],
       "name": "Experience Siluet Hero",
       "settings": {
-        "trusted_pic": "shopify:\/\/shop_images\/moms.png",
-        "trusted_txt": "Trusted Daily By 1000+ Moms",
-        "heading_html": "<p>The Pilates Studio <em>Experience<\/em><br\/>In The <em>Comfort<\/em> Of Your <em>Home<\/em><\/p>",
+        "desktop_padding": 60,
+        "desktop_background_pos": "right",
+        "desktop_background_size": "contain",
+        "desktop_height": 75,
+        "padding_top": 10,
+        "padding_bottom": 20,
+        "trusted_pic": "shopify://shop_images/moms.png",
+        "trusted_txt": "Trusted Daily By 100+ Moms",
+        "heading_html": "<p>The Pilates Studio <em>Experience</em><br/>In The <em>Comfort</em> Of Your <em>Home</em></p>",
         "heading_italic_color": "#cda07a",
         "heading_bold_color": "#111111",
-        "subheading": "<p> <\/p>",
-        "image": "shopify:\/\/shop_images\/f9952084cdf27d416e301019ca90cf0b542dd2a7.jpg",
-        "cta_chip_left_label": "Only $97\/Month",
+        "subheading": "<p> </p>",
+        "image": "shopify://shop_images/f9952084cdf27d416e301019ca90cf0b542dd2a7.jpg",
+        "cta_chip_left_label": "Only $97/Month",
         "cta_chip_left_url": "",
         "cta_chip_right_label": "Workout How You Want",
         "cta_chip_right_url": "",
         "big_cta_label": "Try Elevé",
-        "big_cta_url": "shopify:\/\/products\/pro-reformer",
-        "guarantee_text": "60-Day Money Back Guarantee | HSA\/FSA"
+        "big_cta_url": "shopify://products/pro-reformer",
+        "guarantee_text": "60-Day Money Back Guarantee | HSA/FSA"
       }
     },
     "logos": {
@@ -60,7 +75,7 @@
         "logo-0": {
           "type": "logo_image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/5_1.webp",
+            "image": "shopify://shop_images/5_1.webp",
             "link": "",
             "new_tab": false,
             "width": 50,
@@ -70,7 +85,7 @@
         "logo-1": {
           "type": "logo_image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/2_4fa4fca5-1fb4-4a72-ba57-ff6f11187088.webp",
+            "image": "shopify://shop_images/2_4fa4fca5-1fb4-4a72-ba57-ff6f11187088.webp",
             "link": "",
             "new_tab": false,
             "width": 50,
@@ -80,7 +95,7 @@
         "logo-2": {
           "type": "logo_image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/4_3e6916de-e61d-49d8-9972-f7b164d05980.webp",
+            "image": "shopify://shop_images/4_3e6916de-e61d-49d8-9972-f7b164d05980.webp",
             "link": "",
             "new_tab": false,
             "width": 50,
@@ -90,7 +105,7 @@
         "logo-3": {
           "type": "logo_image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/gempages_567635487360025509-13578041-d466-4f3a-81df-13f46b718a47.png",
+            "image": "shopify://shop_images/gempages_567635487360025509-13578041-d466-4f3a-81df-13f46b718a47.png",
             "link": "",
             "new_tab": true,
             "width": 50,
@@ -100,7 +115,7 @@
         "logo-4": {
           "type": "logo_image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/6_1.webp",
+            "image": "shopify://shop_images/6_1.webp",
             "link": "",
             "new_tab": false,
             "width": 50,
@@ -165,8 +180,8 @@
       "disabled": true,
       "name": "Image",
       "settings": {
-        "image": "shopify:\/\/shop_images\/Group_18.jpg",
-        "mobile_image": "shopify:\/\/shop_images\/Group_18.jpg",
+        "image": "shopify://shop_images/Group_18.jpg",
+        "mobile_image": "shopify://shop_images/Group_18.jpg",
         "max_width": 100,
         "x_align": "center",
         "color_bg": "palette--light bg--neutral",
@@ -185,10 +200,10 @@
       "name": "Hero Studio",
       "settings": {
         "full_width": true,
-        "heading_html": "<p>Start Your New Pilates Routine And Transform Your Body<\/p>",
+        "heading_html": "<p>Start Your New Pilates Routine And Transform Your Body</p>",
         "heading_color": "#111111",
-        "image": "shopify:\/\/shop_images\/image_12.png",
-        "chip_l1": "Only $97\/Month",
+        "image": "shopify://shop_images/image_12.png",
+        "chip_l1": "Only $97/Month",
         "chip_l1_url": "",
         "chip_r1": "Used By 100+ Moms",
         "chip_r1_url": "",
@@ -201,7 +216,7 @@
         "chip_r3": "",
         "chip_r3_url": "",
         "big_cta_label": "Shop Siluet",
-        "big_cta_url": "shopify:\/\/collections\/all",
+        "big_cta_url": "shopify://collections/all",
         "show_stars": true,
         "star_count": 5,
         "review_text": "10,000+ Reviews",
@@ -218,7 +233,7 @@
         "text_j7KzVm": {
           "type": "text",
           "settings": {
-            "text": "<ul><li>Studio-Grade Equipment<\/li><li>Save Thousands On Expensive Classes<\/li><li>Workout On Your Own Schedule<\/li><\/ul>",
+            "text": "<ul><li>Studio-Grade Equipment</li><li>Save Thousands On Expensive Classes</li><li>Workout On Your Own Schedule</li></ul>",
             "text_size": 4,
             "text_columns": 1
           }
@@ -260,7 +275,7 @@
         "banner-text": {
           "type": "text",
           "settings": {
-            "richtext": "<p><em>Luxury Wellness for women in motion<\/em><\/p>",
+            "richtext": "<p><em>Luxury Wellness for women in motion</em></p>",
             "text_size": 6
           }
         },
@@ -268,12 +283,12 @@
           "type": "button",
           "settings": {
             "link_text_1": "Shop Wellness Staples",
-            "link_1": "shopify:\/\/collections\/products",
+            "link_1": "shopify://collections/products",
             "button_size_1": "btn--long",
             "button_style_1": "btn",
             "button_color_1": "btn--white",
             "link_text_2": "",
-            "link_2": "shopify:\/\/pages\/contact",
+            "link_2": "shopify://pages/contact",
             "button_size_2": "btn--long",
             "button_style_2": "btn-text-thick-line",
             "button_color_2": "btn--neutral",
@@ -293,7 +308,7 @@
       ],
       "disabled": true,
       "settings": {
-        "image": "shopify:\/\/shop_images\/Untitled_design_86_1.webp",
+        "image": "shopify://shop_images/Untitled_design_86_1.webp",
         "height": "use_screen_one_third",
         "overlay_opacity": 100,
         "overlay_color": "#ffffff",
@@ -332,7 +347,7 @@
           "settings": {
             "title": "Sourced Globally, Refined by Hand",
             "title_size": 8,
-            "text": "<p><strong>At Siluet, luxury is a journey.<\/strong> From <strong>Germany<\/strong>, <strong>Japan<\/strong>, and <strong>South<\/strong> <strong>Korea<\/strong>, we select only exceptional components. Our skilled artisans meticulously craft each piece by hand, delivering Pilates equipment that embodies <strong>quality, luxury, and care.<\/strong><\/p>",
+            "text": "<p><strong>At Siluet, luxury is a journey.</strong> From <strong>Germany</strong>, <strong>Japan</strong>, and <strong>South</strong> <strong>Korea</strong>, we select only exceptional components. Our skilled artisans meticulously craft each piece by hand, delivering Pilates equipment that embodies <strong>quality, luxury, and care.</strong></p>",
             "body_size": 6,
             "text_align": "text-left"
           }
@@ -362,7 +377,7 @@
             "icon_name": "icon-basket-return",
             "icon_color": "#aaaaaa",
             "title": "Free returns",
-            "text": "<p>Returns within 30 days receive a full refund.<\/p>",
+            "text": "<p>Returns within 30 days receive a full refund.</p>",
             "link_text": "",
             "link_url": ""
           }
@@ -373,7 +388,7 @@
             "icon_name": "icon-shipment-world",
             "icon_color": "#aaaaaa",
             "title": "Worldwide shipping",
-            "text": "<p>Ship anywhere, rates available at checkout.<\/p>",
+            "text": "<p>Ship anywhere, rates available at checkout.</p>",
             "link_text": "",
             "link_url": ""
           }
@@ -383,8 +398,8 @@
           "settings": {
             "icon_name": "icon-phone",
             "icon_color": "#aaaaaa",
-            "title": "24\/7 support",
-            "text": "<p>Call us anytime at 1(800) 555-1234.<\/p>",
+            "title": "24/7 support",
+            "text": "<p>Call us anytime at 1(800) 555-1234.</p>",
             "link_text": "",
             "link_url": ""
           }
@@ -430,7 +445,7 @@
       "type": "apps",
       "blocks": {
         "loox_reviews_loox_dynamic_carousel_TVWNnt": {
-          "type": "shopify:\/\/apps\/loox-reviews\/blocks\/loox-dynamic-carousel\/5c3b337f-fd14-4df5-b1d6-80ec13e6e28e",
+          "type": "shopify://apps/loox-reviews/blocks/loox-dynamic-carousel/5c3b337f-fd14-4df5-b1d6-80ec13e6e28e",
           "settings": {
             "corner-radius": 8,
             "items-per-view": 2,
@@ -497,8 +512,8 @@
           "type": "_pair-before-after",
           "static": true,
           "settings": {
-            "after_image": "shopify:\/\/shop_images\/8d2c526b-26db-4b25-863e-5fae85b57f90.png",
-            "before_image": "shopify:\/\/shop_images\/8d2c526b-26db-4b25-863e-5fae85b57f90.png",
+            "after_image": "shopify://shop_images/8d2c526b-26db-4b25-863e-5fae85b57f90.png",
+            "before_image": "shopify://shop_images/8d2c526b-26db-4b25-863e-5fae85b57f90.png",
             "orientation": "horizontal",
             "handle_color": "#ffffff",
             "start_position": 50
@@ -528,7 +543,7 @@
                   "type": "theme-text-richtext",
                   "name": "Text: Rich text",
                   "settings": {
-                    "text": "<h4>How<strong> Busy Mom’s<\/strong> Are Getting In The <strong>Best Shape Of Their Lives <\/strong>With The Elevé Reformer<\/h4>",
+                    "text": "<h4>How<strong> Busy Mom’s</strong> Are Getting In The <strong>Best Shape Of Their Lives </strong>With The Elevé Reformer</h4>",
                     "font_family": "body",
                     "text_size": 5,
                     "max_width": 550
@@ -550,7 +565,7 @@
       "custom_css": [
         "@media only screen and (max-width: 767px) {.brick__section--reverse {flex-direction: column; }}"
       ],
-      "name": "Pair: Before\/After & Text",
+      "name": "Pair: Before/After & Text",
       "settings": {
         "order": "text-first",
         "height": "use_screen_one_half",
@@ -569,10 +584,10 @@
           "type": "icon_block",
           "settings": {
             "icon_name": "icon-basket-return",
-            "icon_alt": "shopify:\/\/shop_images\/Rectangle_54_1.webp",
+            "icon_alt": "shopify://shop_images/Rectangle_54_1.webp",
             "icon_color": "#aaaaaa",
             "title": "Ditch The Expensive Classes That Don’t Get Results",
-            "text": "<p>Instead of paying $40+ per class or $3-4,000\/year for spots you can't even book, busy moms are getting results with a reformer that replaces the studio chaos<\/p>",
+            "text": "<p>Instead of paying $40+ per class or $3-4,000/year for spots you can't even book, busy moms are getting results with a reformer that replaces the studio chaos</p>",
             "link_text": "",
             "link_url": ""
           }
@@ -581,10 +596,10 @@
           "type": "icon_block",
           "settings": {
             "icon_name": "icon-shipment-world",
-            "icon_alt": "shopify:\/\/shop_images\/Rectangle_54_2.webp",
+            "icon_alt": "shopify://shop_images/Rectangle_54_2.webp",
             "icon_color": "#aaaaaa",
-            "title": "Workout When\/How You Want In Seconds",
-            "text": "<p>Instead of needing hour-long blocks and a dedicated room, you're unfolding your Elevé in under 60 seconds and working out in life's small gap<\/p>",
+            "title": "Workout When/How You Want In Seconds",
+            "text": "<p>Instead of needing hour-long blocks and a dedicated room, you're unfolding your Elevé in under 60 seconds and working out in life's small gap</p>",
             "link_text": "",
             "link_url": ""
           }
@@ -593,10 +608,10 @@
           "type": "icon_block",
           "settings": {
             "icon_name": "icon-phone",
-            "icon_alt": "shopify:\/\/shop_images\/Rectangle_54_3.webp",
+            "icon_alt": "shopify://shop_images/Rectangle_54_3.webp",
             "icon_color": "#aaaaaa",
             "title": "Get Real Results From A Consistent Routine",
-            "text": "<p>Say goodbye to one-off classes and inconsistency. You're not chasing motivation that comes and goes, you're building an unbreakable habit with a reformer that removes every excuse. And that consistency turns effort into transformation.<\/p>",
+            "text": "<p>Say goodbye to one-off classes and inconsistency. You're not chasing motivation that comes and goes, you're building an unbreakable habit with a reformer that removes every excuse. And that consistency turns effort into transformation.</p>",
             "link_text": "",
             "link_url": ""
           }
@@ -653,21 +668,21 @@
         "image_BMDFmD": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/8b199ea2-3c2f-4418-9286-cb49ad4eec08.webp",
+            "image": "shopify://shop_images/8b199ea2-3c2f-4418-9286-cb49ad4eec08.webp",
             "link": ""
           }
         },
         "image_4jzBCM": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/9f09ede2-6052-44f7-af76-b5a598fde897.gif",
+            "image": "shopify://shop_images/9f09ede2-6052-44f7-af76-b5a598fde897.gif",
             "link": ""
           }
         },
         "image_VmmA37": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/468fe892-1e50-4883-b4ca-b240bf335050.webp",
+            "image": "shopify://shop_images/468fe892-1e50-4883-b4ca-b240bf335050.webp",
             "link": ""
           }
         }
@@ -699,7 +714,7 @@
         "text_RdR7nb": {
           "type": "text",
           "settings": {
-            "text": "<h3>The Siluet Transformer<\/h3>",
+            "text": "<h3>The Siluet Transformer</h3>",
             "text_size": 4,
             "text_columns": 1
           }
@@ -725,7 +740,7 @@
       "disabled": true,
       "name": "Image",
       "settings": {
-        "image": "shopify:\/\/shop_images\/Easily_folded_1.png",
+        "image": "shopify://shop_images/Easily_folded_1.png",
         "max_width": 100,
         "x_align": "center",
         "color_bg": "palette--light bg--neutral",
@@ -740,28 +755,28 @@
         "image_8i7wtK": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/image_10.png",
+            "image": "shopify://shop_images/image_10.png",
             "link": ""
           }
         },
         "image_iBVYAd": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/image_8.png",
+            "image": "shopify://shop_images/image_8.png",
             "link": ""
           }
         },
         "image_FxNRbM": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/image_9_1.png",
+            "image": "shopify://shop_images/image_9_1.png",
             "link": ""
           }
         },
         "image_P3tdtK": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/image_7.png",
+            "image": "shopify://shop_images/image_7.png",
             "link": ""
           }
         }
@@ -774,7 +789,7 @@
       ],
       "disabled": true,
       "custom_css": [
-        "@media (max-width: 767px) {[data-grid][data-grid-small] [data-item] {width: calc( (100% - var(--outer)) \/ 2 - (var(--gutter) - 1px \/ 2 * (var(--grid-small-items) - 1)) ); margin-bottom: 20px; } .gallery.flickity-disabled-mobile.flickity-static {overflow: unset; flex-flow: wrap !important; scroll-behavior: smooth; } .custom-scrollbar {display: unset !important; }}"
+        "@media (max-width: 767px) {[data-grid][data-grid-small] [data-item] {width: calc( (100% - var(--outer)) / 2 - (var(--gutter) - 1px / 2 * (var(--grid-small-items) - 1)) ); margin-bottom: 20px; } .gallery.flickity-disabled-mobile.flickity-static {overflow: unset; flex-flow: wrap !important; scroll-behavior: smooth; } .custom-scrollbar {display: unset !important; }}"
       ],
       "name": "Gallery",
       "settings": {
@@ -798,42 +813,42 @@
           "type": "text",
           "settings": {
             "title": "How long does it take to see results?",
-            "content": "<p>Share details about your shipping policies, item returns, or customer service.<\/p>"
+            "content": "<p>Share details about your shipping policies, item returns, or customer service.</p>"
           }
         },
         "text_jaLQ34": {
           "type": "text",
           "settings": {
             "title": "How long does it take to see results?",
-            "content": "<p>Share details about your shipping policies, item returns, or customer service.<\/p>"
+            "content": "<p>Share details about your shipping policies, item returns, or customer service.</p>"
           }
         },
         "text_echjet": {
           "type": "text",
           "settings": {
             "title": "How long does it take to see results?",
-            "content": "<p>Share details about your shipping policies, item returns, or customer service.<\/p>"
+            "content": "<p>Share details about your shipping policies, item returns, or customer service.</p>"
           }
         },
         "text_jPzryP": {
           "type": "text",
           "settings": {
             "title": "How long does it take to see results?",
-            "content": "<p>Share details about your shipping policies, item returns, or customer service.<\/p>"
+            "content": "<p>Share details about your shipping policies, item returns, or customer service.</p>"
           }
         },
         "text_UMi4yf": {
           "type": "text",
           "settings": {
             "title": "How long does it take to see results?",
-            "content": "<p>Share details about your shipping policies, item returns, or customer service.<\/p>"
+            "content": "<p>Share details about your shipping policies, item returns, or customer service.</p>"
           }
         },
         "text_9mERen": {
           "type": "text",
           "settings": {
             "title": "How long does it take to see results?",
-            "content": "<p>Share details about your shipping policies, item returns, or customer service.<\/p>"
+            "content": "<p>Share details about your shipping policies, item returns, or customer service.</p>"
           }
         }
       },
@@ -866,7 +881,7 @@
         "text_bTM3bw": {
           "type": "text",
           "settings": {
-            "text": "<h4>Try It Risk Free For 60 Days<\/h4>",
+            "text": "<h4>Try It Risk Free For 60 Days</h4>",
             "text_size": 4,
             "text_columns": 1
           }
@@ -949,7 +964,7 @@
       "disabled": true,
       "name": "Image banner",
       "settings": {
-        "image": "shopify:\/\/shop_images\/image_12.png",
+        "image": "shopify://shop_images/image_12.png",
         "height": "use_image",
         "overlay_opacity": 0,
         "overlay_color": "#000000",
