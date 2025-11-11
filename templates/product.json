@@ -481,7 +481,7 @@
           "type": "icon_block",
           "settings": {
             "icon_name": "icon-basket-return",
-            "icon_alt": "shopify://shop_images/Group_12.jpg",
+            "icon_alt": "shopify://shop_images/ChatGPT_Image_Nov_10_2025_03_33_44_PM.png",
             "icon_color": "#aaaaaa",
             "title": "Order Confirmation",
             "text": "<p>Receive Order Confirmation</p>",
@@ -493,7 +493,7 @@
           "type": "icon_block",
           "settings": {
             "icon_name": "icon-shipment-world",
-            "icon_alt": "shopify://shop_images/Group_13.jpg",
+            "icon_alt": "shopify://shop_images/ChatGPT_Image_Nov_10_2025_03_35_12_PM.png",
             "icon_color": "#aaaaaa",
             "title": "Made To Order",
             "text": "<p>Crafting Process (4-5 Weeks)</p>",
@@ -505,7 +505,7 @@
           "type": "icon_block",
           "settings": {
             "icon_name": "icon-phone",
-            "icon_alt": "shopify://shop_images/Group_14.jpg",
+            "icon_alt": "shopify://shop_images/email_white.png",
             "icon_color": "#aaaaaa",
             "title": "Tracking Email",
             "text": "<p>Receive Tracking as soon as your reformer is shipped</p>",
@@ -517,7 +517,7 @@
           "type": "icon_block",
           "settings": {
             "icon_name": "icon-phone",
-            "icon_alt": "shopify://shop_images/Group_15.jpg",
+            "icon_alt": "shopify://shop_images/truck_white.png",
             "icon_color": "#aaaaaa",
             "title": "Shipped",
             "text": "<p>Shipped Reformer, Delivery in 4-5 Weeks</p>",
@@ -529,7 +529,7 @@
           "type": "icon_block",
           "settings": {
             "icon_name": "icon-shipment",
-            "icon_alt": "shopify://shop_images/Group_16.jpg",
+            "icon_alt": "shopify://shop_images/truck_white.png",
             "icon_color": "#000000",
             "title": "Arrives At Home",
             "text": "<p>Sign At Door For Delivery</p>",
@@ -541,7 +541,7 @@
           "type": "icon_block",
           "settings": {
             "icon_name": "icon-basket-return",
-            "icon_alt": "shopify://shop_images/Group_17.jpg",
+            "icon_alt": "shopify://shop_images/return_white.png",
             "icon_color": "#000000",
             "title": "60-Day Returns",
             "text": "<p>Risk Free Money Back Guarantee</p>",
