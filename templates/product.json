@@ -145,19 +145,12 @@
         },
         "image_jXVfwr": {
           "type": "image",
+          "disabled": true,
           "settings": {
             "image": "shopify://shop_images/Group_6.jpg",
             "image_max_limit": 500,
             "alignment": "product__block__image--center",
             "padding_bottom": 0
-          }
-        },
-        "text_NM68pk": {
-          "type": "text",
-          "name": "Spacer",
-          "settings": {
-            "title": "<p>‎ </p>",
-            "padding_bottom": 12
           }
         },
         "description": {
@@ -226,7 +219,6 @@
         "liquid_UMHn3b",
         "liquid_Uwe34B",
         "image_jXVfwr",
-        "text_NM68pk",
         "description",
         "loox_reviews_loox_snippets_widget_6NRNwF"
       ],
