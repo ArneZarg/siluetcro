@@ -872,66 +872,66 @@
         "custom_liquid": "<div style=\"background-color: #1E1A1A; color: #FDFBF7; text-align: center; padding: 3 0; font-size: 14.6px; letter-spacing: 1.1px; font-family: 'Playfair Display', serif;\">\n\n</div>"
       }
     },
-    "section_faq_Eg8wpH": {
+    "section_faq_HMdJaf": {
       "type": "section-faq",
       "blocks": {
-        "text_LiLy8M": {
+        "text_3VheKX": {
           "type": "text",
           "settings": {
             "title": "Who is the Elevé for?",
             "content": "<p><strong>For the busy mom who does it all, and still wants to feel strong, calm, and like herself again.</strong></p><p>Elevé fits into <em>your</em> life: no rigid class times, no driving, no stress. Just 15 quiet minutes a day to reconnect with your body and mind, right at home.</p><p><strong>Because when you're thriving, your whole family feels it.</strong></p><p>This isn’t just a reformer. It’s your return to <em>you</em>.</p>"
           }
         },
-        "text_UkUUfp": {
+        "text_EgMw6V": {
           "type": "text",
           "settings": {
             "title": "What is an FSA or HSA and what are the benefits?",
             "content": "<p>Health Savings Accounts (HSAs) and Flexible Spending Accounts (FSAs) offer tax advantages for <strong>health-related expenses.</strong> The key difference is ownership—FSAs are employer-owned and typically “use it or lose it,” meaning unused funds expire yearly. HSAs, however, are individually owned, staying with you through job changes and allowing self-employed individuals to open one. Unlike FSAs, HSA funds can be invested and grow tax-free over time, making them a flexible long-term option for managing healthcare costs.</p>"
           }
         },
-        "text_hhFk4A": {
+        "text_9LkHPf": {
           "type": "text",
           "settings": {
             "title": "Is there a payment plan?",
             "content": "<p><strong>Yes, and we encourage you to use it.</strong><br/>You can split your purchase into 6 interest-free payments or <strong>$97/month</strong> with Shop Pay — <strong>less than most studio memberships.</strong></p>"
           }
         },
-        "text_WH9ARM": {
+        "text_mk8JU4": {
           "type": "text",
           "settings": {
             "title": "Does it come fully assembled?",
             "content": "<p><strong>Yes, </strong>it arrives 85% assembled, with minimal setup required. We believe luxury should feel effortless, and Elevé is <strong>ready for ritual right out of the box.</strong></p>"
           }
         },
-        "text_Vhzeme": {
+        "text_WELch3": {
           "type": "text",
           "settings": {
             "title": "Will it fit in my space?",
             "content": "<p>Elevé is sleek, foldable, and surprisingly compact. In use, it’s studio-grade. When stored, it disappears beautifully. <strong>Perfect for bedrooms, living rooms, or serene corners of your home </strong>where you can easily align the reformer against the wall.</p>"
           }
         },
-        "text_Y4Ky8z": {
+        "text_3maEVE": {
           "type": "text",
           "settings": {
             "title": "What's included with my purchase?",
-            "content": "<p>Your Elevé Reformer comes with:</p><ul><li><strong>The full Elevé Reformer</strong></li><li><strong>Padded box & Jumpboard</strong></li><li><strong>Premium Siluet Era Kit (ball, circle, and 2lb Pilates weights)</strong></li><li><strong>Access to our signature 30-day guided program</strong></li><li><strong>Free shipping</strong></li></ul>"
+            "content": "<p>Your Elevé Reformer comes with:</p><ul><li><strong>The full Elevé Reformer</strong></li><li><strong>Padded box & Jumpboard</strong></li><li><strong>Free shipping</strong></li></ul>"
           }
         },
-        "text_fbmrLn": {
+        "text_hwXr7W": {
           "type": "text",
           "settings": {
             "title": "Whats's the return policy?",
             "content": "<p>We offer a 6<strong>0-day trial. </strong>If it’s not a match, we’ll make it right — no stress, no guilt. But we think you’ll fall in love.</p>"
           }
         },
-        "text_EQAyTi": {
+        "text_fWMJFN": {
           "type": "text",
           "settings": {
             "title": "Will I actually see results from using this?",
             "content": "<p>Yes! When you move with Elevé, you <strong>activate deep core muscles, sculpt long, lean lines, and lift and define</strong> areas traditional workouts often miss.<br/><br/>Our system is designed around <strong>scientifically proven Pilates principles</strong>, with beginner-friendly routines to get you visible results faster — even in just <strong>20–30 minutes a day.</strong></p>"
           }
         },
-        "text_kMtN9k": {
+        "text_tyP9AP": {
           "type": "text",
           "settings": {
             "title": "Will my Elevé arrive safely?",
@@ -940,17 +940,16 @@
         }
       },
       "block_order": [
-        "text_LiLy8M",
-        "text_UkUUfp",
-        "text_hhFk4A",
-        "text_WH9ARM",
-        "text_Vhzeme",
-        "text_Y4Ky8z",
-        "text_fbmrLn",
-        "text_EQAyTi",
-        "text_kMtN9k"
+        "text_3VheKX",
+        "text_EgMw6V",
+        "text_9LkHPf",
+        "text_mk8JU4",
+        "text_WELch3",
+        "text_3maEVE",
+        "text_hwXr7W",
+        "text_fWMJFN",
+        "text_tyP9AP"
       ],
-      "disabled": true,
       "name": "Accordion group",
       "settings": {
         "title": "FAQ",
@@ -1026,6 +1025,7 @@
         "heading_LhxLwk",
         "button_Gwme4W"
       ],
+      "disabled": true,
       "name": "Image banner",
       "settings": {
         "image": "shopify://shop_images/image_12.png",
@@ -1062,7 +1062,7 @@
     "section_pair_hotspots_accordion_iEVahc",
     "related",
     "section_liquid_xHAgRV",
-    "section_faq_Eg8wpH",
+    "section_faq_HMdJaf",
     "1754313988926d1cc1",
     "section_hero_gCWyck"
   ]
