@@ -228,7 +228,7 @@
       flex-direction:row;
       column-gap:20px;
       justify-content:center;
-      padding-top:5px;
+      padding-top:{{section.settings.chips_padding}}px;
     }
     #pilates-{{ section.id }} .ph_chip{
       background:#000;
@@ -585,6 +585,17 @@
       "id":"desk_hero",
       "type":"image_picker",
       "label":"Hero Image (Desk)"
+    },
+    {
+      "id":"chips_padding",
+      "type":"range",
+      "unit": "px",
+      "label": "Chips Padding/Position Y",
+      "min": 5,
+      "max":100,
+      "step":5,
+      "default":10,
+      "info":"space between headline and chips"
     },
     { "id": "cta_chip_left_label", 
       "type": "text", "label": "Left Chip", 
