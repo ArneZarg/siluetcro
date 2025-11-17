@@ -1,1 +1,227 @@
-{"sections":{"gp_section_568753999033926677":{"type":"gp-section-568753999033926677","settings":{"checksum":"714c223b38c2a471372fd7e2ee31a2a9d5a57b494ff227e41cb6be1c3f70b1e3_1_1_0_0_"}},"gp_section_568754000040559596":{"type":"gp-section-568754000040559596","settings":{"checksum":"94148d775bad0b5f5b10f1f1405e01fdcd908f6cd10fcd3397154f23514dd0a0_1_1_0_0_"}},"gp_section_568754000359326590":{"type":"gp-section-568754000359326590","settings":{"section_preload":"true","checksum":"e168e6483da03476675ce8d223070ebe1507376dbf27fe42363dda99917dbba4_1_1_0_0_"}},"gp_section_568754000644539424":{"type":"gp-section-568754000644539424","settings":{"checksum":"f75623ac8c122c5dfb95a3287bfe4c88ba19635bbe63f881c04321602a3979df_1_1_0_0_"}},"gp_section_569217677847954412":{"type":"gp-section-569217677847954412","settings":{"checksum":"bd5ea70fbd7b125cd24db437e4f8c8865ad8b6c9cc1b9b90496215f6fdfa74d4_1_1_0_0_"}},"gp_section_569234293348369388":{"type":"gp-section-569234293348369388","settings":{"checksum":"7151b61286e74a9246d341aae25b4bdac3ed147ff5f54bcd152699917786c364_1_1_0_0_"}},"gp_section_569235827708658720":{"type":"gp-section-569235827708658720","settings":{"checksum":"f6f249dc521db0ab58e38c2a0b38ed01baaa80745e5796b42a5d3251935ebc95_1_1_0_0_"}},"gp_section_569951480056906567":{"type":"gp-section-569951480056906567","settings":{"checksum":"ce08d44fa6b051a17a6c98594db52b807755de9b3483d98581b10eab5d049df8_1_1_0_0_"}},"gp_section_569951504752968519":{"type":"gp-section-569951504752968519","settings":{"checksum":"e223b771df6019d1d07f32ffd14e86cb2fba5077c44dd4a8ce1ad0c86a3f6b5d_1_1_0_0_"}},"gp_section_569951525053399936":{"type":"gp-section-569951525053399936","settings":{"checksum":"5eb0605189bf069920420c70f711c6ca9f3ea8aada55ecdb3bb134955fc3bb20_1_1_0_0_"}},"gp_section_569953418462888775":{"type":"gp-section-569953418462888775","settings":{"checksum":"4661d0bb1938bebd34ed942e09ec8d21a843e3f88ac79c0cfed94a237af501dc_1_1_0_0_"}},"related":{"type":"related","settings":{}},"main":{"type":"product","blocks":{"title":{"type":"title","settings":{}},"price":{"type":"price","settings":{}},"variants":{"type":"variant-selectors","settings":{}},"subscriptions":{"type":"subscription","settings":{}},"quantity":{"type":"quantity","settings":{}},"sizes-remaining":{"type":"size-remaining","settings":{}},"buttons":{"type":"add-buttons","settings":{}},"description":{"type":"description","settings":{}},"upsell":{"type":"upsell","disabled":true,"settings":{}},"pickup":{"type":"pickup","disabled":true,"settings":{}},"sharing":{"type":"sharing","disabled":true,"settings":{}}},"block_order":["title","price","variants","subscriptions","quantity","sizes-remaining","buttons","description","upsell","pickup","sharing"],"settings":{}}},"order":["main","gp_section_568754000359326590","gp_section_569953418462888775","gp_section_569217677847954412","related","gp_section_569235827708658720","gp_section_568753999033926677","gp_section_569234293348369388","gp_section_569951480056906567","gp_section_568754000644539424","gp_section_569951504752968519","gp_section_568754000040559596","gp_section_569951525053399936"]}
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "gp_section_568753999033926677": {
+      "settings": {
+        "checksum": "714c223b38c2a471372fd7e2ee31a2a9d5a57b494ff227e41cb6be1c3f70b1e3_1_1_0_0__1",
+        "ggUynHVNexF_text": "<span style=\"font-size:28px;\">Luxury Without Compromise</span>"
+      },
+      "type": "gp-section-568753999033926677"
+    },
+    "gp_section_568754000040559596": {
+      "settings": {
+        "checksum": "94148d775bad0b5f5b10f1f1405e01fdcd908f6cd10fcd3397154f23514dd0a0_1_1_0_0__1",
+        "gg1L3yrOZtq_childItem_0": "<p>What makes the Elevé Studio different from other reformers?</p>",
+        "gg1L3yrOZtq_childItem_1": "<p>Do you offer payment plans or financing?</p>",
+        "gg1L3yrOZtq_childItem_2": "<p>How long does it take to recieve my reformer?</p>",
+        "gg1L3yrOZtq_childItem_3": "<p>Is this reformer suitable for beginners or just advanced practitioners?</p>",
+        "gg1L3yrOZtq_childItem_4": "<p>Does the Elevé Studio come with a warranty?</p>",
+        "gg1L3yrOZtq_childItem_5": "<p>Can the Elevé Studio be easily moved or stored at home?&nbsp;</p>",
+        "gg1L3yrOZtq_childItem_6": "<p>What is included with my purchase?</p>",
+        "gg776eL5Mjn_text": "<p>The <strong>Elevé Studio Reformer</strong> isn’t just another piece of fitness equipment, it's an <strong>entirely elevated experience.</strong> Meticulously <strong>handcrafted</strong> with premium beech wood, advanced Korean Elephant springs, and an integrated metal tower, it provides studio-grade precision in your own home. Unlike mass-produced options, the Elevé Studio is limited to only 50 units per month, ensuring <strong>unparalleled quality, exclusivity, and luxury in every detail.</strong></p>",
+        "ggCBE46TTax_text": "<span style=\"font-size:28px;\">Frequently Asked Questions</span>",
+        "ggLZWxfiFS__text": "<p><strong>Yes.</strong> We offer convenient financing options through <strong>Shop Pay,</strong> allowing you to pay in installments over time. This ensures that investing in your wellness journey remains manageable and worry-free.</p>",
+        "ggQER0DDuoE_text": "<p><strong>Both.</strong> Its advanced metal tower and high-grade springs support the most challenging Pilates routines, yet the Elevé Studio is gentle enough to support beginners starting their journey. It's designed to evolve with your practice over the years, <strong>growing in sophistication as you do.</strong></p>",
+        "ggYwFWLUnyG_text": "<p>Your Elevé Studio comes with a comprehensive warranty—<strong>\"30-Day Smile Guarantee\".</strong> Rest assured we design and build our reformers to last a lifetime.</p>",
+        "gghPNWg_pEs_text": "<p>Your Elevé Studio purchase includes everything you need to transform your home into a luxury Pilates studio:</p><p>&nbsp;</p><p><strong>Elevé Studio Reformer:</strong> Handcrafted premium wood frame with built-in tower for complete Pilates functionality.</p><p><strong>Jumpboard &amp; Box:</strong> Expand your routine, enabling dynamic cardio exercises and deeper strength training.</p><p><strong>Platform Extender:</strong> Provides additional versatility for standing exercises and stretches.</p><p><strong>Padded Studio Mat:</strong> Premium mat designed specifically for use with your Elevé Studio, offering maximum comfort and support.</p><p>&nbsp;</p><p>Together, these items deliver a studio-grade Pilates experience, right from the comfort of your home.</p>",
+        "ggq94vxdpMp_text": "<p>Still have questions? Email our concierge support team: <a href=\"mailto:admin@shopsiluet.com\">admin@shopsiluet.com</a>. Or call our concierge team: &nbsp;<a href=\"#\">#</a><a href=\"tel:651-443-9285\"><u>651-443-9285</u></a></p>",
+        "ggsJ3f-PEv3_text": "<p><strong>Absolutely.</strong> However, due to its premium quality and integrated metal tower, it is not foldable and is ideally suited for <strong>dedicated spaces.</strong></p>",
+        "ggzX5Q4MSD6_text": "<p>Every Elevé Studio Reformer is handcrafted and made to order, ensuring unmatched quality and attention to detail. Production typically takes <strong>5–6 weeks,</strong> with shipping taking an additional <strong>4–5 weeks,</strong> depending on your location.</p>"
+      },
+      "type": "gp-section-568754000040559596"
+    },
+    "gp_section_568754000359326590": {
+      "settings": {
+        "checksum": "e168e6483da03476675ce8d223070ebe1507376dbf27fe42363dda99917dbba4_1_1_0_0__1",
+        "gg11TplSKLb_childItem_0": "<p>Care</p>",
+        "gg11TplSKLb_childItem_1": "<p>Shipping</p>",
+        "gg2qwJn1smw_label": "Add to cart - $10,000",
+        "gg2qwJn1smw_outOfStockLabel": "Out of stock",
+        "gg2qwJn1smw_unavailableLabel": "Unavailable",
+        "gg2qwJn1smw_variantSelectionRequiredMessage": "Please select a variant to add product to cart",
+        "gg5xf0-1IG6_childItem_0": "<p>Verified Buyer</p>",
+        "gg86Wd4TJX1_text": "<p><span style=\"color:#2F2F2F;font-size:14px;\"><i>Shop Pay Installments &nbsp;• Free US shipping • 30-day guarantee</i></span></p>",
+        "ggDbabveHWv_text": "<p>This changed everything... Including Me</p>",
+        "ggG6zeK3osh_text": "<p><strong>Wipe Down Gently:</strong> Use a soft, damp cloth to clean the frame, leather, and tower after each session. Avoid harsh chemicals or abrasives.</p><p><strong>Preserve the Silence:</strong> Keep the track free of dust and debris to maintain a smooth, whisper-quiet glide.</p><p><strong>Protect the Leather:</strong> For added longevity, wipe the upholstery with a pH-neutral leather-safe cleanser every few weeks.</p><p><strong>Temperature &amp; Placement:</strong> Keep indoors in a dry, temperature-controlled space—away from direct sunlight or moisture.</p><p><strong>Routine Checks:</strong> Inspect springs and tower attachments periodically to ensure continued precision and safety.</p><p>&nbsp;</p><p><strong>With minimal effort, your Studio Reformer will remain as strong, silent, and stunning as the day it arrived.</strong></p>",
+        "ggMiXy7fQEv_text": "<p><strong>Frame:</strong> Handcrafted beech wood imported from Germany for exceptional strength and longevity</p><p><strong>Resistance System:</strong> Industry-leading Korean Elephant™ springs with ultra-stable tension and fatigue resistance</p><p><strong>Upholstery:</strong> Premium super fiber leather — scratch-resistant, breathable, and built to last 8+ years</p><p><strong>Padding:</strong> High-density, high-resilience foam that won’t collapse over time</p><p><strong>Glide System:</strong> Ultra-quiet high-elastic wheels with precision Japanese NMB bearings</p><p><strong>Track:</strong> Reinforced stainless steel for superior weight support and durability</p><p><strong>Tower System:</strong> Integrated metal tower for advanced movements and full-body versatility</p><p><strong>Assembly &amp; Delivery:</strong> *Free* White-glove delivery, set up in 15 minutes</p><p><strong>Monthly Production:</strong> Limited to 50 units/month — each one made to order and handcrafted to fit <i>you</i></p>",
+        "ggN0-X0FK9i_text": "<p>4 interest-free installments, or from <strong>$200</strong>/mo with <span style=\"color:#7A55FF;font-size:20px;\"><strong>Shop Pay</strong></span></p>",
+        "ggXj7Qltmb8_childItem_0": "<p>Overview</p>",
+        "ggXj7Qltmb8_childItem_1": "<p>Specs</p>",
+        "ggXj7Qltmb8_childItem_2": "<p>Care</p>",
+        "ggjVXr_I-s7_text": "<p>(224 reviews)</p>",
+        "ggotJO8QB0J_text": "<p><span style=\"color:#827F7F;font-size:26px;\"><s>$12,500</s></span></p>",
+        "ggp2xAy3enn_text": "<p>The <strong>Elevé Studio Reformer</strong> is the pinnacle of luxury Pilates—designed not just to match studio-grade performance, but to <strong>exceed it in every detail.</strong></p><p>&nbsp;</p><p><strong>Handcrafted</strong> from premium beech wood imported from Germany, it’s built with integrity, presence, and longevity in mind. Every curve and component reflects a commitment to timeless strength and modern grace—<strong>made for the woman who has moved beyond the beginner phase and into full embodiment.</strong></p><p>&nbsp;</p><p>With ultra-quiet glide, elite-level resistance, and <strong>world-class craftsmanship trusted by studios around the globe</strong>, the Studio Reformer delivers a seamless fusion of performance and beauty.</p><p><strong>Only 50 are made each month.</strong> This isn’t just a reformer—it’s a declaration.</p><p>&nbsp;</p><p><strong>You’ve arrived.</strong></p>",
+        "ggpR-up3rzN_text": "<p>Jessica L.</p>",
+        "ggq9TgfnvS3_text": "<p>Each<strong> Elevé Studio Reformer</strong> is <strong>handcrafted to order</strong>, not mass produced. From the moment you reserve yours, a dedicated build begins.</p><p><strong>*Free Shipping*</strong></p><p><strong>Production Time:</strong> Please allow <strong>5–6 weeks</strong> for crafting. Every detail is built by hand to ensure unmatched quality.</p><p><strong>Shipping Time:</strong> Once completed, your reformer will ship via premium freight service—<strong>delivered in 4–5 weeks</strong> with full tracking.</p><p><strong>White Glove Delivery:</strong> We offer <strong>free white glove delivery</strong> with setup instructions included. No tools, no stress—just elegance from the moment it arrives.</p><p><strong>Limited Production:</strong> Only <strong>50 Elevé Studio Reformers are made each month</strong>, ensuring exclusivity and excellence in every unit.</p><p>&nbsp;</p><p><strong>You’ll receive updates at each stage of the journey—from build to delivery—so you can anticipate its arrival with confidence.</strong></p>",
+        "ggraoW5mtPh_text": "<p>\"I didnt buy this to get fit. I bought it to feel like myself again. Somewhere between the noise and the giving, I disappeared. This brought me back.\"</p>",
+        "ggt-EYJzAR5_text": "<p><span style=\"color:#000000;font-size:30px;\">$10,000</span></p>",
+        "section_preload": "true"
+      },
+      "type": "gp-section-568754000359326590"
+    },
+    "gp_section_568754000644539424": {
+      "settings": {
+        "checksum": "f75623ac8c122c5dfb95a3287bfe4c88ba19635bbe63f881c04321602a3979df_1_1_0_0__1",
+        "gg0EzrsNFys_text": "<p>Lauren S.</p>",
+        "gg1eTtg7c5i_text": "<p>\"I bought this thinking it was just a beautiful piece of equipment—it's become so much more. Every session feels like coming home to myself. It’s quiet, luxurious, and genuinely life-changing. I’ve never felt stronger or more at peace.\"</p>",
+        "gg5Trwf4PJC_text": "<p>Regina M.</p>",
+        "ggD3HCWu0GE_text": "<p>Michelle T.</p>",
+        "ggLBnQg6Hwv_text": "<span style=\"font-size:26px;\">Your transformation starts here</span>",
+        "ggVbKLlzfF3_text": "<p>\"After having kids, I felt like I lost myself—this reformer brought me back. It's more than just a workout; it's my daily reminder that I deserve luxury, peace, and space to breathe. Truly the best investment I've ever made in myself.\"</p>",
+        "ggt1ZZFopsA_text": "<p>\"I hesitated because of the price, but investing in the Elevé Studio was the best decision I ever made for myself. The quality is truly incredible—it’s smooth, silent, and feels like pure luxury every time I step onto it. I didn’t just buy equipment, I reclaimed a part of myself I'd forgotten was there. Worth every penny.\"</p>"
+      },
+      "type": "gp-section-568754000644539424"
+    },
+    "gp_section_569217677847954412": {
+      "settings": {
+        "checksum": "bd5ea70fbd7b125cd24db437e4f8c8865ad8b6c9cc1b9b90496215f6fdfa74d4_1_1_0_0__1",
+        "gg2IkdsoepX_text": "<span style=\"color:#000000;font-size:28px;\">See Why Women Are Choosing Effortless Wellness</span>",
+        "ggZ9GT1tlzo_text": "<span style=\"color:#000000;font-size:40px;\">See Why Over 10,000 Women Chose Effortless Wellness</span>"
+      },
+      "type": "gp-section-569217677847954412"
+    },
+    "gp_section_569234293348369388": {
+      "settings": {
+        "checksum": "7151b61286e74a9246d341aae25b4bdac3ed147ff5f54bcd152699917786c364_1_1_0_0__1",
+        "gg-Jd0SfhxZ_text": "<span style=\"font-size:28px;\"><strong>Which One Truly Serves You?</strong></span>",
+        "gg5A4GU1YLU_text": "<p><span style=\"color:#2F2F2F;font-size:13px;\"><i>Shop Pay Installments &nbsp;• Free US shipping • 30-day guarantee</i></span></p>",
+        "gg6NTJDMFrD_text": "<p>Value</p>",
+        "gg9rHWaxE6T_text": "<p>Longevity</p>",
+        "ggLgHjw_0rI_text": "<p>Results</p>",
+        "ggRS6Uk78vQ_text": "<p>Studio Pilates</p>",
+        "ggW7NB4Z59Y_text": "<p>Privacy</p>",
+        "ggXeMM5hfel_text": "<p>$10,000 (once)</p>",
+        "ggXlw7nGHvD_text": "<p>$15,000+</p>",
+        "ggcG4sZsP25_text": "<p>Luxury</p>",
+        "ggeKfRqILY1_label": "SHOP NOW",
+        "ggpb_Srw0D7_text": "<p>Freedom</p>",
+        "ggvNb3sS5zX_text": "<p><span style=\"font-size:16px;\"><strong>Elevé Studio</strong></span></p>",
+        "ggxdohW6y0S_text": "<p>$/year</p>"
+      },
+      "type": "gp-section-569234293348369388"
+    },
+    "gp_section_569235827708658720": {
+      "settings": {
+        "checksum": "f6f249dc521db0ab58e38c2a0b38ed01baaa80745e5796b42a5d3251935ebc95_1_1_0_0__1",
+        "ggE2XpJ78M1_text": "<p><strong>Feel it Change Your Life</strong></p>",
+        "ggONTO-8fHp_text": "<p><strong>Select the Best of the Best</strong></p>",
+        "ggPgVTzwNdi_text": "<p><span style=\"color:rgb(0,0,0);\">Premium delivery, free 30-day returns, and zero stress. Because reclaiming your body should never feel like a chore.</span></p><p><br>&nbsp;</p>",
+        "ggXzAeh-GUr_text": "<p><strong>Invest Without the Pressure</strong></p>",
+        "ggtvUmRKT8K_text": "<p>Crafted with world-class precision and couture-level finishes, the Elevé Studio Reformer isn’t just equipment—it’s a declaration of a woman who doesn’t just value her wellness, she honors it.</p>",
+        "ggy2EJZxJqW_text": "<p>From morning rituals to evening resets, the Elevé Studio Reformer moves with you—delivering lasting results through quiet, uncompromising excellence.</p><p>&nbsp;</p>"
+      },
+      "type": "gp-section-569235827708658720"
+    },
+    "gp_section_569951480056906567": {
+      "settings": {
+        "checksum": "ce08d44fa6b051a17a6c98594db52b807755de9b3483d98581b10eab5d049df8_1_1_0_0__1",
+        "gg5YSn1tgeW_text": "<p>$/year</p>",
+        "ggGR5o4ybOC_text": "<p>$Infinite</p>",
+        "ggLoZGdtM9X_text": "<p>$10,000 (once)</p>",
+        "ggOAgmRIF6v_text": "<p>Privacy</p>",
+        "ggQn5WBj1bO_text": "<p>Studio Pilates</p>",
+        "ggQrB9F3gQI_text": "<p><span style=\"color:#2F2F2F;font-size:17px;\"><i>Shop Pay Installments &nbsp;• Free US shipping • 30-day guarantee</i></span></p>",
+        "ggVQ15angXf_label": "SHOP NOW",
+        "ggYOIP0YW1V_text": "<p>Do nothing</p>",
+        "ggYSwd4K8kh_text": "<p>Longevity</p>",
+        "ggaU1LebIFZ_text": "<span style=\"color:#000000;font-size:34px;\">Which One Truly Serves You?</span>",
+        "ggeU9U5qndh_text": "<p><span style=\"font-size:16px;\"><strong>Elevé Studio</strong></span></p>",
+        "ggffF8EQ96K_text": "<p>$20,000+</p>",
+        "ggg_pC3ztbo_text": "<p>Luxury</p>",
+        "gghh1LPpTr0_text": "<p>Freedom</p>",
+        "ggmVtzlLa-Y_text": "<p>Results</p>",
+        "ggmk-3rF6yH_text": "<p>Value</p>"
+      },
+      "type": "gp-section-569951480056906567"
+    },
+    "gp_section_569951504752968519": {
+      "settings": {
+        "checksum": "e223b771df6019d1d07f32ffd14e86cb2fba5077c44dd4a8ce1ad0c86a3f6b5d_1_1_0_0__1",
+        "gg0136HS4CD_text": "<p>\"After having kids, I felt like I lost myself—this reformer brought me back. It's more than just a workout; it's my daily reminder that I deserve luxury, peace, and space to breathe. Truly the best investment I've ever made in myself.\"</p>",
+        "gg1ebrcfwox_text": "<p>Let's Hear What Our Customers&nbsp;Have To Say</p>",
+        "gg3irkK7Mom_text": "<p>\"I hesitated because of the price, but investing in the Elevé Studio was the best decision I ever made for myself. The quality is truly incredible—it’s smooth, silent, and feels like pure luxury every time I step onto it. I didn’t just buy equipment, I reclaimed a part of myself I'd forgotten was there. Worth every penny.\"</p>",
+        "gg9tKKYHPlQ_text": "<p>\"I bought this thinking it was just a beautiful piece of equipment—it's become so much more. Every session feels like coming home to myself. It’s quiet, luxurious, and genuinely life-changing. I’ve never felt stronger or more at peace.\"</p>",
+        "ggAjSNL06aN_text": "<p>June 3, 2025</p>",
+        "ggC2GLYBhYI_text": "<p>Jan 13, 2025</p>",
+        "ggEV3eaO9UU_text": "<p>342</p>",
+        "ggUoD-Zp94Y_text": "<p>Michelle T.</p>",
+        "ggY-ay8QLBI_text": "<p>0</p>",
+        "ggZMTTV0Gnn_text": "<p>0</p>",
+        "ggcn_EYXQ-r_text": "<p>Regina M.</p>",
+        "ggelbuxwDed_text": "<p>285</p>",
+        "gggACmLgHHD_text": "<p>April 22, 2025</p>",
+        "ggrkQdzOTrD_text": "<p>Lauren S.</p>",
+        "ggsWhrO4PZi_text": "<p>317</p>",
+        "ggx_HSlV1x0_text": "<p>0</p>"
+      },
+      "type": "gp-section-569951504752968519"
+    },
+    "gp_section_569951525053399936": {
+      "settings": {
+        "checksum": "5eb0605189bf069920420c70f711c6ca9f3ea8aada55ecdb3bb134955fc3bb20_1_1_0_0__1",
+        "gg3V9K_HfAM_text": "<p>Frequently Asked Questions</p>",
+        "ggK5wkYymoE_text": "<p><strong>Both.</strong> Its advanced metal tower and high-grade springs support the most challenging Pilates routines, yet the Elevé Studio is gentle enough to support beginners starting their journey. It's designed to evolve with your practice over the years, <strong>growing in sophistication as you do.</strong></p>",
+        "ggQFdjRzWJq_childItem_0": "<p>Do you offer payment plans or financing?</p>",
+        "ggQFdjRzWJq_childItem_1": "<p>What makes the Elevé Studio different from other reformers?</p>",
+        "ggQFdjRzWJq_childItem_2": "<p>How long does it take to receive my reformer?</p>",
+        "ggQFdjRzWJq_childItem_3": "<p>Is this reformer suitable for beginners or just advanced practitioners?</p>",
+        "ggQFdjRzWJq_childItem_4": "<p>Does the Elevé Studio come with a warranty?</p>",
+        "ggQFdjRzWJq_childItem_5": "<p>Can the Elevé Studio be easily moved or stored at home?&nbsp;</p>",
+        "ggh2fE4a1Y9_text": "<p>Your Elevé Studio comes with a comprehensive warranty—<strong>\"30-Day Smile Guarantee\".</strong> Rest assured we design and build our reformers to last a lifetime.</p>",
+        "gghXy4DKmV4_text": "<p><strong>Yes.</strong> We offer convenient financing options through <strong>Shop Pay,</strong> allowing you to pay in installments over time. This ensures that investing in your wellness journey remains manageable and worry-free.</p>",
+        "ggj6QZHEkfC_text": "<p>Still have questions? Email our concierge support team: admin@shopsiluet.com</p>",
+        "ggru91WV73l_text": "<p><strong>Absolutely.</strong> However, due to its premium quality and integrated metal tower, it is not foldable and is ideally suited for <strong>dedicated spaces.</strong></p>",
+        "ggsrNBotSO4_text": "<p>Every Elevé Studio Reformer is handcrafted and made to order, ensuring unmatched quality and attention to detail. Production typically takes <strong>5–6 weeks,</strong> with shipping taking an additional <strong>4–5 weeks,</strong> depending on your location.</p>",
+        "ggtaeOe2tly_text": "<p>The <strong>Elevé Studio Reformer</strong> isn’t just another piece of fitness equipment—it's an <strong>entirely elevated experience.</strong> Meticulously <strong>handcrafted</strong> with premium beech wood, advanced Korean Elephant springs, and an integrated metal tower, it provides studio-grade precision in your own home. Unlike mass-produced options, the Elevé Studio is limited to only 50 units per month, ensuring <strong>unparalleled quality, exclusivity, and luxury in every detail.</strong></p>"
+      },
+      "type": "gp-section-569951525053399936"
+    },
+    "gp_section_569953418462888775": {
+      "settings": {
+        "checksum": "4661d0bb1938bebd34ed942e09ec8d21a843e3f88ac79c0cfed94a237af501dc_1_1_0_0__1",
+        "gg-h25UtOxG_text": "<p>Jessica L.</p>",
+        "gg2Wz8FFwbj_text": "<p>6 interest-free installments, or from <strong>$388</strong>/mo with <span style=\"color:#7A55FF;font-size:20px;\"><strong>Shop Pay</strong></span></p>",
+        "gg3P1mxFzSb_text": "<p>\"I didn't invest in this to get stronger. I invested to reclaim who I am. Somewhere between the demands and the giving, I had lost myself. Now I have an entire studio in my space, and this brought me home.\"</p>",
+        "gg65eiCrxfB_childItem_0": "<p>Shipping</p>",
+        "gg8eJYPxuif_text": "<p><span style=\"color:#827F7F;font-size:26px;\"><s>$10,000</s></span></p>",
+        "ggDcDvQ18AQ_childItem_0": "<p>Overview</p>",
+        "ggDcDvQ18AQ_childItem_1": "<p>Specs</p>",
+        "ggDcDvQ18AQ_childItem_2": "<p>Care</p>",
+        "ggOAgRXjsFQ_label": "Add to cart - $7,995",
+        "ggOAgRXjsFQ_outOfStockLabel": "Out of stock",
+        "ggOAgRXjsFQ_unavailableLabel": "Unavailable",
+        "ggOAgRXjsFQ_variantSelectionRequiredMessage": "Please select a variant to add product to cart",
+        "ggQQNbYNT0T_text": "<p>Each<strong> Elevé Studio Reformer</strong> is <strong>handcrafted to order</strong>, not mass produced. From the moment you reserve yours, a dedicated build begins.</p><p><strong>*Free Shipping*</strong></p><p><strong>Production Time:</strong> Please allow <strong>5–6 weeks</strong> for crafting. Every detail is built by hand to ensure unmatched quality.</p><p><strong>Shipping Time:</strong> Once completed, your reformer will ship via premium freight service—<strong>delivered in 4–5 weeks</strong> with full tracking.</p><p><strong>White Glove Delivery:</strong> We offer <strong>free white glove delivery</strong> with setup instructions included. No tools, no stress—just elegance from the moment it arrives.</p><p><strong>Limited Production:</strong> Only <strong>50 Elevé Studio Reformers are made each month</strong>, ensuring exclusivity and excellence in every unit.</p><p>&nbsp;</p><p><strong>You’ll receive updates at each stage of the journey—from build to delivery—so you can anticipate its arrival with confidence.</strong></p>",
+        "ggfUQZiJQI7_childItem_0": "<p>Verified Buyer</p>",
+        "gggTji-8zGo_text": "<p><strong>Frame:</strong> Handcrafted beech wood imported from Germany for exceptional strength and longevity-</p><p>91 inches (length) x 25.5 inches (width) x 14 inches (height)</p><p><strong>Resistance System:</strong> Industry-leading Korean Elephant™ springs (3 red, 1 blue, 1 green) with ultra-stable tension, nickle-plated, and fatigue resistance&nbsp;</p><p><strong>Upholstery:</strong> Premium super fiber leather — scratch-resistant, breathable, and built to last 8+ years</p><p><strong>Padding:</strong> High-density, high-resilience foam that won’t collapse over time</p><p><strong>Glide System:</strong> Ultra-quiet high-elastic wheels with precision Japanese NMB bearings</p><p><strong>Track:</strong> Reinforced stainless steel for superior weight support and durability</p><p><strong>Tower System:</strong> Integrated metal tower for advanced movements and full-body versatility</p><p><strong>Tower Height</strong>: 83.5 inches</p><p><strong>Assembly &amp; Delivery:</strong> *Free* White-glove delivery, set up in 15 minutes</p><p><strong>Monthly Production:</strong> Limited to 50 units/month — each one made to order and handcrafted to fit <i>you</i></p>",
+        "gggXMzgeugr_text": "<p>The <strong>Elevé Studio Reformer</strong> is the pinnacle of luxury Pilates—designed not just to match studio-grade performance, but to <strong>exceed it in every detail.</strong></p><p>&nbsp;</p><p><strong>Handcrafted</strong> from premium beech wood imported from Germany, it’s built with integrity, presence, and longevity in mind. Every curve and component reflects a commitment to timeless strength and modern grace—<strong>made for the woman who has moved beyond the beginner phase and into full embodiment.</strong></p><p>&nbsp;</p><p>With ultra-quiet glide, elite-level resistance, and <strong>world-class craftsmanship trusted by studios around the globe</strong>, the Studio Reformer delivers a seamless fusion of performance and beauty.</p><p><strong>Only 50 are made each month.</strong> This isn’t just a reformer—it’s a declaration.</p><p>&nbsp;</p><p><strong>You’ve arrived.</strong></p>",
+        "gghMInA6BVv_text": "<p><span style=\"color:#000000;font-size:30px;\">$7,995</span></p>",
+        "gglykYnBN6x_text": "<p>4.8</p>",
+        "ggr7XBJxzIN_text": "<p>This changed everything... Including Me</p>",
+        "ggvsGVqm4HW_text": "<p><span style=\"color:#2F2F2F;font-size:14px;\"><i>Shop Pay Installments &nbsp;• Free US shipping • 30-day guarantee</i></span></p>"
+      },
+      "type": "gp-section-569953418462888775"
+    }
+  },
+  "order": [
+    "gp_section_568754000359326590",
+    "gp_section_569953418462888775",
+    "gp_section_569217677847954412",
+    "gp_section_569235827708658720",
+    "gp_section_568753999033926677",
+    "gp_section_569234293348369388",
+    "gp_section_569951480056906567",
+    "gp_section_568754000644539424",
+    "gp_section_569951504752968519",
+    "gp_section_568754000040559596",
+    "gp_section_569951525053399936"
+  ]
+}
