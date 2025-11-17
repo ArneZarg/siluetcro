@@ -79,12 +79,16 @@
         </div>
         <div class="white-fade">
           <div class="chips-row">
+            {% if section.settings.cta_chip_left_label %}
             <a class="ph_chip" href="{{ section.settings.cta_chip_left_url }}">
               {{ section.settings.cta_chip_left_label }}
             </a>
+            {% endif %}
+            {% if section.settings.cta_chip_left_label %}
             <a class="ph_chip" href="{{ section.settings.cta_chip_right_url }}">
               {{ section.settings.cta_chip_right_label }}
             </a>
+            {% endif %}
           </div>
         </div>
       </div>

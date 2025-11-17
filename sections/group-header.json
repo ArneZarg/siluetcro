@@ -1,12 +1,3 @@
-/*
- * ------------------------------------------------------------
- * IMPORTANT: The contents of this file are auto-generated.
- *
- * This file may be updated by the Shopify admin theme editor
- * or related systems. Please exercise caution as any changes
- * made to this file may be overwritten.
- * ------------------------------------------------------------
- */
 {
   "type": "header",
   "name": "Header",
@@ -17,7 +8,7 @@
         "announce_text": {
           "type": "text",
           "settings": {
-            "text": "<h1><strong>Black Friday Offer Available Today</strong></h1>",
+            "text": "<h1><strong>Black Friday Offer Available Today<\/strong><\/h1>",
             "target_url_enabled": false,
             "target_url": "",
             "target_referrer_enabled": false,
@@ -45,7 +36,7 @@
           "type": "toolbar",
           "disabled": true,
           "settings": {
-            "announcement_text": "<p>This is announcement <em><strong>richtext</strong></em> from an announcement block</p>",
+            "announcement_text": "<p>This is announcement <em><strong>richtext<\/strong><\/em> from an announcement block<\/p>",
             "secondary_linklist": "",
             "show_menu_desktop": true,
             "show_menu_mobile": true,
@@ -64,7 +55,7 @@
       ],
       "settings": {
         "header_style": "drawer",
-        "logo": "shopify://shop_images/Siluet_4.png",
+        "logo": "shopify:\/\/shop_images\/Siluet_4.png",
         "logo_max_limit": 50,
         "logo_padding": 15,
         "logo_text_size": 1,
