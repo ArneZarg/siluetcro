@@ -1,1 +1,92 @@
-{"order":["hero","subcollections","main"],"sections":{"hero":{"settings":{"bg_position":"center-center","color_bg":"palette--light bg--neutral","enable_overlay_text":false,"image_height":"use_screen_one_third","overlay_color":"#000000","overlay_opacity":20,"padding_bottom":0,"padding_bottom_text":0,"padding_top":0,"padding_top_text":36,"show_description":true,"show_description_below":false,"show_image":true,"show_title":true,"show_title_below":false,"text_align":"align--middle-center","text_color":"text--white","width":"wrapper--none","width_text":"wrapper"},"type":"collection-hero"},"main":{"block_order":["collections","filters","nav_links_M87RtW"],"blocks":{"collections":{"settings":{"title":"All collections"},"type":"collections"},"filters":{"settings":{},"type":"filters"},"nav_links_M87RtW":{"settings":{"collection_linklist":""},"type":"nav_links"}},"settings":{"collapse_filters":true,"collection_sorting":false,"color_bg":"palette--light bg--neutral","enable_layout_toggle":false,"grid_large":3,"grid_mobile":"1","hide_sidebar":true,"padding_bottom":64,"padding_top":20,"product_limit":36,"show_products_count":false,"width":"wrapper"},"type":"collection"},"subcollections":{"settings":{"bg_position":"center-center","color_bg":"palette--light bg--neutral","grid_mobile":1.2,"limit":6,"overlay_color":"#000000","overlay_opacity":20,"padding_bottom":0,"padding_top":20,"select_image":"collection","subcollections":[],"text_align":"align--middle-center","text_color":"text--white","wh_ratio":1.7,"width":"wrapper"},"type":"collection-sub"}}}
+{
+  "sections": {
+    "hero": {
+      "type": "collection-hero",
+      "settings": {
+        "text_align": "align--middle-center",
+        "show_title": true,
+        "show_title_below": false,
+        "show_description": true,
+        "show_description_below": false,
+        "color_bg": "palette--light bg--neutral",
+        "show_image": true,
+        "bg_position": "center-center",
+        "image_height": "use_screen_one_third",
+        "overlay_opacity": 20,
+        "overlay_color": "#000000",
+        "enable_overlay_text": false,
+        "text_color": "text--white",
+        "width": "wrapper--none",
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "width_text": "wrapper",
+        "padding_top_text": 36,
+        "padding_bottom_text": 0
+      }
+    },
+    "subcollections": {
+      "type": "collection-sub",
+      "settings": {
+        "subcollections": [],
+        "limit": 6,
+        "color_bg": "palette--light bg--neutral",
+        "text_color": "text--white",
+        "text_align": "align--middle-center",
+        "select_image": "collection",
+        "bg_position": "center-center",
+        "wh_ratio": 1.7,
+        "overlay_opacity": 20,
+        "overlay_color": "#000000",
+        "grid_mobile": 1.2,
+        "width": "wrapper",
+        "padding_top": 20,
+        "padding_bottom": 0
+      }
+    },
+    "main": {
+      "type": "collection",
+      "blocks": {
+        "collections": {
+          "type": "collections",
+          "settings": {
+            "title": "All collections"
+          }
+        },
+        "filters": {
+          "type": "filters",
+          "settings": {}
+        },
+        "nav_links_M87RtW": {
+          "type": "nav_links",
+          "settings": {
+            "collection_linklist": ""
+          }
+        }
+      },
+      "block_order": [
+        "collections",
+        "filters",
+        "nav_links_M87RtW"
+      ],
+      "settings": {
+        "product_limit": 36,
+        "grid_large": 3,
+        "grid_mobile": "1",
+        "enable_layout_toggle": false,
+        "color_bg": "palette--light bg--neutral",
+        "collection_sorting": false,
+        "hide_sidebar": true,
+        "collapse_filters": true,
+        "show_products_count": false,
+        "width": "wrapper",
+        "padding_top": 20,
+        "padding_bottom": 64
+      }
+    }
+  },
+  "order": [
+    "hero",
+    "subcollections",
+    "main"
+  ]
+}
