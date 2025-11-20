@@ -50,6 +50,29 @@
   </div>
 </section>
 
+<script type="application/ld+json" data_creator="GlennxDigital">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+  
+  {% for block in section.blocks %}
+  {% if block.settings.content != blank %}  
+  {
+    "@type": "Question",
+    "name": "{{ block.settings.title | strip_html | escape }}",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "{{ block.settings.content | strip_html | escape }}"
+      }
+    }
+    {% unless forloop.last %},{% endunless %}
+  {% endif %}
+  {% endfor %}
+  ]
+}
+</script>
+
 {% schema %}
 {
 	"name": "Accordion group",
@@ -59,6 +82,12 @@
 			"id": "title",
 			"label": "Title"
 		},
+        {
+          "type": "checkbox",
+          "id": "faq_schema",
+          "label": "Add FAQ Schema",        
+          "default": false
+        },
 		{
 			"type": "select",
 			"id": "title_align",

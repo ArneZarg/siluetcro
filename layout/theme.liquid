@@ -73,7 +73,9 @@
     {%- endunless -%}
   {% endcapture %}
   <title>
-    {{ seo_title }}
+    {% if request.page_type == 'index' %}
+    Buy Pilates Reformers & Pilates Equipment Online | Siluet
+    {% else %}  {{ seo_title }} {% endif %}
   </title>
 
   {%- if page_description -%}
@@ -83,6 +85,7 @@
   {%- endif -%}
 
   {%- render 'social-meta-tags' -%}
+  {% section 'seo-index' %}
 
   <!-- CSS ================================================================== -->
 

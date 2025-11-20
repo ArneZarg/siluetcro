@@ -1,0 +1,53 @@
+# Important Addition!
+# Added "disallow" command to product types, filters and indexable parameters
+# ChatGPT-User is used for browsing-related access (when users browse your site via ChatGPT).
+# GPTBot, Google-Extended, anthropic-ai for Claude and PerplexityBot  are used for data crawling for training OpenAI models.
+
+{% for group in robots.default_groups %}
+  {{- group.user_agent -}}
+
+  {% for rule in group.rules %}
+    {{- rule -}}
+  {% endfor %}{% if group.user_agent.value == '*' %}
+{{ 'Disallow: /collections/vendors*?*q=*'}}
+{{ 'Disallow: /collections/*?*grid_list*'}}
+{{ 'Disallow: /collections/*?*view*'}}
+{{ 'Disallow: /collections/*?*filter*'}}
+{{ 'Disallow: /collections/*?*pf_*'}}
+{{ 'Disallow: /collections/*?*constraint*'}}
+{{ 'Disallow: /collections/types*?*q=*'}}
+{{ 'Disallow: /blogs/*/tagged/*'}}
+{{ 'Disallow: /services/login_with_shop/'}}
+{{ 'Disallow: /*.atom$'}}
+{{ 'Disallow: /*.ATOM$'}}
+{{ 'Disallow: /*@*' }}
+{{ 'Disallow: /*?limit=*' }}
+
+{% endif %}
+  {%- if group.sitemap != blank -%}
+    {{ group.sitemap }}
+  {%- endif -%}
+{% endfor %}
+
+User-agent: ChatGPT-User
+Crawl-delay: 10
+Allow: /
+
+User-agent: GPTBot
+Crawl-delay: 10
+Allow: /
+
+# Allow Google AI Extension
+User-agent: Google-Extended
+Crawl-delay: 10
+Allow:/
+
+# Allow Anthropic (Claude)
+User-agent:anthropic-ai
+Crawl-delay: 10
+Allow:/
+
+# Allow Perplexity
+User-agent: PerplexityBot
+Crawl-delay: 10
+Allow:/

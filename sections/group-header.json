@@ -8,7 +8,7 @@
         "announce_text": {
           "type": "text",
           "settings": {
-            "text": "<h1><strong>Black Friday Offer Available Today<\/strong><\/h1>",
+            "text": "<h2><strong>Black Friday Offer Available Today<\/strong><\/h2>",
             "target_url_enabled": false,
             "target_url": "",
             "target_referrer_enabled": false,

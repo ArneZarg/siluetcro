@@ -50,16 +50,6 @@
             "padding_bottom": 0
           }
         },
-        "flex_pay_with_hsa_fsa_tiny_yjUXT3": {
-          "type": "shopify:\/\/apps\/flex-pay-with-hsa-fsa\/blocks\/tiny\/c0438c22-7b33-4278-b0c3-ef6c6b7b5f83",
-          "disabled": true,
-          "settings": {
-            "text": "hsa-fsa",
-            "style": "light",
-            "alignment": "left",
-            "width": 80
-          }
-        },
         "liquid_p6zEDt": {
           "type": "liquid",
           "settings": {
@@ -199,7 +189,6 @@
         "title",
         "liquid_3mHamf",
         "price",
-        "flex_pay_with_hsa_fsa_tiny_yjUXT3",
         "liquid_p6zEDt",
         "icon_kgn9cV",
         "icon_J8kUcp",
@@ -944,6 +933,7 @@
       "name": "Accordion group",
       "settings": {
         "title": "FAQ",
+        "faq_schema": true,
         "title_align": "text-left",
         "title_size": 12,
         "heading_size": 6,
