@@ -86,11 +86,14 @@
         <div class="heading-html">
           {{ section.settings.heading_html }}
         </div>
+          
       </div>
       <div class="cta-guarantee">
+          {% unless section.settings.desk_cta_pos == "bottom" %}
           <a class="btn main-cta" title="{{ section.settings.big_cta_label }}" href="{{ section.settings.big_cta_url }}">
             {{ section.settings.big_cta_label }}
           </a>
+          {% endunless %}
           <div class="guarantee-txt">
             {{ section.settings.guarantee_text }}
           </div>
@@ -109,6 +112,13 @@
             {% endif %}
           {% endfor %}
         </div>
+        {% unless section.settings.desk_cta_pos == "top" %}
+          <div class="cta-guarantee desk-padding">
+            <a class="btn main-cta" title="{{ section.settings.big_cta_label }}" href="{{ section.settings.big_cta_url }}">
+              {{ section.settings.big_cta_label }}
+            </a>
+          </div>
+        {% endunless %}
     </div>
   </div>
 
@@ -209,11 +219,11 @@
       padding-top:{{ section.settings.cta_spacing_top }}px;
     }
     #pilates-{{ section.id }} .main-cta{
-      border-radius:100px;
+      border-radius:{{section.settings.cta_border_rad}}px;
       background:#C28B66;
       color:#fff;
       display:block;
-      width:240px;
+      width:{{section.settings.cta_width_mobile}}%;
     }
     #pilates-{{ section.id }} .guarantee-txt{
       color:#fff;
@@ -284,6 +294,10 @@
       #pilates-{{ section.id }} .mobile-hide{
         display:block;
       }
+      #pilates-{{ section.id }} .mobile-hide .cta-guarantee.desk-padding{
+        padding-top:{{ section.settings.desk_cta_spacing_top }}px;
+        padding-bottom:{{ section.settings.desk_cta_spacing_bottom }}px;
+      }
       #pilates-{{ section.id }} .white-fade-desk{
         display:block;
         position:absolute;
@@ -339,7 +353,7 @@
         align-items:unset;
       }
       #pilates-{{ section.id }} .main-cta{
-        width:55%;
+        width:{{ section.settings.cta_width_desk }}%;
         font-size:27px;
       }
       #pilates-{{ section.id }} .guarantee-txt{
@@ -434,7 +448,7 @@
       "type": "radio",
       "id": "cta_pos",
       "default":"bottom",
-      "label": "CTA Position",
+      "label": "Mobile CTA Position",
       "info": "mobile only",
       "options": [
         {
@@ -448,9 +462,42 @@
       ]
     },
     {
+      "id":"cta_border_rad",
+      "label":"CTA Border Radius",
+      "type": "range",
+      "min":5,
+      "max":100,
+      "default":100,
+      "info": "controls border radius of main CTA",
+      "step": 5,
+      "unit": "px"
+    },
+    {
+      "id":"cta_width_mobile",
+      "type": "range",
+      "min":1,
+      "max":100,
+      "step":1,
+      "info":"controls width of CTA on mobile only",
+      "default":70,
+      "unit": "%",
+      "label": "CTA Width Mobile"
+    },
+    {
+      "id":"cta_width_desk",
+      "type": "range",
+      "min":1,
+      "max":100,
+      "step":1,
+      "info":"controls width of CTA on desktop only",
+      "default":55,
+      "unit": "%",
+      "label": "CTA Width desktop"
+    },
+    {
       "type":"range",
       "id": "cta_spacing_top",
-      "label":"CTA Spacing Top",
+      "label":"Mobile CTA Spacing Top",
       "default":15,
       "min":0,
       "max":50,
@@ -461,11 +508,50 @@
     {
       "type":"range",
       "id": "cta_spacing_bottom",
-      "label":"CTA Spacing Bottom",
+      "label":"Mobile CTA Spacing Bottom",
       "default":15,
       "min":0,
       "max":50,
       "info": "mobile only",
+      "unit": "px",
+      "step": 5
+    },
+    {
+      "id":"desk_cta_pos",
+      "type":"radio",
+      "info": "Desktop Only",
+      "label": "Desktop CTA Position",
+      "default": "top",
+      "options": [
+        {
+          "label": "Bottom",
+          "value": "bottom"
+        },
+        {
+          "label": "Top",
+          "value": "top"
+        }
+      ]
+    },
+    {
+      "type":"range",
+      "id": "desk_cta_spacing_bottom",
+      "label":"Desktop CTA Spacing Bottom",
+      "default":15,
+      "min":0,
+      "max":50,
+      "info": "desktop only",
+      "unit": "px",
+      "step": 5
+    },
+    {
+      "type":"range",
+      "id": "desk_cta_spacing_top",
+      "label":"Desktop CTA Spacing Top",
+      "default":15,
+      "min":0,
+      "max":50,
+      "info": "desktop only",
       "unit": "px",
       "step": 5
     },
@@ -562,7 +648,7 @@
       "label": "Bold Text Color",   
       "default": "#111111" 
     },
-
+    
     { 
       "id": "subheading", 
       "type": "richtext", 
