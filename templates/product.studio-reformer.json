@@ -374,6 +374,7 @@
       "block_order": [
         "heading_RGTBzf"
       ],
+      "disabled": true,
       "name": "Rich text",
       "settings": {
         "align_text": "text-center",
@@ -415,6 +416,7 @@
         "image_beXzTk",
         "image_kw8atA"
       ],
+      "disabled": true,
       "name": "Gallery",
       "settings": {
         "scale_image": false,
