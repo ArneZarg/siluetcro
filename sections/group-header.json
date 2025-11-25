@@ -17,9 +17,9 @@
         "announce_text": {
           "type": "text",
           "settings": {
-            "text": "<h1><strong>Black Friday Offer Available Today</strong></h1>",
+            "text": "<h1><strong>Black Friday Sale Live  Now | Save $750+</strong></h1>",
             "target_url_enabled": false,
-            "target_url": "",
+            "target_url": "shopify://products/pro-reformer",
             "target_referrer_enabled": false,
             "target_referrer": "",
             "target_device_enabled": false,
