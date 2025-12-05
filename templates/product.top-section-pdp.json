@@ -103,7 +103,7 @@
         "subheading": "",
         "image": "shopify://shop_images/Group_23_5.jpg",
         "desk_hero": "shopify://shop_images/Group_22_7.jpg",
-        "chips_padding": 10,
+        "chips_padding": 0,
         "cta_chip_left_label": "",
         "cta_chip_left_url": "",
         "cta_chip_right_label": "",
