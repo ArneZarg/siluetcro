@@ -58,31 +58,6 @@
     },
     "experience_siluet_VUJgVX": {
       "type": "experience-siluet",
-      "blocks": {
-        "bullet_Upj4Jt": {
-          "type": "bullet",
-          "settings": {
-            "text": "Studio-Grade Equipment"
-          }
-        },
-        "bullet_P93bLa": {
-          "type": "bullet",
-          "settings": {
-            "text": "Save Thousands On Classes"
-          }
-        },
-        "bullet_T9ytgB": {
-          "type": "bullet",
-          "settings": {
-            "text": "Setup In 60 Seconds"
-          }
-        }
-      },
-      "block_order": [
-        "bullet_Upj4Jt",
-        "bullet_P93bLa",
-        "bullet_T9ytgB"
-      ],
       "name": "Pilates Hero Split",
       "settings": {
         "desktop_padding": 60,
@@ -116,7 +91,7 @@
         "cta_chip_right_url": "",
         "big_cta_label": "Try Elevé",
         "big_cta_url": "",
-        "guarantee_text": "60-Day Money Back Guarantee | HSA/FSA"
+        "guarantee_text": ""
       }
     },
     "section_icons_MfTjGw": {
