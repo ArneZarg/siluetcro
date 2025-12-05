@@ -56,61 +56,65 @@
         "star_color": "#ffffff"
       }
     },
-    "experience_siluet_KP8BYX": {
+    "experience_siluet_VUJgVX": {
       "type": "experience-siluet",
       "blocks": {
-        "bullet_WR3cqb": {
+        "bullet_Upj4Jt": {
           "type": "bullet",
-          "disabled": true,
           "settings": {
             "text": "Studio-Grade Equipment"
           }
         },
-        "bullet_d9g4jK": {
+        "bullet_P93bLa": {
           "type": "bullet",
-          "disabled": true,
           "settings": {
             "text": "Save Thousands On Classes"
           }
         },
-        "bullet_qgpziy": {
+        "bullet_T9ytgB": {
           "type": "bullet",
-          "disabled": true,
           "settings": {
             "text": "Setup In 60 Seconds"
           }
         }
       },
       "block_order": [
-        "bullet_WR3cqb",
-        "bullet_d9g4jK",
-        "bullet_qgpziy"
+        "bullet_Upj4Jt",
+        "bullet_P93bLa",
+        "bullet_T9ytgB"
       ],
       "name": "Pilates Hero Split",
       "settings": {
-        "desktop_padding": 90,
+        "desktop_padding": 60,
         "desktop_background_pos": "right",
-        "desktop_background_size": "cover",
-        "desktop_height": 100,
+        "cta_pos": "bottom",
+        "cta_border_rad": 100,
+        "cta_width_mobile": 70,
+        "cta_width_desk": 55,
+        "cta_spacing_top": 15,
+        "cta_spacing_bottom": 15,
+        "desk_cta_pos": "top",
+        "desk_cta_spacing_bottom": 15,
+        "desk_cta_spacing_top": 15,
+        "desktop_background_size": "contain",
+        "desktop_height": 75,
         "remove_gradient_mobile": true,
-        "padding_top": 5,
-        "padding_bottom": 10,
-        "remove_social_proof": true,
-        "trusted_txt": "",
-        "heading_html": "<p>The Pilates Studio <em>Experience </em>In The <em>Comfort</em> Of Your Home</p>",
-        "heading_italic_color": "#cda07a",
+        "padding_top": 10,
+        "padding_bottom": 20,
+        "remove_social_proof": false,
+        "trusted_txt": "Trusted Daily By 1000+ Moms",
+        "heading_html": "<p>The Pilates Studio <em>Experience</em><br/>In The <em>Comfort</em> Of Your <strong>Home</strong></p>",
+        "heading_italic_color": "#CDA07A",
         "heading_bold_color": "#111111",
         "subheading": "",
-        "image": "shopify://shop_images/Group_23_5.jpg",
-        "desk_hero": "shopify://shop_images/Group_22_7.jpg",
-        "chips_padding": 0,
-        "cta_chip_left_label": "",
+        "chips_padding": 10,
+        "cta_chip_left_label": "Only $97/Month",
         "cta_chip_left_url": "",
-        "cta_chip_right_label": "",
+        "cta_chip_right_label": "Workout How You Want",
         "cta_chip_right_url": "",
-        "big_cta_label": "Shop Elevé",
-        "big_cta_url": "/products/pro-reformer#buy-box",
-        "guarantee_text": ""
+        "big_cta_label": "Try Elevé",
+        "big_cta_url": "",
+        "guarantee_text": "60-Day Money Back Guarantee | HSA/FSA"
       }
     },
     "section_icons_MfTjGw": {
@@ -1206,7 +1210,7 @@
   "order": [
     "section_image_Cja6cg",
     "experience_8p7A7x",
-    "experience_siluet_KP8BYX",
+    "experience_siluet_VUJgVX",
     "section_icons_MfTjGw",
     "section_liquid_qrMrft",
     "section_liquid_8rjdxE",
