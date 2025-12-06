@@ -1,12 +1,3 @@
-/*
- * ------------------------------------------------------------
- * IMPORTANT: The contents of this file are auto-generated.
- *
- * This file may be updated by the Shopify admin theme editor
- * or related systems. Please exercise caution as any changes
- * made to this file may be overwritten.
- * ------------------------------------------------------------
- */
 {
   "current": {
     "color_announcement_bg": "#1e1a1a",
@@ -54,7 +45,7 @@
     "button_radius": 5,
     "animations_scroll_enable": true,
     "parallax_enable": false,
-    "favicon": "shopify://shop_images/Siluet_4.png",
+    "favicon": "shopify:\/\/shop_images\/Siluet_4.png",
     "predictive_search_enabled": false,
     "collection_text_alignment": "text-center",
     "cycle_images_limit": 5,
@@ -75,10 +66,10 @@
     "badge_sale_type": "dollar",
     "cart_style": "drawer",
     "free_shipping_limit": "0",
-    "social_instagram_link": "https://www.instagram.com/siluetpilatesusa/",
-    "social_tiktok_link": "https://www.tiktok.com/@siluet998?lang=en",
-    "social_facebook_link": "https://www.facebook.com/profile.php?id=61574470944465",
-    "social_youtube_link": "https://www.youtube.com/@SiluetPilates",
+    "social_instagram_link": "https:\/\/www.instagram.com\/siluetpilatesusa\/",
+    "social_tiktok_link": "https:\/\/www.tiktok.com\/@siluet998?lang=en",
+    "social_facebook_link": "https:\/\/www.facebook.com\/profile.php?id=61574470944465",
+    "social_youtube_link": "https:\/\/www.youtube.com\/@SiluetPilates",
     "social_snapchat_link": "",
     "currency_code_enable": false,
     "cart_notes_enable": true,
@@ -86,57 +77,97 @@
     "checkout_accent_color": "#f4a482",
     "checkout_button_color": "#f4a482",
     "checkout_logo_size": "large",
+    "sections": {
+      "seo-index": {
+        "type": "seo-index",
+        "settings": {
+          "noindex_tags": true,
+          "noindex_pagination": true,
+          "noindex_vendor": true,
+          "noindex_limit_param": false,
+          "noindex_order_param": false,
+          "noindex_sort_param": false,
+          "noindex_ref_param": false,
+          "noindex_prod_param": false,
+          "noindex_pos_param": false,
+          "noindex_variant_param": false,
+          "active_org_schema": true,
+          "active_collection_schema": true,
+          "active_col_product_schema": true,
+          "active_product_schema": true,
+          "active_review_schema_product": true,
+          "active_article_schema": false,
+          "site_logo": "shopify:\/\/shop_images\/Siluet_4.png",
+          "confirm_merchant_return": true,
+          "merchant_return_days": 60,
+          "merchant_return_link": "https:\/\/shopsiluet.com\/policies\/refund-policy",
+          "confirm_shipping_rate": true,
+          "shipping_fee": 0,
+          "handling_time_min": 7,
+          "handling_time_max": 28,
+          "shipping_time_min": 56,
+          "shipping_time_max": 70,
+          "review_app": "loox",
+          "hide_reviews": false
+        }
+      }
+    },
     "content_for_index": [],
     "blocks": {
       "10605408327587305396": {
-        "type": "shopify://apps/eg-auto-add-to-cart/blocks/app-embed/0f7d4f74-1e89-4820-aec4-6564d7e535d2",
+        "type": "shopify:\/\/apps\/eg-auto-add-to-cart\/blocks\/app-embed\/0f7d4f74-1e89-4820-aec4-6564d7e535d2",
         "disabled": false,
         "settings": {
           "version": "v3"
         }
       },
       "10840395464443086010": {
-        "type": "shopify://apps/alia/blocks/customer-app-frame/51f1d398-3e41-44da-b81e-defd5804b292",
+        "type": "shopify:\/\/apps\/alia\/blocks\/customer-app-frame\/51f1d398-3e41-44da-b81e-defd5804b292",
         "disabled": false,
         "settings": {}
       },
       "11532412952436166569": {
-        "type": "shopify://apps/loox-reviews/blocks/loox-inject/5c3b337f-fd14-4df5-b1d6-80ec13e6e28e",
+        "type": "shopify:\/\/apps\/loox-reviews\/blocks\/loox-inject\/5c3b337f-fd14-4df5-b1d6-80ec13e6e28e",
         "disabled": false,
         "settings": {}
       },
       "14952540001915115444": {
-        "type": "shopify://apps/upcart-cart-drawer/blocks/app-embed/af3da5fb-f5f7-40ec-8273-41bf50059d4b",
+        "type": "shopify:\/\/apps\/upcart-cart-drawer\/blocks\/app-embed\/af3da5fb-f5f7-40ec-8273-41bf50059d4b",
         "disabled": false,
         "settings": {}
       },
       "17368511000352060744": {
-        "type": "shopify://apps/goaffpro-affiliate-marketing/blocks/goaffpro-embedded-pixel/2f4d802b-86c2-47e4-8096-ae1aa3efbab2",
+        "type": "shopify:\/\/apps\/goaffpro-affiliate-marketing\/blocks\/goaffpro-embedded-pixel\/2f4d802b-86c2-47e4-8096-ae1aa3efbab2",
         "disabled": false,
         "settings": {}
       },
       "17676059084223943535": {
-        "type": "shopify://apps/triplewhale/blocks/triple_pixel_snippet/483d496b-3f1a-4609-aea7-8eee3b6b7a2a",
+        "type": "shopify:\/\/apps\/triplewhale\/blocks\/triple_pixel_snippet\/483d496b-3f1a-4609-aea7-8eee3b6b7a2a",
         "disabled": false,
         "settings": {}
       },
+      "1877152918344802950": {
+        "type": "shopify:\/\/apps\/intelligems-a-b-testing\/blocks\/intelligems-script\/fa83b64c-0c77-4c0c-b4b2-b94b42f5ef19",
+        "disabled": true,
+        "settings": {}
+      },
       "2104245418471043333": {
-        "type": "shopify://apps/17track/blocks/app-embed/1519e068-e330-4e0b-92dd-0a3263bfceda",
+        "type": "shopify:\/\/apps\/17track\/blocks\/app-embed\/1519e068-e330-4e0b-92dd-0a3263bfceda",
         "disabled": false,
         "settings": {}
       },
       "2567389343055140935": {
-        "type": "shopify://apps/microsoft-clarity/blocks/clarity_js/31c3d126-8116-4b4a-8ba1-baeda7c4aeea",
+        "type": "shopify:\/\/apps\/microsoft-clarity\/blocks\/clarity_js\/31c3d126-8116-4b4a-8ba1-baeda7c4aeea",
         "disabled": false,
         "settings": {}
       },
       "6478312753674380289": {
-        "type": "shopify://apps/gempages-builder/blocks/embed-gp-script-head/20b379d4-1b20-474c-a6ca-665c331919f3",
+        "type": "shopify:\/\/apps\/gempages-builder\/blocks\/embed-gp-script-head\/20b379d4-1b20-474c-a6ca-665c331919f3",
         "disabled": false,
         "settings": {}
       },
       "7079518687644006178": {
-        "type": "shopify://apps/checkout-blocks/blocks/app-embed/b0024ca5-9de8-4bf0-a92f-cd0783877ae2",
+        "type": "shopify:\/\/apps\/checkout-blocks\/blocks\/app-embed\/b0024ca5-9de8-4bf0-a92f-cd0783877ae2",
         "disabled": true,
         "settings": {
           "utm_id": true,
@@ -148,25 +179,25 @@
         }
       },
       "855628211100114053": {
-        "type": "shopify://apps/klaviyo-email-marketing-sms/blocks/klaviyo-onsite-embed/2632fe16-c075-4321-a88b-50b567f42507",
+        "type": "shopify:\/\/apps\/klaviyo-email-marketing-sms\/blocks\/klaviyo-onsite-embed\/2632fe16-c075-4321-a88b-50b567f42507",
         "disabled": false,
         "settings": {}
       },
-      "1877152918344802950": {
-        "type": "shopify://apps/intelligems-a-b-testing/blocks/intelligems-script/fa83b64c-0c77-4c0c-b4b2-b94b42f5ef19",
-        "disabled": true,
+      "2786716548061469553": {
+        "type": "shopify:\/\/apps\/axon\/blocks\/app-embed\/baa0f014-62ea-462f-a8aa-a94befb1cbad",
+        "disabled": false,
         "settings": {}
       }
     }
   },
   "platform_customizations": {
     "custom_css": [
-      ".reformer-price-wrapper {display: flex; align-items: center; gap: 18px; /* larger gap to breathe at high ticket */ font-family: inherit;}",
-      ".reformer-old-price {text-decoration: line-through; color: #999999; font-size: 1.1rem; /* was 1.25rem → now 1.4rem */}",
-      ".reformer-new-price {color: #000000; font-size: 1.4rem; /* was 1.5rem → now 1.7rem */ font-weight: 625;}",
-      ".reformer-save-badge {background-color: #c28b66; /* your custom brand color */ color: #fdfbf7; padding: 4px 11px; /* was 6px 14px → now 8px 18px */ border-radius: 9999px; /* keep pill shape */ font-size: 0.955rem; /* was 0.9rem → now 1rem */ font-weight: 625;}",
+      ".reformer-price-wrapper {display: flex; align-items: center; gap: 18px; \/* larger gap to breathe at high ticket *\/ font-family: inherit;}",
+      ".reformer-old-price {text-decoration: line-through; color: #999999; font-size: 1.1rem; \/* was 1.25rem → now 1.4rem *\/}",
+      ".reformer-new-price {color: #000000; font-size: 1.4rem; \/* was 1.5rem → now 1.7rem *\/ font-weight: 625;}",
+      ".reformer-save-badge {background-color: #c28b66; \/* your custom brand color *\/ color: #fdfbf7; padding: 4px 11px; \/* was 6px 14px → now 8px 18px *\/ border-radius: 9999px; \/* keep pill shape *\/ font-size: 0.955rem; \/* was 0.9rem → now 1rem *\/ font-weight: 625;}",
       "@media only screen and (max-width: 767px) {.product__inner {padding-top: 0 !important; }}",
-      " /* Change default paragraph text size across the entire theme */p,.rte p {font-size: 17px; /* Adjust this value to your desired size */}"
+      " \/* Change default paragraph text size across the entire theme *\/p,.rte p {font-size: 17px; \/* Adjust this value to your desired size *\/}"
     ]
   },
   "presets": {

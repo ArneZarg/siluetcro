@@ -1,1 +1,124 @@
-{"sections":{"gp_section_571444109672186695":{"type":"gp-section-571444109672186695","settings":{"checksum":"b3aad939f13d756c382ed7feb4a98b7500b928a77185376f8fab981f5d44b5c2_1_1_1_0_"}},"gp_section_571444109672252231":{"type":"gp-section-571444109672252231","settings":{"checksum":"d1d21c40606cdebdc20cf32a86a2fee3b44b876783d20f2fb4e5560d15f65a18_1_1_1_0_"}},"gp_section_571444109672317767":{"type":"gp-section-571444109672317767","settings":{"checksum":"d771bee6e5c4d95731f7b80e609746b41ac22eb67dc6adbb61b75a24ac06330c_1_1_1_0_"}},"gp_section_571444109672383303":{"type":"gp-section-571444109672383303","settings":{"section_preload":"true","checksum":"5345a7a0292399baa7be234f0cdfef5cfe297ebabd90502fb7b5261affda1c5e_1_1_1_0_"}},"main":{"type":"page","settings":{}}},"order":["main","gp_section_571444109672383303","gp_section_571444109672317767","gp_section_571444109672252231","gp_section_571444109672186695"],"layout":"theme.gempages.blank"}
+{
+  "sections": {
+    "gp_section_571444109672186695": {
+      "settings": {
+        "checksum": "b3aad939f13d756c382ed7feb4a98b7500b928a77185376f8fab981f5d44b5c2_1_1_1_0__1",
+        "gg7oYCO4oBw_text": "<p>What Our Customers Are Saying<\/p>",
+        "gg85XeAQ1BH_text": "<p>\"I hesitated at first because it’s an investment. But I realized I was spending more on studio memberships I couldn’t use and impulse buys trying to ‘feel better.’ This actually works. It’s beautiful, it’s calming, and I feel stronger and more in control again.\"<\/p>",
+        "ggJ4F0rutlu_text": "<p>\"The only thing that’s stuck in my routine since having kids.\"<\/p>",
+        "ggJUHp0qD3e_text": "<p>- Amara B.<\/p>",
+        "ggKh8clLQfS_text": "<p>\"Worth every penny... and then some\"<\/p>",
+        "ggMS3VpqH9e_text": "<p>\"She said, ‘Mommy, can I do that with you?’ It’s not just about fitness. It’s about showing up for myself in front of my kids. I finally feel like I’m setting the example I’ve always wanted to.<\/p>",
+        "ggWv93idXY__text": "<p>- Rachelle S.<\/p>",
+        "ggY1XgzYxgM_text": "<p>- Jenna R.<\/p>",
+        "ggZ807rztkr_text": "<p>- Melissa J.<\/p>",
+        "ggf5GMmoDu7_text": "<p>\"It’s not loud. It’s not bulky. It doesn’t demand anything from me. I step on, I move with intention, and I feel better. This reformer brought back a version of me I didn’t know I was allowed to reclaim.\"<\/p>",
+        "ggph01kR0lU_text": "<p>\"I’ve bought apps, mats, subscriptions, you name it. Nothing ever lasted more than a week. But the Elevé? I’ve used it almost every day for two months. It feels like therapy for my body, and it’s the only thing I look forward to after the chaos of mornings.\"<\/p>",
+        "ggtP8P65a8Y_text": "<p>\"It’s like a sanctuary in the middle of my living room.\"<\/p>",
+        "ggujJ-IRj6Y_text": "<p>\"My daughter joined me on the reformer. I cried.\"<\/p>"
+      },
+      "type": "gp-section-571444109672186695"
+    },
+    "gp_section_571444109672252231": {
+      "settings": {
+        "checksum": "d1d21c40606cdebdc20cf32a86a2fee3b44b876783d20f2fb4e5560d15f65a18_1_1_1_0__1",
+        "gg82J7JCTjC_text": "<p>- Amara B.<\/p>",
+        "ggCNkZE0jTq_text": "<p>\"I’ve bought apps, mats, subscriptions, you name it. Nothing ever lasted more than a week. But the Elevé? I’ve used it almost every day for two months. It feels like therapy for my body, and it’s the only thing I look forward to after the chaos of mornings.\"<\/p>",
+        "ggIZ1Jk_HyR_text": "<p>\"It’s like a sanctuary in the middle of my living room.\"<\/p>",
+        "ggKywdiWjhb_text": "<p>\"The only thing that’s stuck in my routine since having kids.\"<\/p>",
+        "ggR9d_bmqRP_text": "<p>\"She said, ‘Mommy, can I do that with you?’ It’s not just about fitness. It’s about showing up for myself in front of my kids. I finally feel like I’m setting the example I’ve always wanted to.<\/p>",
+        "ggUQ6YFwhIl_text": "<p>- Melissa J.<\/p>",
+        "gga0ucDX5bR_text": "<p>- Rachelle S.<\/p>",
+        "ggf3P1_CqJS_text": "<p>\"I hesitated at first because it’s an investment. But I realized I was spending more on studio memberships I couldn’t use and impulse buys trying to ‘feel better.’ This actually works. It’s beautiful, it’s calming, and I feel stronger and more in control again.\"<\/p>",
+        "ggp8GShtil-_text": "<p>\"My daughter joined me on the reformer. I cried.\"<\/p>",
+        "ggsMgOIsD2__text": "<p>- Jenna R.<\/p>",
+        "ggtZxYeJUdI_text": "<p>What Our Customers Are Saying<\/p>",
+        "ggz3y3ZqCDC_text": "<p>\"It’s not loud. It’s not bulky. It doesn’t demand anything from me. I step on, I move with intention, and I feel better. This reformer brought back a version of me I didn’t know I was allowed to reclaim.\"<\/p>",
+        "ggzY55c3Luq_text": "<p>\"Worth every penny... and then some\"<\/p>"
+      },
+      "type": "gp-section-571444109672252231"
+    },
+    "gp_section_571444109672317767": {
+      "settings": {
+        "checksum": "d771bee6e5c4d95731f7b80e609746b41ac22eb67dc6adbb61b75a24ac06330c_1_1_1_0__1",
+        "gg0xF6Yso0t_text": "<p><span style=\"font-size:19px;\">We only craft 50 Elevé Reformers each month. If this page is live, one might still be available.<\/span><\/p>",
+        "gg2l19cXRpS_label": "<p>Get $750 off<\/p>",
+        "gg4G8Y12KSz_dayLabel": "Days",
+        "gg4G8Y12KSz_hourLabel": "hrs",
+        "gg4G8Y12KSz_minuteLabel": "min",
+        "gg4G8Y12KSz_secondLabel": "sec",
+        "gg4G8Y12KSz_weekLabel": "Weeks",
+        "gg4MBcd3HGf_text": "<p>SALE ENDS SOON<\/p>",
+        "gg8n8MV0YqG_text": "<p><span style=\"font-size:16px;\">SALE ENDS SOON<\/span><\/p>",
+        "ggCeJGeAy8j_text": "<p><strong>FREE <\/strong>shipping<\/p>",
+        "ggP4mrgwJWn_text": "<p>Sell-out Risk: <span style=\"color:#E30D0D;\"><strong>High<\/strong><\/span><\/p>",
+        "ggPQ0zW2b9k_text": "<p>|<\/p>",
+        "ggPkPBHcVRN_label": "<p>Get $750 off<\/p>",
+        "ggTbeHekvkk_text": "<p><span style=\"font-size:16px;\">Try it today with a 30-Day Money Back Guarantee!<\/span><\/p>",
+        "gg_6D6rrUqz_text": "<p>Try it today with a 30-Day Money Back Guarantee!<\/p>",
+        "gg_UDL2oMaL_text": "<span style=\"font-size:31px;\">Elevé Reformer<\/span>",
+        "ggclT6Ia1Q9_text": "Elevé Reformer",
+        "ggiE5_M7XFL_text": "<p><strong>FREE <\/strong>shipping<\/p>",
+        "ggmms98Z-bn_text": "<p>Sell-out Risk: <span style=\"color:#E30D0D;\"><strong>High<\/strong><\/span><\/p>",
+        "ggq3_b9EDgS_dayLabel": "Days",
+        "ggq3_b9EDgS_hourLabel": "hrs",
+        "ggq3_b9EDgS_minuteLabel": "min",
+        "ggq3_b9EDgS_secondLabel": "sec",
+        "ggq3_b9EDgS_weekLabel": "Weeks",
+        "ggq9i3Ta8T1_text": "<p>|<\/p>",
+        "ggzVDiA2HY6_text": "<p>We only craft 50 Elevé Reformers each month. If this page is live, one might still be available.<\/p>"
+      },
+      "type": "gp-section-571444109672317767"
+    },
+    "gp_section_571444109672383303": {
+      "settings": {
+        "checksum": "5345a7a0292399baa7be234f0cdfef5cfe297ebabd90502fb7b5261affda1c5e_1_1_1_0__1",
+        "gg-hO0yoeYf_text": "<p><span style=\"font-size:21px;\">Forget the garage gym aesthetic of black metal and rubber. The Elevé was designed as <strong>furniture first<\/strong> — warm oak wood, whisper-quiet glide, a silhouette that makes guests ask \"what's that beautiful piece?\" not \"why is there gym equipment in your living room?\" It folds away in seconds when company comes, but honestly, most women leave it out because it's that stunning.<\/span><\/p><p>&nbsp;<\/p><p><span style=\"font-size:21px;\">No more 6am alarm to make the 6:30 class. No more racing through school pickup to catch the evening session. Your studio is <strong>ten steps from your coffee<\/strong>, available at midnight or naptime or that magic hour when everyone's finally occupied.<\/span><\/p><p>&nbsp;<\/p><p><span style=\"font-size:21px;\"><strong>\"I work out more now because it's just <\/strong><i><strong>there<\/strong><\/i><strong>,\"<\/strong> says Jennifer, mom of three. \"No planning, no driving, no guilt when I miss a class I paid for.\"<\/span><\/p>",
+        "gg1yyipygEE_text": "<strong>6. 15 Minutes a Day Is More Than Enough<\/strong>",
+        "gg2oiQm4PnP_text": "<strong>1. This Isn't Just Another At-Home Workout<\/strong>",
+        "gg3bKbfgvb8_text": "<p><span style=\"color:#A78574;font-size:19px;\">Certified Mom<\/span><\/p>",
+        "gg7U277851r_text": "<p><span style=\"font-size:18px;\">You don't need an hour. You don't need to wake up at 5am. Just <strong>15 minutes<\/strong> while the baby naps, after bedtime, during screen time — whenever you can steal them. The Elevé makes every movement count, no wasted time, just pure efficiency.<\/span><\/p><p>&nbsp;<\/p><p><span style=\"font-size:18px;\">\"I can carry my toddler upstairs without dying,\" laughs Amy, six months in. \"That's my fitness goal. Not a six-pack. <strong>Just life without pain.<\/strong>\"<\/span><\/p><p>&nbsp;<\/p><p><span style=\"font-size:18px;\">The Elevé is <strong>always ready<\/strong>. No setup, no driving, no excuses.<\/span><\/p>",
+        "ggDUUGVLJVy_text": "3. Built Like a Studio Machine, &nbsp;Without the Studio Price",
+        "ggG1XLVHVSe_text": "<strong>1. This Isn't Just Another At-Home Workout<\/strong>",
+        "ggKJV65syPG_text": "<strong>5. It's Designed For Moms, Not Models<\/strong>",
+        "ggLB6aGyaex_text": "<p>Jun 17th, 2025 | Reading Time: 2 min<\/p>",
+        "ggLqDdrocJX_text": "<strong>2. You Don't Need to Be Flexible, Fit, or Fancy<\/strong>",
+        "ggONqGrOnBW_text": "5. It's Designed For Moms, Not Models",
+        "ggPBkJ3R_xl_text": "<p><span style=\"font-size:21px;\">You know the graveyard — that corner where resistance bands tangle with dusty dumbbells, where every failed purchase whispers <i>another thing that didn't work<\/i>. Your body aches from high-impact workouts that feel like punishment. Your mind goes numb from counting reps while instructors scream through screens.<\/span><\/p><p>&nbsp;<\/p><p><span style=\"font-size:21px;\">But this is different — a <strong>graceful glide<\/strong> that feels more like meditation than exercise, where your body flows through movements so smooth you forget you're even working out. No impact on aching joints, no chaos, just a quiet, controlled flow that melts tension from your shoulders while strengthening muscles you forgot you had.<\/span><\/p><p>&nbsp;<\/p><p><span style=\"font-size:21px;\">One mom described it perfectly: <strong>\"It's like the difference between being yelled at and being held.\"<\/strong><\/span><\/p>",
+        "ggRudaRB3AU_text": "6. 15 Minutes a Day Is More Than Enough",
+        "ggS_JTlmOeZ_text": "<strong>2. You Don't Need to Be Flexible, Fit, or Fancy<\/strong>",
+        "ggU9RP34H75_text": "<p><span style=\"font-size:18px;\">Studio reformers cost $5,000-$8,000 because they're built to withstand hundreds of bodies daily. The Elevé uses the <strong>exact same commercial-grade components<\/strong>: solid oak frame, precision Japanese bearings, Korean springs rated for 10,000 uses. The only difference? It's designed for your home, not a fitness factory.<\/span><\/p><p>&nbsp;<\/p><p><span style=\"font-size:18px;\">One Pilates instructor bought the Elevé and was shocked: <strong>\"This is literally what we use in my studio, just prettier.\"<\/strong> The craftsmanship means it glides silently (no waking the baby), supports up to 300 pounds effortlessly, and will outlast your mortgage.<\/span><\/p><p>&nbsp;<\/p><p><span style=\"font-size:18px;\">It costs <strong>less than 18 months of studio classes<\/strong> — except this investment stays in your living room forever.<\/span><\/p>",
+        "ggUAJoAp7rJ_text": "<p><span style=\"font-size:18px;\">Forget the garage gym aesthetic of black metal and rubber. The Elevé was designed as <strong>furniture first<\/strong> — warm oak wood, whisper-quiet glide, a silhouette that makes guests ask \"what's that beautiful piece?\" not \"why is there gym equipment in your living room?\" It folds away in seconds when company comes, but honestly, most women leave it out because it's that stunning.<\/span><\/p><p>&nbsp;<\/p><p><span style=\"font-size:18px;\">No more 6am alarm to make the 6:30 class. No more racing through school pickup to catch the evening session. Your studio is <strong>ten steps from your coffee<\/strong>, available at midnight or naptime or that magic hour when everyone's finally occupied.<\/span><\/p><p>&nbsp;<\/p><p><span style=\"font-size:18px;\"><strong>\"I work out more now because it's just <\/strong><i><strong>there<\/strong><\/i><strong>,\"<\/strong> says Jennifer, mom of three. \"No planning, no driving, no guilt when I miss a class I paid for.\"<\/span><\/p>",
+        "ggUD4ecNdZI_text": "<p><span style=\"font-size:18px;\">She stood in her bathroom at 5:47 AM, staring at the yoga mat she'd optimistically unrolled three weeks ago. <strong>Still pristine. Still judging her.<\/strong> The studio membership auto-renewed again — $189 for classes she'd never make. Her back ached, her shoulders locked, and somewhere between making lunches and answering emails, she'd forgotten what it felt like to move without pain.<\/span><\/p><p>&nbsp;<\/p><p><span style=\"font-size:18px;\">But what if the problem wasn't her willpower? What if <strong>10,000+ exhausted moms<\/strong> had discovered something that flipped everything they believed about getting their bodies back? Something that lived in their living rooms, worked with their chaos, and somehow made them <strong>feel graceful again<\/strong> — even on the hardest days.<\/span><\/p><p>&nbsp;<\/p><p><span style=\"font-size:18px;\">They made 6 eye-opening discoveries that changed everything. The first one alone made them question everything they'd been told about fitness...<\/span><\/p>",
+        "gg_j2Z0KQZP_text": "<p><span style=\"color:#A78574;\">Certified Mom<\/span><\/p>",
+        "gga3wpLg9dv_text": "Written by <strong>Jamie B.<\/strong>",
+        "ggbN8NtyyVQ_text": "4. It Lives in Your Living Room (and Looks Like It Belongs)",
+        "ggdd2u-nvBk_text": "<strong>3. Built Like a Studio Machine, &nbsp;Without the Studio Price<\/strong>",
+        "ggeNk5UXFDS_text": "6 Eye-Opening Discoveries That Helped Thousands of Burnt-Out Moms Reclaim Their Bodies All From Home",
+        "gghtReS9E-X_text": "<p><span style=\"font-size:19px;\">May 21st, 2025 | Reading Time: 2 min<\/span><\/p>",
+        "ggizm6Suhcp_text": "<p><span style=\"font-size:18px;\">This machine was born from a mom who couldn't find 15 minutes between nursing sessions and school runs. The Elevé holds up to 300 pounds, adjusts for postpartum recovery, and yes — <strong>you can pause mid-workout<\/strong> when someone yells \"MOMMM!\"<\/span><\/p><p>&nbsp;<\/p><p><span style=\"font-size:18px;\">No tracking your \"journey\" for social media. Just you, building strength for the life you actually live — carrying car seats, chasing toddlers, surviving bedtime battles.<\/span><\/p><p>&nbsp;<\/p><p><span style=\"font-size:18px;\">\"I bought this for my back pain,\" admits Sarah, mom of four. <strong>\"But what I really got was myself back.\"<\/strong><\/span><\/p>",
+        "ggmAJG_8NpV_text": "<p><span style=\"font-size:21px;\">Studio reformers cost $5,000-$8,000 because they're built to withstand hundreds of bodies daily. The Elevé uses the <strong>exact same commercial-grade components<\/strong>: solid oak frame, precision Japanese bearings, Korean springs rated for 10,000 uses. The only difference? It's designed for your home, not a fitness factory.<\/span><\/p><p>&nbsp;<\/p><p><span style=\"font-size:21px;\">One Pilates instructor bought the Elevé and was shocked: <strong>\"This is literally what we use in my studio, just prettier.\"<\/strong> The craftsmanship means it glides silently (no waking the baby), supports up to 300 pounds effortlessly, and will outlast your mortgage.<\/span><\/p><p>&nbsp;<\/p><p><span style=\"font-size:21px;\">It costs <strong>less than 18 months of studio classes<\/strong> — except this investment stays in your living room forever.<\/span><\/p>",
+        "ggmOR2AOjJx_text": "<p><span style=\"font-size:21px;\">This machine was born from a mom who couldn't find 15 minutes between nursing sessions and school runs. The Elevé holds up to 300 pounds, adjusts for postpartum recovery, and yes — <strong>you can pause mid-workout<\/strong> when someone yells \"MOMMM!\"<\/span><\/p><p>&nbsp;<\/p><p><span style=\"font-size:21px;\">No tracking your \"journey\" for social media. Just you, building strength for the life you actually live — carrying car seats, chasing toddlers, surviving bedtime battles.<\/span><\/p><p>&nbsp;<\/p><p><span style=\"font-size:21px;\">\"I bought this for my back pain,\" admits Sarah, mom of four. <strong>\"But what I really got was myself back.\"<\/strong><\/span><\/p>",
+        "ggm_iTEfVvj_text": "<p>You know the graveyard — that corner where resistance bands tangle with dusty dumbbells, where every failed purchase whispers <i>another thing that didn't work<\/i>. Your body aches from high-impact workouts that feel like punishment. Your mind goes numb from counting reps while instructors scream through screens.<\/p><p>&nbsp;<\/p><p>But this is different — a <strong>graceful glide<\/strong> that feels more like meditation than exercise, where your body flows through movements so smooth you forget you're even working out. No impact on aching joints, no chaos, just a quiet, controlled flow that melts tension from your shoulders while strengthening muscles you forgot you had.<\/p><p>&nbsp;<\/p><p>One mom described it perfectly: <strong>\"It's like the difference between being yelled at and being held.\"<\/strong><\/p>",
+        "ggoWWqJCYv9_text": "<p>Maria's studio nightmare lasted exactly one class. \"$90 to be corrected in front of everyone while women in matching sets flowed past me like I was standing still.\" She couldn't touch her toes, hadn't exercised in years, and left feeling worse about herself than when she walked in.<\/p><p>&nbsp;<\/p><p>But reformer Pilates isn't about being flexible — it's about <strong>becoming flexible<\/strong>. The machine meets you exactly where you are, supporting your body weight, guiding your movements, making the impossible suddenly possible without any judgment or audience.<\/p><p>&nbsp;<\/p><p><strong>\"At home, I felt safe for the first time in years,\"<\/strong> Maria says. \"Exercise finally felt like something designed for exactly where I was.\"<\/p>",
+        "ggsB5LxFl9S_text": "<p><span style=\"font-size:21px;\">She stood in her bathroom at 5:47 AM, staring at the yoga mat she'd optimistically unrolled three weeks ago. <strong>Still pristine. Still judging her.<\/strong> The studio membership auto-renewed again — $189 for classes she'd never make. Her back ached, her shoulders locked, and somewhere between making lunches and answering emails, she'd forgotten what it felt like to move without pain.<\/span><\/p><p>&nbsp;<\/p><p><span style=\"font-size:21px;\">But what if the problem wasn't her willpower? What if <strong>10,000+ exhausted moms<\/strong> had discovered something that flipped everything they believed about getting their bodies back? Something that lived in their living rooms, worked with their chaos, and somehow made them <strong>feel graceful again<\/strong> — even on the hardest days.<\/span><\/p><p>&nbsp;<\/p><p><span style=\"font-size:21px;\">They made 6 eye-opening discoveries that changed everything. The first one alone made them question everything they'd been told about fitness...<\/span><\/p>",
+        "ggt0AeKjn2r_text": "<span style=\"font-size:19px;\">Written by <strong>Chanel M.<\/strong><\/span>",
+        "ggvF9vrMkbE_text": "<strong>4. It Lives in Your Living Room (and Looks Like It Belongs)<\/strong>",
+        "ggvIINzaDR3_text": "6 Eye-Opening Discoveries That Helped Thousands of Burnt-Out Moms Reclaim Their Bodies All From Home",
+        "ggwF1IpawJ6_text": "How a 15-minute daily ritual finally ended the tug-of-war between mom guilt and feeling strong again",
+        "ggyVzBxDLjv_text": "<p><span style=\"font-size:21px;\">You don't need an hour. You don't need to wake up at 5am. Just <strong>15 minutes<\/strong> while the baby naps, after bedtime, during screen time — whenever you can steal them. The Elevé makes every movement count, no wasted time, just pure efficiency.<\/span><\/p><p>&nbsp;<\/p><p><span style=\"font-size:21px;\">\"I can carry my toddler upstairs without dying,\" laughs Amy, six months in. \"That's my fitness goal. Not a six-pack. <strong>Just life without pain.<\/strong>\"<\/span><\/p><p>&nbsp;<\/p><p><span style=\"font-size:21px;\">The Elevé is <strong>always ready<\/strong>. No setup, no driving, no excuses.<\/span><\/p>",
+        "ggybkSxfH9r_text": "<p><span style=\"font-size:21px;\">Maria's studio nightmare lasted exactly one class. \"$90 to be corrected in front of everyone while women in matching sets flowed past me like I was standing still.\" She couldn't touch her toes, hadn't exercised in years, and left feeling worse about herself than when she walked in.<\/span><\/p><p>&nbsp;<\/p><p><span style=\"font-size:21px;\">But reformer Pilates isn't about being flexible — it's about <strong>becoming flexible<\/strong>. The machine meets you exactly where you are, supporting your body weight, guiding your movements, making the impossible suddenly possible without any judgment or audience.<\/span><\/p><p>&nbsp;<\/p><p><span style=\"font-size:21px;\"><strong>\"At home, I felt safe for the first time in years,\"<\/strong> Maria says. \"Exercise finally felt like something designed for exactly where I was.\"<\/span><\/p>",
+        "ggzwaIhLpH5_text": "<span style=\"font-size:21px;\">How a 15-minute daily ritual finally ended the tug-of-war between mom guilt and feeling strong again.<\/span>",
+        "section_preload": "true"
+      },
+      "type": "gp-section-571444109672383303"
+    }
+  },
+  "order": [
+    "gp_section_571444109672383303",
+    "gp_section_571444109672317767",
+    "gp_section_571444109672252231",
+    "gp_section_571444109672186695"
+  ],
+  "layout": "theme.gempages.blank"
+}
