@@ -131,7 +131,7 @@
 
 <div data-morph-children-only x-data="productForm()" class="product-page">
   <div class="{{ wrapper_class }} {{ pad_title }} product__align-{{ section.settings.align }}">
-    <div class="float-grid product-single" {{ data_thumbnails_left }}>
+    <div id="scroll" class="float-grid product-single" {{ data_thumbnails_left }}>
       {% if product_has_breadcrumbs %}
         <div class="grid__item one-whole">
           <nav class="breadcrumb{% unless wrapper_class != 'wrapper--none' %} medium-up--hide{% endunless %}" aria-label="breadcrumbs">
