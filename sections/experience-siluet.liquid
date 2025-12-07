@@ -94,7 +94,7 @@
       </div>
       <div class="cta-guarantee">
           {% unless section.settings.desk_cta_pos == "bottom" %}
-          <a class="btn main-cta" title="{{ section.settings.big_cta_label }}" href="{{ section.settings.big_cta_url }}">
+          <a class="btn main-cta" title="{{ section.settings.big_cta_label }}" href="{% if section.settings.big_cta_scroll %}#{% else %}{{ section.settings.big_cta_url }}{% endif %}">
             {{ section.settings.big_cta_label }}
           </a>
           {% endunless %}
@@ -118,7 +118,7 @@
         </div>
         {% unless section.settings.desk_cta_pos == "top" %}
           <div class="cta-guarantee desk-padding">
-            <a class="btn main-cta" title="{{ section.settings.big_cta_label }}" href="{{ section.settings.big_cta_url }}">
+            <a class="btn main-cta" title="{{ section.settings.big_cta_label }}" href="{% if section.settings.big_cta_scroll %}#{% else %}{{ section.settings.big_cta_url }}{% endif %}">
               {{ section.settings.big_cta_label }}
             </a>
           </div>
@@ -413,7 +413,17 @@
       }
     }
   </style>
-
+  <script>
+    const mainCTA = document.querySelectorAll('.main-cta');
+    const p = document.querySelector('.product-page');
+    mainCTA.forEach(b, function(){
+      b.addEventListener('click',function(){
+        p.scrollIntoView({
+          behavior:'smooth'
+        })
+      })
+    })
+  </script>
 </section>
 
 {% schema %}
@@ -701,6 +711,13 @@
 
     { "id": "big_cta_label", "type": "text", "label": "CTA Button", "default": "Try Elevé" },
     { "id": "big_cta_url", "type": "url", "label": "CTA Link" },
+    {
+      "id":"big_cta_scroll",
+      "type": "checkbox",
+      "default":false,
+      "info": "overrides the link - for scrolling on product pages.",
+      "label": "Scroll to ATC"
+    },
 
     { "id": "guarantee_text", "type": "textarea", "label": "Guarantee Text", "default": "60-Day Money Back Guarantee | HSA/FSA" }
   ],
