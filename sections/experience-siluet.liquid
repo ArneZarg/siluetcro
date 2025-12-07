@@ -416,12 +416,10 @@
   <script>
     const mainCTA = document.querySelectorAll('.main-cta');
     const p = document.querySelector('.product-page');
-    mainCTA.forEach(b, function(){
-      b.addEventListener('click',function(){
-        p.scrollIntoView({
-          behavior:'smooth'
-        })
-      })
+    mainCTA.forEach(b => {
+      p.scrollIntoView({
+        behavior:'smooth'
+      }) 
     })
   </script>
 </section>
