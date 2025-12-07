@@ -6,7 +6,7 @@
 
 <div class="product__block__title" style="--PB: {{ block.settings.padding_bottom }}px;" {{ block.shopify_attributes }}>
   <div class="product__headline">
-    <div class="product__title__wrapper">
+    <div class="product__title__wrapper" id="scroll">
       <h1 class="product__title {{ heading_size_class }}">
         {% if template contains 'product' and block %}
           {{ product.title }}
