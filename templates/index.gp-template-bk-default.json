@@ -1,3 +1,12 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "sections": {
     "1762628567d08fd438": {
@@ -54,6 +63,7 @@
         "subheading": "<p> <\/p>",
         "image": "shopify:\/\/shop_images\/IMG_7550.jpg",
         "desk_hero": "shopify:\/\/shop_images\/desk-bg.png",
+        "chips_padding": 10,
         "cta_chip_left_label": "Only $97\/Month",
         "cta_chip_left_url": "",
         "cta_chip_right_label": "Workout How You Want",
@@ -159,6 +169,7 @@
       "name": "Collection product grid",
       "settings": {
         "title": "",
+        "add_h1": false,
         "bg": "palette--light bg--neutral",
         "grid": 4,
         "rows": 1,
@@ -189,6 +200,7 @@
         "subheading": "<p> <\/p>",
         "image": "shopify:\/\/shop_images\/image_14_1.png",
         "desk_hero": "shopify:\/\/shop_images\/desk-bg.png",
+        "chips_padding": 10,
         "cta_chip_left_label": "Only $97\/Month",
         "cta_chip_left_url": "",
         "cta_chip_right_label": "Workout How You Want",
@@ -238,8 +250,44 @@
     "section_richtext_jdQCDA": {
       "type": "section-richtext",
       "blocks": {
+        "icon_text_WBGbxT": {
+          "type": "icon-text",
+          "settings": {
+            "kicker_size": 3,
+            "heading_size": 8,
+            "text_size": 5,
+            "items_per_row": "1",
+            "icon_color": "#4b4b4b",
+            "icon_size": 24,
+            "icon_name_1": "none",
+            "icon_kicker_1": "",
+            "icon_heading_1": "",
+            "icon_text_1": "<h6><br\/>Shop by Use: <a href=\"https:\/\/shopsiluet.com\/collections\/home\"><span style=\"text-decoration:underline\">Home<\/span><\/a> | <a href=\"https:\/\/shopsiluet.com\/collections\/portable\"><span style=\"text-decoration:underline\">Portable<\/span><\/a> | <a href=\"https:\/\/shopsiluet.com\/collections\/commercial\"><span style=\"text-decoration:underline\">Commercial<\/span><\/a><\/h6>",
+            "icon_name_2": "none",
+            "icon_kicker_2": "",
+            "icon_heading_2": "",
+            "icon_text_2": "",
+            "icon_name_3": "none",
+            "icon_kicker_3": "",
+            "icon_heading_3": "",
+            "icon_text_3": "",
+            "icon_name_4": "none",
+            "icon_kicker_4": "",
+            "icon_heading_4": "",
+            "icon_text_4": "",
+            "icon_name_5": "none",
+            "icon_kicker_5": "",
+            "icon_heading_5": "",
+            "icon_text_5": "",
+            "icon_name_6": "none",
+            "icon_kicker_6": "",
+            "icon_heading_6": "",
+            "icon_text_6": ""
+          }
+        },
         "text_j7KzVm": {
           "type": "text",
+          "disabled": true,
           "settings": {
             "text": "<ul><li>Studio-Grade Equipment<\/li><li>Save Thousands On Expensive Classes<\/li><li>Workout On Your Own Schedule<\/li><\/ul>",
             "text_size": 4,
@@ -248,9 +296,9 @@
         }
       },
       "block_order": [
+        "icon_text_WBGbxT",
         "text_j7KzVm"
       ],
-      "disabled": true,
       "name": "Rich text",
       "settings": {
         "align_text": "text-left",
@@ -259,7 +307,7 @@
         "content_width": 2000,
         "width": "wrapper",
         "padding_top": 0,
-        "padding_bottom": 36
+        "padding_bottom": 40
       }
     },
     "hero": {
